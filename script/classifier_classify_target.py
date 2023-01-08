@@ -17,7 +17,7 @@ def find_unique(csv_input_line):
     l.sort()
     return l
 
-if __name__ == '__main__':
+def classifier_classify_target():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -97,3 +97,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    classifier_classify_target()

@@ -42,7 +42,7 @@ class mcc_scorer:
             return (tp*tn - fp*fn)/denom
         
 
-if __name__ == '__main__':
+def experiment_mcc():
     start = time.time()
     config = configparser.ConfigParser()
     config.read('../config/config.cfg')
@@ -113,3 +113,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    experiment_mcc()

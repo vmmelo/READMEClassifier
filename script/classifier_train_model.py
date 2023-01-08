@@ -17,7 +17,7 @@ import time
 import operator
 import joblib
 
-if __name__ == '__main__':
+def classifier_train_model():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -97,3 +97,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    classifier_train_model()

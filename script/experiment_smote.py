@@ -16,7 +16,7 @@ from helper import balancer_smote
 import time
 import operator
 
-if __name__ == '__main__':
+def experiment_smote():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -103,3 +103,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    experiment_smote()

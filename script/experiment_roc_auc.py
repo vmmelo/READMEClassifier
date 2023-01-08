@@ -31,7 +31,7 @@ class roc_auc_scorer:
             roc_auc += float(y_true.sum())/num_labels*roc_auc_score(y_true, y_pred)
         return roc_auc
     
-if __name__ == '__main__':
+def experiment_roc_auc():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -102,3 +102,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    experiment_roc_auc()

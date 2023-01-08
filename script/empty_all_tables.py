@@ -3,7 +3,7 @@ import sys
 import sqlite3
 import logging
 
-if __name__ == '__main__':
+def empty_all_tables():
     config = configparser.ConfigParser()
     config.read('../config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
@@ -31,3 +31,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    empty_all_tables()

@@ -14,7 +14,7 @@ def find_unique(csv_input_line):
     l.sort()
     return l
 
-if __name__ == '__main__':
+def load_and_classify_target():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -106,3 +106,7 @@ if __name__ == '__main__':
     end = time.time()
     runtime_in_seconds = end - start
     logging.info('Processing time: {0}'.format(runtime_in_seconds))
+
+
+if __name__ == '__main__':
+    load_and_classify_target()

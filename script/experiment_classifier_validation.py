@@ -27,7 +27,7 @@ from helper import balancer
 import time
 import operator
 
-if __name__ == '__main__':
+def experiment_classifier_validation():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -108,3 +108,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    experiment_classifier_validation()

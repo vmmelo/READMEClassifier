@@ -4,7 +4,7 @@ import logging
 from helper.extractor import *
 import time
         
-if __name__ == '__main__':
+def load_section_dataset_combined():
     start = time.time()
     
     config = configparser.ConfigParser()
@@ -27,3 +27,7 @@ if __name__ == '__main__':
     end = time.time()
     runtime_in_seconds = end - start
     logging.info('Operation completed in {0}'.format(runtime_in_seconds))
+
+
+if __name__ == '__main__':
+    load_section_dataset_combined()

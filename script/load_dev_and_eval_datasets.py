@@ -6,7 +6,7 @@ from helper import helper2, extractor
 import logging
 import sqlite3
 
-if __name__ == '__main__':    
+def load_dev_and_eval_datasets():
     log_filename = '../log/load_dev_and_eval_datasets.log'
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=logging.DEBUG)
     logging.getLogger().addHandler(logging.StreamHandler())
@@ -40,3 +40,6 @@ if __name__ == '__main__':
                                               f'section_content_{n}pct')
         logging.info(f'Finished loading data for {n} pct set')
     logging.info('Operation completed')
+
+if __name__ == '__main__':
+    load_dev_and_eval_datasets()

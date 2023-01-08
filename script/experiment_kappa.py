@@ -40,7 +40,7 @@ class kappa_scorer:
         return ((tn+fp)*(tn+fn)+(fn+tp)*(fp+tp))/math.pow(len(y_pred),2)
         
 
-if __name__ == '__main__':
+def experiment_kappa():
     start = time.time()
     config = configparser.ConfigParser()
     config.read('../config/config.cfg')
@@ -111,3 +111,7 @@ if __name__ == '__main__':
         logging.exception(e)
     finally:
         conn.close()
+
+
+if __name__ == '__main__':
+    experiment_kappa()
