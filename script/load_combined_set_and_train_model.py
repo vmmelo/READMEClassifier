@@ -12,7 +12,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from helper import balancer, extractor, heuristic2
 import time
 import operator
-from sklearn.externals import joblib
+import joblib
 
 if __name__ == '__main__':
     start = time.time()

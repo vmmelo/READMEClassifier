@@ -6,7 +6,7 @@ from sqlite3 import Error
 from helper import balancer, heuristic2, extractor
 import time
 import operator
-from sklearn.externals import joblib
+import joblib
 from win32com.test.testall import output_checked_programs
 
 def find_unique(csv_input_line):

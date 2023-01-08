@@ -9,7 +9,7 @@ from helper import heuristic2
 from helper import balancer
 import time
 import operator
-from sklearn.externals import joblib
+import joblib
 from win32com.test.testall import output_checked_programs
 
 def find_unique(csv_input_line):

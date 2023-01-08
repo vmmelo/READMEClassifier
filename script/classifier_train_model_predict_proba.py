@@ -10,7 +10,7 @@ from helper import heuristic2
 from helper import balancer
 import time
 import operator
-from sklearn.externals import joblib
+import joblib
 from sklearn.calibration import CalibratedClassifierCV
 
 if __name__ == '__main__':

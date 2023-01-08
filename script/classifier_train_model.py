@@ -15,7 +15,7 @@ from helper import heuristic2
 from helper import balancer
 import time
 import operator
-from sklearn.externals import joblib
+import joblib
 
 if __name__ == '__main__':
     start = time.time()
