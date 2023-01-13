@@ -6,8 +6,8 @@ from sqlite3 import Error
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import MultiLabelBinarizer
-from helper import heuristic2
-from helper import balancer
+from READMEClassifier.script.helper.heuristic2 import *
+from READMEClassifier.script.helper.balancer import *
 import time
 import operator
 import joblib
@@ -17,13 +17,13 @@ def classifier_train_model_predict_proba():
     start = time.time()
     
     config = configparser.ConfigParser()
-    config.read('../config/config.cfg')
+    config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
     vectorizer_filename = config['DEFAULT']['vectorizer_filename'] 
     binarizer_filename = config['DEFAULT']['binarizer_filename'] 
     model_filename = config['DEFAULT']['model_filename'] 
-    log_filename = '../log/classifier_train_model_predict_proba.log'
+    log_filename = 'READMEClassifier/log/classifier_train_model_predict_proba.log'
     
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
     logging.getLogger().addHandler(logging.StreamHandler())
@@ -60,7 +60,7 @@ def classifier_train_model_predict_proba():
         
         # Derive features from heading text and content
         logging.info('Deriving features')
-        derived_features = heuristic2.derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
+        derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
         logging.info('Derived features shape:')
         logging.info(derived_features.shape)
@@ -75,7 +75,7 @@ def classifier_train_model_predict_proba():
         
         svm_object = LinearSVC() 
         clf = CalibratedClassifierCV(svm_object) 
-        classifier = balancer.OneVsRestClassifierBalance(clf)
+        classifier = OneVsRestClassifierBalance(clf)
         
         logging.info('Training classifier')
         classifier.fit(features_combined.values, labels_matrix) 

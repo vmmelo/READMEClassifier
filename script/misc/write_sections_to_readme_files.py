@@ -12,10 +12,10 @@ import os
 if __name__ == '__main__':
     start = time.time()
     config = configparser.ConfigParser()
-    config.read('../../config/config.cfg')
+    config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
-    dirname = "../../output/readmes"
-    log_filename = '../../log/write_sections_to_readme_files.log'
+    dirname = "READMEClassifier/output/readmes"
+    log_filename = 'READMEClassifier/log/write_sections_to_readme_files.log'
     
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
     logging.getLogger().addHandler(logging.StreamHandler())

@@ -4,12 +4,10 @@ import pandas
 import sqlite3
 from sqlite3 import Error
 from sklearn.preprocessing import MultiLabelBinarizer
-from helper import heuristic2
-from helper import balancer
+from READMEClassifier.script.helper.heuristic2 import *
 import time
 import operator
 import joblib
-from win32com.test.testall import output_checked_programs
 
 def find_unique(csv_input_line):
     l = list(set(csv_input_line.split(',')))
@@ -20,7 +18,7 @@ def classifier_classify_target_predict_proba():
     start = time.time()
     
     config = configparser.ConfigParser()
-    config.read('../config/config.cfg')
+    config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
     vectorizer = joblib.load(config['DEFAULT']['vectorizer_filename']) 
@@ -29,7 +27,7 @@ def classifier_classify_target_predict_proba():
     output_section_code_filename = config['DEFAULT']['output_section_code_filename']
     output_file_codes_filename = config['DEFAULT']['output_file_codes_filename']
     
-    log_filename = '../log/classifier_classify_target_predict_proba.log'    
+    log_filename = 'READMEClassifier/log/classifier_classify_target_predict_proba.log'
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
     logging.getLogger().addHandler(logging.StreamHandler())
     
@@ -58,7 +56,7 @@ def classifier_classify_target_predict_proba():
         
         # Derive features from heading text and content
         logging.info('Deriving features')
-        derived_features = heuristic2.derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
+        derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
         logging.debug('Derived features shape:')
         logging.debug(derived_features.shape)
@@ -78,7 +76,7 @@ def classifier_classify_target_predict_proba():
         df_proba1 = df[['local_readme_file','heading_markdown','section_code']].copy()
         df_proba2 = pandas.DataFrame(y_proba, columns=['-','1','3','4','5','6','7','8'])
         df_proba = pandas.concat([df_proba1, df_proba2], axis=1)
-        df_proba.to_csv('../output/target_proba.csv', sep=',', index=False)        
+        df_proba.to_csv('READMEClassifier/output/target_proba.csv', sep=',', index=False)
 
         # Update DB table
         df = df.loc[:,['file_id', 'section_id', 'url', 'local_readme_file', 'heading_markdown', 'abstracted_heading_markdown','heading_text', 'abstracted_heading_text',

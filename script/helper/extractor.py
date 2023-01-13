@@ -1,5 +1,5 @@
 import logging
-from helper.helper2 import *
+from READMEClassifier.script.helper.helper2 import *
 import sqlite3
 from sqlite3 import Error
 import sys
@@ -199,7 +199,7 @@ def extract_section_from_abstracted_files_v2(temp_abstracted_markdown_file_dir, 
             
             curr_section_content = ' '.join(curr_section_content_lines)
             curr_section_content_w_o_tags = extract_text_from_markdown_snippet(curr_section_content)
-            headings.set_value(i,'content_text_w_o_tags',curr_section_content_w_o_tags)
+            headings.at[i,'content_text_w_o_tags'] = curr_section_content_w_o_tags
         
         df_to_save = headings[['file_id','section_id','content_text_w_o_tags']]
         # Use append when saving since table is already emptied at the beginning
@@ -357,7 +357,7 @@ def load_section_overview_from_csv(input_filename_csv, db_filename, target_overv
         conn.close()
         
 def delete_existing_section_content_data(temp_abstracted_markdown_file_dir, db_filename, section_content_table_name):
-    if (not temp_abstracted_markdown_file_dir.startswith('../temp')):
+    if '/temp' not in temp_abstracted_markdown_file_dir:
         # Not a temp directory? Terminate script instead of deleting wrong directory tree
         logging.info(f'Temp directory name {temp_abstracted_markdown_file_dir} does not appear to be correct')
         logging.info('Please ensure that temp_abstracted_markdown_file_dir config variable is set correctly')

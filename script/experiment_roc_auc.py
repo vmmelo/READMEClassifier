@@ -35,10 +35,10 @@ def experiment_roc_auc():
     start = time.time()
     
     config = configparser.ConfigParser()
-    config.read('../config/config.cfg')
+    config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
-    log_filename = '../log/experiment_roc_auc.log'
+    log_filename = 'READMEClassifier/log/experiment_roc_auc.log'
     
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
     logging.getLogger().addHandler(logging.StreamHandler())

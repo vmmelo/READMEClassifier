@@ -14,8 +14,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import cross_val_predict
 from sklearn.metrics import classification_report
 from sklearn.model_selection import cross_val_score
-from helper import heuristic2
-from helper import balancer
+from READMEClassifier.script.helper.heuristic2 import *
+from READMEClassifier.script.helper.balancer import *
 import time
 import operator
 
@@ -45,10 +45,10 @@ class mcc_scorer:
 def experiment_mcc():
     start = time.time()
     config = configparser.ConfigParser()
-    config.read('../config/config.cfg')
+    config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
-    log_filename = '../log/experiment_mcc.log'
+    log_filename = 'READMEClassifier/log/experiment_mcc.log'
     
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
     logging.getLogger().addHandler(logging.StreamHandler())
@@ -83,7 +83,7 @@ def experiment_mcc():
         
         # Derive features from heading text and content
         logging.info('Deriving features')
-        derived_features = heuristic2.derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
+        derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
         logging.info('Derived features shape:')
         logging.info(derived_features.shape)
@@ -97,7 +97,7 @@ def experiment_mcc():
         logging.info(features_combined.shape)
         
         svm_object = LinearSVC() 
-        classifier = balancer.OneVsRestClassifierBalance(svm_object)
+        classifier = OneVsRestClassifierBalance(svm_object)
         
         logging.info('Computing overall results')        
         scores_mcc = cross_val_score(classifier, features_combined.values, labels_matrix, cv=10, scoring=mcc_scorer()).mean()

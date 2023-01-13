@@ -5,9 +5,9 @@ import logging
 
 def empty_all_tables():
     config = configparser.ConfigParser()
-    config.read('../config/config.cfg')
+    config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
-    log_filename = '../log/empty_all_tables.log'
+    log_filename = 'READMEClassifier/log/empty_all_tables.log'
     
     logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
     logging.getLogger().addHandler(logging.StreamHandler())
