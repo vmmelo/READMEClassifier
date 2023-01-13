@@ -1,1337 +1,1256 @@
 file_id,section_id,local_readme_file,heading_markdown,section_code
-1,1,2227324689.gpmall.md,# 咕泡商城- 微服务架构实战,-
-1,2,2227324689.gpmall.md,# 应用架构图,-
-1,3,2227324689.gpmall.md,## 项目演示地址,-
-1,4,2227324689.gpmall.md,# 项目用到的技术,"-,4"
-1,5,2227324689.gpmall.md,## 前端使用的技术,-
-1,6,2227324689.gpmall.md,## 后端使用的技术,-
-1,7,2227324689.gpmall.md,# 项目模块说明,-
-1,8,2227324689.gpmall.md,# 项目搭建方式,-
-1,9,2227324689.gpmall.md,# 项目开发进度,-
-1,10,2227324689.gpmall.md,## 前台项目整体的规划有,-
-1,11,2227324689.gpmall.md,## 后台规划,-
-1,12,2227324689.gpmall.md,# 效果图,-
-1,13,2227324689.gpmall.md,# 项目架构图,-
-1,14,2227324689.gpmall.md,# 如何贡献,-
-1,15,2227324689.gpmall.md,# ,-
-1,16,2227324689.gpmall.md,# 个人微信公众号,-
-2,1,981011512.--.md,# 停车场管理_停车收费_物业管理_物联网_自助缴费,-
-2,2,981011512.--.md,#### 【功能介绍】：,-
-2,3,981011512.--.md,#### 【技术架构】：,
-2,4,981011512.--.md,#### 【开源情况】：,-
-2,5,981011512.--.md,#### 【声明】：本项目里面的代码没有任何私jar包，本来就是开源项目，代码没有丢包或者故意丢代码导致项目报错的情况，但是不保证能商用，个人拿来作为入门研究和快速二次开发是个不错的选择，想要商用的建议自己进行二次开发。对于那些想让我免费二次的开发或者免费提供商业版本而且说话还很难听的白眼狼，请绕道！这项目代码肯定能跑起来，技术不到家的，自己先去学习学习java基础和springboot基础！,-
-2,6,981011512.--.md,#### 【 互动交流 】：想商业合作的加我微信: Dove981011512 非诚勿扰，谢谢配合！,-
-2,7,981011512.--.md,#### 【部署环境】：,-
-2,8,981011512.--.md,#### 【关于作者】：,-
-2,9,981011512.--.md,#### 软件架构,-
-2,10,981011512.--.md,#### 安装教程,-
-2,11,981011512.--.md,#### 使用说明(swagger2文档),-
-2,12,981011512.--.md,#### 参与贡献,
-2,13,981011512.--.md,#### 演示地址,-
-3,1,abel533.MyBatis-Spring-Boot.md,"# Spring Boot 集成 MyBatis, 分页插件 PageHelper, 通用 Mapper ","-,1"
-3,2,abel533.MyBatis-Spring-Boot.md,## 新书《MyBatis 从入门到精通》,"-,6"
-3,3,abel533.MyBatis-Spring-Boot.md,## 项目依赖,-
-3,4,abel533.MyBatis-Spring-Boot.md,## Spring DevTools 配置,
-3,5,abel533.MyBatis-Spring-Boot.md,## 集成 MyBatis Generator,-
-3,6,abel533.MyBatis-Spring-Boot.md,## application.properties 配置,-
-3,7,abel533.MyBatis-Spring-Boot.md,## application.yml 配置,-
-3,8,abel533.MyBatis-Spring-Boot.md,## SSM集成的基础项目 ,"-,6"
-3,9,abel533.MyBatis-Spring-Boot.md,## MyBatis工具 https://mybatis.io,-
-3,10,abel533.MyBatis-Spring-Boot.md,## 作者信息,-
-4,1,alibaba.freeline.md,# Freeline,1
-4,2,alibaba.freeline.md,## Freeline Insights,"1,3"
-4,3,alibaba.freeline.md,## Features,1
-4,4,alibaba.freeline.md,## Download,3
-4,5,alibaba.freeline.md,## TODO,4
-4,6,alibaba.freeline.md,## Limitations,3
-4,7,alibaba.freeline.md,## Contributing,7
-4,8,alibaba.freeline.md,## Troubleshooting,"3,6"
-4,9,alibaba.freeline.md,## Thanks,"5,6"
-4,10,alibaba.freeline.md,## License,5
-5,1,alibaba.nacos.md,# Nacos: Dynamic  *Na*ming and *Co*nfiguration *S*ervice,3
-5,2,alibaba.nacos.md,## ,-
-5,3,alibaba.nacos.md,## What does it do,1
-5,4,alibaba.nacos.md,## Quick Start,3
-5,5,alibaba.nacos.md,### Deploying Nacos on cloud,"3,6"
-5,6,alibaba.nacos.md,### Start by the provided startup package,-
-5,7,alibaba.nacos.md,#### Step 1: Download the binary package ,3
-5,8,alibaba.nacos.md,#### Step 2: Start Server,3
-5,9,alibaba.nacos.md,## Quick start for other open-source projects:,6
-5,10,alibaba.nacos.md,## Documentation,6
-5,11,alibaba.nacos.md,## Contributing,7
-5,12,alibaba.nacos.md,### How can I contribute?,7
-5,13,alibaba.nacos.md,## Other Related Project Repositories,1
-5,14,alibaba.nacos.md,## Contact,5
-5,15,alibaba.nacos.md,## Enterprise Service,6
-5,16,alibaba.nacos.md,## Download,
-5,17,alibaba.nacos.md,## Who is using,3
-6,1,alibaba.transmittable-thread-local.md,"# <div align=""center""><a href=""#dummy""><img src=""docs/logo-blue.png"" alt=""📌 TransmittableThreadLocal(TTL)""></a></div>",6
-6,2,alibaba.transmittable-thread-local.md,## ,-
-6,3,alibaba.transmittable-thread-local.md,## ,-
-6,4,alibaba.transmittable-thread-local.md,## ,-
-6,5,alibaba.transmittable-thread-local.md,# 🔧 功能,-
-6,6,alibaba.transmittable-thread-local.md,# 🎨 需求场景,"-,4"
-6,7,alibaba.transmittable-thread-local.md,# 👥 User Guide,-
-6,8,alibaba.transmittable-thread-local.md,## 1. 简单使用,-
-6,9,alibaba.transmittable-thread-local.md,## 2. 保证线程池中传递值,"-,4"
-6,10,alibaba.transmittable-thread-local.md,### 2.1 修饰`Runnable`和`Callable`,"-,4"
-6,11,alibaba.transmittable-thread-local.md,#### 整个过程的完整时序图,-
-6,12,alibaba.transmittable-thread-local.md,### 2.2 修饰线程池,"-,4"
-6,13,alibaba.transmittable-thread-local.md,### 2.3 使用`Java Agent`来修饰`JDK`线程池实现类,"-,4"
-6,14,alibaba.transmittable-thread-local.md,#### `Java Agent`的启动参数配置,-
-6,15,alibaba.transmittable-thread-local.md,# 🔌 Java API Docs,"-,6"
-6,16,alibaba.transmittable-thread-local.md,# 🍪 Maven依赖,-
-6,17,alibaba.transmittable-thread-local.md,# 🔨 关于编译构建,-
-6,18,alibaba.transmittable-thread-local.md,# ❓ FAQ,"-,6"
-6,19,alibaba.transmittable-thread-local.md,# ✨ 使用`TTL`的好处与必要性,-
-6,20,alibaba.transmittable-thread-local.md,# 🗿 更多文档,-
-6,21,alibaba.transmittable-thread-local.md,# 📚 相关资料,-
-6,22,alibaba.transmittable-thread-local.md,## JDK Core Classes,6
-6,23,alibaba.transmittable-thread-local.md,# 💝 Who used,-
-6,24,alibaba.transmittable-thread-local.md,# 👷 Contributors,"-,5"
-7,1,amlcurran.ShowcaseView.md,## ShowcaseView,1
-7,2,amlcurran.ShowcaseView.md,# Project set-up,3
-7,3,amlcurran.ShowcaseView.md,# Usage,3
-7,4,amlcurran.ShowcaseView.md,## Sample Project,"3,6"
-7,5,amlcurran.ShowcaseView.md,## What's the legacy branch?,6
-7,6,amlcurran.ShowcaseView.md,## Is it worth using?,
-7,7,amlcurran.ShowcaseView.md,## What's missing in v5,
-7,8,amlcurran.ShowcaseView.md,## FAQs,3
-7,9,amlcurran.ShowcaseView.md,## Copyright and Licensing,5
-8,1,android.testing-samples.md,# Android testing samples,1
-8,2,android.testing-samples.md,### Espresso Samples,"1,3"
-8,3,android.testing-samples.md,### UiAutomator Sample,6
-8,4,android.testing-samples.md,### AndroidJUnitRunner Sample,3
-8,5,android.testing-samples.md,### JUnit4 Rules Sample,1
-8,6,android.testing-samples.md,## Prerequisites,3
-8,7,android.testing-samples.md,## Getting Started,3
-8,8,android.testing-samples.md,## AndroidX Test Library,6
-8,9,android.testing-samples.md,## Experimental Bazel Support,3
-8,10,android.testing-samples.md,### Bazel commands,3
-8,11,android.testing-samples.md,## Support,6
-8,12,android.testing-samples.md,## License,5
-9,1,android.views-widgets-samples.md,# Android Views and Widgets Samples Repository,1
-10,1,antoniolg.androidmvp.md,# androidmvp,"1,6"
-11,1,apache.calcite.md,# Apache Calcite,"1,6"
-12,1,apache.druid.md,## ,"1,6"
-12,2,apache.druid.md,## ,-
-12,3,apache.druid.md,## Apache Druid,1
-12,4,apache.druid.md,### Getting started,3
-12,5,apache.druid.md,#### Load data,3
-12,6,apache.druid.md,#### Manage the cluster,"-,1"
-12,7,apache.druid.md,#### Issue queries,
-12,8,apache.druid.md,### Documentation,6
-12,9,apache.druid.md,### Community,"1,6"
-12,10,apache.druid.md,### Building from source,3
-12,11,apache.druid.md,### Contributing,7
-12,12,apache.druid.md,### License,5
-13,1,apache.nifi.md,## Table of Contents,"1,6"
-13,2,apache.nifi.md,## Features,1
-13,3,apache.nifi.md,## Minimum Recommendations,3
-13,4,apache.nifi.md,## Minimum Requirements,3
-13,5,apache.nifi.md,## Getting Started,"3,6"
-13,6,apache.nifi.md,### Building,3
-13,7,apache.nifi.md,### Deploying,3
-13,8,apache.nifi.md,### Starting,3
-13,9,apache.nifi.md,### Authenticating,3
-13,10,apache.nifi.md,### Running,3
-13,11,apache.nifi.md,### Configuring,3
-13,12,apache.nifi.md,### Stopping,3
-13,13,apache.nifi.md,## MiNiFi subproject,3
-13,14,apache.nifi.md,### Docker Build,3
-13,15,apache.nifi.md,## Registry subproject,
-13,16,apache.nifi.md,### Getting Registry Started,"3,6"
-13,17,apache.nifi.md,### Database Testing,3
-13,18,apache.nifi.md,## Getting Help,"5,6"
-13,19,apache.nifi.md,## Documentation,6
-13,20,apache.nifi.md,## License,"-,5"
-13,21,apache.nifi.md,## Export Control,6
-14,1,avast.android-butterknife-zelezny.md,# ButterKnifeZelezny,"1,3"
-14,2,avast.android-butterknife-zelezny.md,## How to install,3
-14,3,avast.android-butterknife-zelezny.md,## How to use it,3
-14,4,avast.android-butterknife-zelezny.md,## Contributing,7
-14,5,avast.android-butterknife-zelezny.md,## Common issue: The plugin is not working after I updated to new Android Studio,3
-14,6,avast.android-butterknife-zelezny.md,## Why 'Zelezny'?,1
-15,1,awsdocs.aws-doc-sdk-examples.md,# AWS SDK Code Examples,3
-15,2,awsdocs.aws-doc-sdk-examples.md,## How this repository is organized,3
-15,3,awsdocs.aws-doc-sdk-examples.md,## Invoke example code,3
-15,4,awsdocs.aws-doc-sdk-examples.md,## ⚠️ Usage disclaimer,-
-15,5,awsdocs.aws-doc-sdk-examples.md,## Other examples,3
-15,6,awsdocs.aws-doc-sdk-examples.md,# Contributing,7
-15,7,awsdocs.aws-doc-sdk-examples.md,# Copyright and license,5
-16,1,azkaban.azkaban.md,# Azkaban ,"-,1,6"
-16,2,azkaban.azkaban.md,## Build,3
-16,3,azkaban.azkaban.md,### Build a release,3
-16,4,azkaban.azkaban.md,## Documentation,6
-16,5,azkaban.azkaban.md,## Developer Guide,6
-16,6,azkaban.azkaban.md,#### Documentation development,3
-17,1,Blankj.awesome-java-leetcode.md,# awesome-java-leetcode,3
-17,2,Blankj.awesome-java-leetcode.md,## Easy,3
-17,3,Blankj.awesome-java-leetcode.md,## Medium,6
-17,4,Blankj.awesome-java-leetcode.md,## Hard,"3,6"
-17,5,Blankj.awesome-java-leetcode.md,## 打个小广告,-
-18,1,cabaletta.baritone.md,# Baritone,3
-18,2,cabaletta.baritone.md,# Getting Started,"3,6"
-18,3,cabaletta.baritone.md,## Stars over time,
-18,4,cabaletta.baritone.md,# API,"3,6"
-18,5,cabaletta.baritone.md,# FAQ,"-,6"
-18,6,cabaletta.baritone.md,## Can I use Baritone as a library in my custom utility client?,3
-18,7,cabaletta.baritone.md,## How is it so fast?,1
-18,8,cabaletta.baritone.md,### Additional Special Thanks To:,5
-18,9,cabaletta.baritone.md,## Why is it called Baritone?,1
-19,1,careercup.ctci.md,# ctci,
-20,1,code4craft.webmagic.md,## Features:,1
-20,2,code4craft.webmagic.md,## Install:,3
-20,3,code4craft.webmagic.md,## Get Started:,3
-20,4,code4craft.webmagic.md,### First crawler:,3
-20,5,code4craft.webmagic.md,### Docs and samples:,6
-20,6,code4craft.webmagic.md,### Lisence:,"-,1,6"
-20,7,code4craft.webmagic.md,### Thanks:,1
-20,8,code4craft.webmagic.md,### Mail-list:,5
-20,9,code4craft.webmagic.md,### Related Project,1
-21,1,didi.VirtualAPK.md,# Android 9.0 supported! Please use [the lastest release](https://github.com/didi/VirtualAPK/releases).,1
-21,2,didi.VirtualAPK.md,"# <img src=""imgs/va-logo.png"" width=""200px"" align=""center"" alt=""VirtualAPK""/>",1
-21,3,didi.VirtualAPK.md,# Supported Features,1
-21,4,didi.VirtualAPK.md,# Getting started,3
-21,5,didi.VirtualAPK.md,## Host Project,3
-21,6,didi.VirtualAPK.md,## Plugin Project,3
-21,7,didi.VirtualAPK.md,# Developer guide,6
-21,8,didi.VirtualAPK.md,# Known issues,"1,6"
-21,9,didi.VirtualAPK.md,# Contributing,7
-21,10,didi.VirtualAPK.md,# Who is using VirtualAPK?,3
-21,11,didi.VirtualAPK.md,# License,5
-22,1,DrKLO.Telegram.md,## Telegram messenger for Android,1
-22,2,DrKLO.Telegram.md,## Creating your Telegram Application,3
-22,3,DrKLO.Telegram.md,"### API, Protocol documentation",6
-22,4,DrKLO.Telegram.md,### Compilation Guide,3
-22,5,DrKLO.Telegram.md,### Localization,
-23,1,elastic.logstash.md,# Logstash,1
-23,2,elastic.logstash.md,## Documentation and Getting Started,6
-23,3,elastic.logstash.md,## Downloads,3
-23,4,elastic.logstash.md,## Need Help?,"1,6"
-23,5,elastic.logstash.md,## Logstash Plugins,3
-23,6,elastic.logstash.md,### Writing your own Plugin,"3,6"
-23,7,elastic.logstash.md,### Plugin Issues and Pull Requests,"6,7"
-23,8,elastic.logstash.md,## Developing Logstash Core,"3,6"
-23,9,elastic.logstash.md,### Prerequisites,3
-23,10,elastic.logstash.md,### RVM install (optional),3
-23,11,elastic.logstash.md,### Check Ruby version,3
-23,12,elastic.logstash.md,### Building Logstash,3
-23,13,elastic.logstash.md,## Building Logstash Documentation,"3,6"
-23,14,elastic.logstash.md,## Testing,"3,6"
-23,15,elastic.logstash.md,### Core tests,3
-23,16,elastic.logstash.md,### Plugins tests,3
-23,17,elastic.logstash.md,## ,-
-23,18,elastic.logstash.md,## Building Artifacts,3
-23,19,elastic.logstash.md,## Using a Custom JRuby Distribution,3
-23,20,elastic.logstash.md,## Project Principles,3
-23,21,elastic.logstash.md,## Contributing,7
-24,1,elunez.eladmin.md,#### 项目简介,"-,6"
-24,2,elunez.eladmin.md,#### 项目源码,"-,6"
-24,3,elunez.eladmin.md,#### 主要特性,-
-24,4,elunez.eladmin.md,####  系统功能,-
-24,5,elunez.eladmin.md,#### 项目结构,-
-24,6,elunez.eladmin.md,#### 详细结构,-
-24,7,elunez.eladmin.md,#### 特别鸣谢,-
-24,8,elunez.eladmin.md,#### 项目捐赠,-
-24,9,elunez.eladmin.md,#### 反馈交流,-
-25,1,EnterpriseQualityCoding.FizzBuzzEnterpriseEdition.md,# FizzBuzzEnterpriseEdition,1
-25,2,EnterpriseQualityCoding.FizzBuzzEnterpriseEdition.md,## FizzBuzz,3
-25,3,EnterpriseQualityCoding.FizzBuzzEnterpriseEdition.md,## Contributing,"5,7"
-26,1,firebase.FirebaseUI-Android.md,# FirebaseUI for Android — UI Bindings for Firebase,"1,6"
-26,2,firebase.FirebaseUI-Android.md,## Table of contents,3
-26,3,firebase.FirebaseUI-Android.md,## Usage,"3,6"
-26,4,firebase.FirebaseUI-Android.md,## Installation,3
-26,5,firebase.FirebaseUI-Android.md,### Upgrading,4
-26,6,firebase.FirebaseUI-Android.md,## Dependencies,"-,3"
-26,7,firebase.FirebaseUI-Android.md,### Compatibility with Firebase / Google Play Services libraries,"3,6"
-26,8,firebase.FirebaseUI-Android.md,### Upgrading dependencies,3
-26,9,firebase.FirebaseUI-Android.md,#### Auth,3
-26,10,firebase.FirebaseUI-Android.md,#### Firestore,"-,3"
-26,11,firebase.FirebaseUI-Android.md,#### Realtime Database,1
-26,12,firebase.FirebaseUI-Android.md,#### Storage,"-,3"
-26,13,firebase.FirebaseUI-Android.md,## Sample app,3
-26,14,firebase.FirebaseUI-Android.md,## Snapshot builds,3
-26,15,firebase.FirebaseUI-Android.md,## Contributing,7
-26,16,firebase.FirebaseUI-Android.md,### Installing locally,3
-26,17,firebase.FirebaseUI-Android.md,### Contributor License Agreements,"5,7"
-26,18,firebase.FirebaseUI-Android.md,### Contribution process,7
-27,1,Freelander.Android_Data.md,# Android 学习资料收集                                                        ,-
-27,2,Freelander.Android_Data.md,## 目录,-
-27,3,Freelander.Android_Data.md,# ,-
-27,4,Freelander.Android_Data.md,## 书籍,
-27,5,Freelander.Android_Data.md,## 开发环境/工具,
-27,6,Freelander.Android_Data.md,## 博客,-
-27,7,Freelander.Android_Data.md,## 社区,-
-27,8,Freelander.Android_Data.md,## 开源项目学习,-
-27,9,Freelander.Android_Data.md,## Android 开发者杂志周刊,-
-27,10,Freelander.Android_Data.md,## Awesome 系列,-
-27,11,Freelander.Android_Data.md,## 动画系列,-
-27,12,Freelander.Android_Data.md,## Material Design 设计,"-,1"
-27,13,Freelander.Android_Data.md,## 素材,-
-27,14,Freelander.Android_Data.md,## 开源库收集,-
-27,15,Freelander.Android_Data.md,## 设计模式,-
-27,16,Freelander.Android_Data.md,## 实践篇,-
-27,17,Freelander.Android_Data.md,## 面试,-
-27,18,Freelander.Android_Data.md,## Git 教程,-
-27,19,Freelander.Android_Data.md,## 文档,-
-27,20,Freelander.Android_Data.md,## 其它资料收集,-
-27,21,Freelander.Android_Data.md,## 知乎上的讨论,-
-27,22,Freelander.Android_Data.md,## 贡献者,-
-27,23,Freelander.Android_Data.md,## License,5
-28,1,frogermcs.InstaMaterial.md,# InstaMaterial,-
-28,2,frogermcs.InstaMaterial.md,### Updated,"1,6"
-28,3,frogermcs.InstaMaterial.md,## Summary,1
-28,4,frogermcs.InstaMaterial.md,### Current build ,3
-28,5,frogermcs.InstaMaterial.md,### Full showcase of application,-
-28,6,frogermcs.InstaMaterial.md,## Blog posts,1
-28,7,frogermcs.InstaMaterial.md,## ,-
-28,8,frogermcs.InstaMaterial.md,## ,-
-28,9,frogermcs.InstaMaterial.md,## ,-
-28,10,frogermcs.InstaMaterial.md,## ,-
-28,11,frogermcs.InstaMaterial.md,## ,-
-28,12,frogermcs.InstaMaterial.md,## ,-
-28,13,frogermcs.InstaMaterial.md,## ,-
-28,14,frogermcs.InstaMaterial.md,## ,-
-29,1,getActivity.AndroidProject.md,# 安卓技术中台,-
-29,2,getActivity.AndroidProject.md,#### 常用界面,-
-29,3,getActivity.AndroidProject.md,## ,-
-29,4,getActivity.AndroidProject.md,#### 常用对话框,-
-29,5,getActivity.AndroidProject.md,#### 动图欣赏,-
-29,6,getActivity.AndroidProject.md,#### 项目亮点,-
-29,7,getActivity.AndroidProject.md,#### [代码规范文档请点击这里查看](https://github.com/getActivity/AndroidCodeStandard),-
-29,8,getActivity.AndroidProject.md,#### [版本适配文档请点击这里查看](https://github.com/getActivity/AndroidVersionAdapter),-
-29,9,getActivity.AndroidProject.md,#### [常见问题解答请点击这里查看](HelpDoc.md),-
-29,10,getActivity.AndroidProject.md,#### 作者的其他开源项目,-
-29,11,getActivity.AndroidProject.md,#### 微信公众号：Android轮子哥,-
-29,12,getActivity.AndroidProject.md,#### Android 技术分享 QQ 群：78797078,-
-29,13,getActivity.AndroidProject.md,#### 如果您觉得我的开源库帮你节省了大量的开发时间，请扫描下方的二维码随意打赏，要是能打赏个 10.24 :monkey_face:就太:thumbsup:了。您的支持将鼓励我继续创作:octocat:,-
-29,14,getActivity.AndroidProject.md,#### [点击查看捐赠列表](https://github.com/getActivity/Donate),-
-29,15,getActivity.AndroidProject.md,## License,5
-30,1,getActivity.XXPermissions.md,## [English Doc](README-en.md),"3,6"
-30,2,getActivity.XXPermissions.md,# 权限请求框架,-
-30,3,getActivity.XXPermissions.md,#### 集成步骤,-
-30,4,getActivity.XXPermissions.md,#### AndroidX 兼容,-
-30,5,getActivity.XXPermissions.md,#### 分区存储,
-30,6,getActivity.XXPermissions.md,#### 一句代码搞定权限请求，从未如此简单,-
-30,7,getActivity.XXPermissions.md,#### 框架其他 API 介绍,-
-30,8,getActivity.XXPermissions.md,#### 关于权限监听回调参数说明,-
-30,9,getActivity.XXPermissions.md,## [其他常见疑问请点击此处查看](HelpDoc-zh.md),-
-30,10,getActivity.XXPermissions.md,#### 同类权限请求框架之间的对比,-
-30,11,getActivity.XXPermissions.md,#### 新权限自动兼容旧设备介绍,
-30,12,getActivity.XXPermissions.md,#### 屏幕旋转场景适配介绍,-
-30,13,getActivity.XXPermissions.md,#### 后台申请权限场景介绍,-
-30,14,getActivity.XXPermissions.md,#### Android 12 内存泄漏问题修复介绍,-
-30,15,getActivity.XXPermissions.md,#### 错误检测机制介绍,-
-30,16,getActivity.XXPermissions.md,#### 框架亮点,-
-30,17,getActivity.XXPermissions.md,#### 作者的其他开源项目,-
-30,18,getActivity.XXPermissions.md,#### 微信公众号：Android轮子哥,-
-30,19,getActivity.XXPermissions.md,#### Android 技术 Q 群：10047167,
-30,20,getActivity.XXPermissions.md,#### 如果您觉得我的开源库帮你节省了大量的开发时间，请扫描下方的二维码随意打赏，要是能打赏个 10.24 :monkey_face:就太:thumbsup:了。您的支持将鼓励我继续创作:octocat:,-
-30,21,getActivity.XXPermissions.md,#### [点击查看捐赠列表](https://github.com/getActivity/Donate),-
-30,22,getActivity.XXPermissions.md,## License,5
-31,1,goldze.MVVMHabit.md,## 最新日志,"-,4"
-31,2,goldze.MVVMHabit.md,#### [更多日志](./UpdateLog.md),-
-31,3,goldze.MVVMHabit.md,# MVVMHabit,-
-31,4,goldze.MVVMHabit.md,##,-
-31,5,goldze.MVVMHabit.md,## 框架流程,-
-31,6,goldze.MVVMHabit.md,## 框架特点,-
-31,7,goldze.MVVMHabit.md,## 1、准备工作,-
-31,8,goldze.MVVMHabit.md,### 1.1、启用databinding,"-,4"
-31,9,goldze.MVVMHabit.md,### 1.2、依赖Library,-
-31,10,goldze.MVVMHabit.md,### 1.3、配置config.gradle,-
-31,11,goldze.MVVMHabit.md,### 1.4、配置AndroidManifest,-
-31,12,goldze.MVVMHabit.md,## 2、快速上手,"-,4"
-31,13,goldze.MVVMHabit.md,### 2.1、第一个Activity,-
-31,14,goldze.MVVMHabit.md,##### 2.1.1、关联ViewModel,
-31,15,goldze.MVVMHabit.md,##### 2.1.2、继承BaseActivity,-
-31,16,goldze.MVVMHabit.md,##### 2.1.3、继承BaseViewModel,-
-31,17,goldze.MVVMHabit.md,### 2.2、数据绑定,-
-31,18,goldze.MVVMHabit.md,##### 2.2.1、传统绑定,"-,4"
-31,19,goldze.MVVMHabit.md,##### 2.2.2、自定义绑定,-
-31,20,goldze.MVVMHabit.md,##### 2.2.3、自定义ImageView图片加载,-
-31,21,goldze.MVVMHabit.md,##### 2.2.4、RecyclerView绑定,
-31,22,goldze.MVVMHabit.md,### 2.3、网络请求,-
-31,23,goldze.MVVMHabit.md,#### 2.3.1、Retrofit+Okhttp+RxJava,-
-31,24,goldze.MVVMHabit.md,#### 2.3.2、网络拦截器,-
-31,25,goldze.MVVMHabit.md,#### 2.3.3、Cookie管理,-
-31,26,goldze.MVVMHabit.md,#### 2.3.4、绑定生命周期,-
-31,27,goldze.MVVMHabit.md,#### 2.3.5、网络异常处理,-
-31,28,goldze.MVVMHabit.md,## 3、辅助功能,-
-31,29,goldze.MVVMHabit.md,### 3.1、事件总线,"-,4"
-31,30,goldze.MVVMHabit.md,#### 3.3.1、RxBus,"-,4"
-31,31,goldze.MVVMHabit.md,#### 3.3.2、Messenger,-
-31,32,goldze.MVVMHabit.md,### 3.2、文件下载,-
-31,33,goldze.MVVMHabit.md,### 3.3、ContainerActivity,"-,4"
-31,34,goldze.MVVMHabit.md,### 3.4、6.0权限申请,-
-31,35,goldze.MVVMHabit.md,### 3.5、图片压缩,-
-31,36,goldze.MVVMHabit.md,### 3.6、其他辅助类,"-,4"
-31,37,goldze.MVVMHabit.md,## 4、附加,"-,4"
-31,38,goldze.MVVMHabit.md,### 4.1、编译错误解决方法,"-,4"
-31,39,goldze.MVVMHabit.md,##### 4.1.1、绑定错误,-
-31,40,goldze.MVVMHabit.md,##### 4.1.2、xml导包错误,-
-31,41,goldze.MVVMHabit.md,##### 4.1.3、build错误,-
-31,42,goldze.MVVMHabit.md,##### 4.1.4、自动生成类错误,
-31,43,goldze.MVVMHabit.md,##### 4.1.5、gradle错误,-
-31,44,goldze.MVVMHabit.md,## 混淆,-
-31,45,goldze.MVVMHabit.md,## 组件化,-
-31,46,goldze.MVVMHabit.md,## About,"1,5"
-31,47,goldze.MVVMHabit.md,## Thank,-
-31,48,goldze.MVVMHabit.md,## License,5
-32,1,google.closure-compiler.md,# [Google Closure Compiler](https://developers.google.com/closure/compiler/),"1,3,6"
-32,2,google.closure-compiler.md,## Getting Started,"3,6"
-32,3,google.closure-compiler.md,#### Downloading from Maven Repository,"3,6"
-32,4,google.closure-compiler.md,### Basic usage,3
-32,5,google.closure-compiler.md,#### See the [Google Developers Site](https://developers.google.com/closure/compiler/docs/gettingstarted_app) for documentation including instructions for running the compiler from the command line.,3
-32,6,google.closure-compiler.md,### NodeJS API,"3,6"
-32,7,google.closure-compiler.md,#### Please see the [closure-compiler-npm](https://github.com/google/closure-compiler-npm/tree/master/packages/google-closure-compiler) repository for documentation on accessing the compiler in JS.,"1,6"
-32,8,google.closure-compiler.md,## Compiling Multiple Scripts,3
-32,9,google.closure-compiler.md,## Getting Help,6
-32,10,google.closure-compiler.md,## Building the Compiler,"3,6"
-32,11,google.closure-compiler.md,## Prerequisite                                                               | Description,"1,6"
-32,12,google.closure-compiler.md,### Installing Bazelisk,3
-32,13,google.closure-compiler.md,### Building from a terminal,3
-32,14,google.closure-compiler.md,### Testing from a terminal,3
-32,15,google.closure-compiler.md,### Building from an IDE,3
-32,16,google.closure-compiler.md,### Running,3
-32,17,google.closure-compiler.md,#### Running using Eclipse,3
-32,18,google.closure-compiler.md,## Contributing,7
-32,19,google.closure-compiler.md,### Contributor code of conduct,7
-32,20,google.closure-compiler.md,### Reporting a bug,3
-32,21,google.closure-compiler.md,### Suggesting a feature,1
-32,22,google.closure-compiler.md,### Submitting patches,5
-32,23,google.closure-compiler.md,## Closure Compiler License,5
-32,24,google.closure-compiler.md,## Dependency Licenses,-
-32,25,google.closure-compiler.md,### Rhino,-
-32,26,google.closure-compiler.md,### Args4j,6
-32,27,google.closure-compiler.md,### Guava Libraries,1
-32,28,google.closure-compiler.md,### JSR 305,
-32,29,google.closure-compiler.md,### JUnit,1
-32,30,google.closure-compiler.md,### Protocol Buffers,1
-32,31,google.closure-compiler.md,### RE2/J,1
-32,32,google.closure-compiler.md,### Truth,1
-32,33,google.closure-compiler.md,### Ant,1
-32,34,google.closure-compiler.md,### GSON,1
-32,35,google.closure-compiler.md,### Node.js Closure Compiler Externs,1
-33,1,google.google-java-format.md,# google-java-format,"1,3,6"
-33,2,google.google-java-format.md,## Using the formatter,3
-33,3,google.google-java-format.md,### from the command-line,3
-33,4,google.google-java-format.md,"### IntelliJ, Android Studio, and other JetBrains IDEs",3
-33,5,google.google-java-format.md,### Eclipse,"1,3"
-33,6,google.google-java-format.md,### Third-party integrations,"3,6"
-33,7,google.google-java-format.md,### as a library,3
-33,8,google.google-java-format.md,#### Maven,3
-33,9,google.google-java-format.md,#### Gradle,3
-33,10,google.google-java-format.md,## Building from source,3
-33,11,google.google-java-format.md,## Contributing,7
-33,12,google.google-java-format.md,## License,5
-34,1,GrenderG.Toasty.md,# Toasty,-
-34,2,GrenderG.Toasty.md,## Prerequisites,3
-34,3,GrenderG.Toasty.md,## Dependency,3
-34,4,GrenderG.Toasty.md,## Configuration,3
-34,5,GrenderG.Toasty.md,## Usage,3
-34,6,GrenderG.Toasty.md,### Extra,
-34,7,GrenderG.Toasty.md,## Screenshots,"3,8"
-34,8,GrenderG.Toasty.md,## Third Party Bindings,-
-34,9,GrenderG.Toasty.md,### React Native,"3,6"
-35,1,grpc.grpc-java.md,# gRPC-Java - An RPC library and framework,"1,6"
-35,2,grpc.grpc-java.md,## Supported Platforms,1
-35,3,grpc.grpc-java.md,## Java version | gRPC Branch,"1,6"
-35,4,grpc.grpc-java.md,## Getting Started,"3,6"
-35,5,grpc.grpc-java.md,## Download,3
-35,6,grpc.grpc-java.md,## Generated Code,3
-35,7,grpc.grpc-java.md,## API Stability,
-35,8,grpc.grpc-java.md,## How to Build,"3,6"
-35,9,grpc.grpc-java.md,## High-level Components,1
-35,10,grpc.grpc-java.md,### Stub,1
-35,11,grpc.grpc-java.md,### Channel,"-,1"
-35,12,grpc.grpc-java.md,### Transport,1
-36,1,guardianproject.haven.md,# About Haven,1
-36,2,guardianproject.haven.md,## Announcement and Public Beta,"1,6"
-36,3,guardianproject.haven.md,## Project Team,"5,6"
-36,4,guardianproject.haven.md,## Safety through Sensors,"1,3"
-36,5,guardianproject.haven.md,## Building,
-36,6,guardianproject.haven.md,## Install,3
-36,7,guardianproject.haven.md,## Why no iPhone Support?,1
-36,8,guardianproject.haven.md,## Usage,3
-36,9,guardianproject.haven.md,### Main view,3
-36,10,guardianproject.haven.md,### Notifications,3
-36,11,guardianproject.haven.md,### Remote Access,"1,3,6"
-36,12,guardianproject.haven.md,## ATTRIBUTIONS,"5,6"
-37,1,hazelcast.hazelcast.md,# Hazelcast,"-,1,6"
-37,2,hazelcast.hazelcast.md,## ,-
-37,3,hazelcast.hazelcast.md,## What is Hazelcast,1
-37,4,hazelcast.hazelcast.md,## When to use Hazelcast,1
-37,5,hazelcast.hazelcast.md,## Key Features,1
-37,6,hazelcast.hazelcast.md,### Operational Data Store,"1,3"
-37,7,hazelcast.hazelcast.md,### Stateful Data Processing,3
-37,8,hazelcast.hazelcast.md,#### Data Processing using SQL,3
-37,9,hazelcast.hazelcast.md,### Messaging,1
-37,10,hazelcast.hazelcast.md,#### Topics,3
-37,11,hazelcast.hazelcast.md,#### Queues,"3,6"
-37,12,hazelcast.hazelcast.md,## Get Started,3
-37,13,hazelcast.hazelcast.md,## Documentation,6
-37,14,hazelcast.hazelcast.md,## Get Help,6
-37,15,hazelcast.hazelcast.md,## How to Contribute,7
-37,16,hazelcast.hazelcast.md,### Building From Source,3
-37,17,hazelcast.hazelcast.md,### Testing,3
-37,18,hazelcast.hazelcast.md,## Trigger Phrases in the Pull Request Conversation,3
-37,19,hazelcast.hazelcast.md,### Creating PRs for Hazelcast SQL,
-37,20,hazelcast.hazelcast.md,## License,5
-37,21,hazelcast.hazelcast.md,## Acknowledgments,"1,5"
-37,22,hazelcast.hazelcast.md,## Copyright,5
-38,1,heibaiying.BigData-Notes.md,# BigData-Notes,3
-38,2,heibaiying.BigData-Notes.md,## :black_nib: 前  言,-
-38,3,heibaiying.BigData-Notes.md,## 一、Hadoop,"-,1"
-38,4,heibaiying.BigData-Notes.md,## 二、Hive,-
-38,5,heibaiying.BigData-Notes.md,## 三、Spark,-
-38,6,heibaiying.BigData-Notes.md,## 四、Storm,-
-38,7,heibaiying.BigData-Notes.md,## 五、Flink,-
-38,8,heibaiying.BigData-Notes.md,## 六、HBase,-
-38,9,heibaiying.BigData-Notes.md,## 七、Kafka,-
-38,10,heibaiying.BigData-Notes.md,## 八、Zookeeper,-
-38,11,heibaiying.BigData-Notes.md,## 九、Flume,-
-38,12,heibaiying.BigData-Notes.md,## 十、Sqoop,-
-38,13,heibaiying.BigData-Notes.md,## 十一、Azkaban,-
-38,14,heibaiying.BigData-Notes.md,## 十二、Scala,-
-38,15,heibaiying.BigData-Notes.md,## 十三、公共内容,-
-38,16,heibaiying.BigData-Notes.md,## :bookmark_tabs: 后  记,-
-39,1,HotBitmapGG.bilibili-android-client.md,# An Unofficial Bilibili Android Client,1
-39,2,HotBitmapGG.bilibili-android-client.md,## Screenshots,"3,8"
-39,3,HotBitmapGG.bilibili-android-client.md,## UpdateLog,"-,1,6"
-39,4,HotBitmapGG.bilibili-android-client.md,## Thanks to the open source project,"1,5,6"
-39,5,HotBitmapGG.bilibili-android-client.md,## Statement,"1,5"
-39,6,HotBitmapGG.bilibili-android-client.md,## Recommend,"-,3"
-39,7,HotBitmapGG.bilibili-android-client.md,## About me,"1,3"
-39,8,HotBitmapGG.bilibili-android-client.md,## License,5
-40,1,iBotPeaches.Apktool.md,### Apktool,1
-40,2,iBotPeaches.Apktool.md,#### Support,"-,5,6"
-40,3,iBotPeaches.Apktool.md,#### Sponsored by,
-40,4,iBotPeaches.Apktool.md,#### IDE of Choice,-
-40,5,iBotPeaches.Apktool.md,#### Security Vulnerabilities,6
-40,6,iBotPeaches.Apktool.md,#### Links,6
-41,1,iNPUTmice.Conversations.md,## Design principles,"1,3,6"
-41,2,iNPUTmice.Conversations.md,## Features,"1,6"
-41,3,iNPUTmice.Conversations.md,### XMPP Features,"1,6"
-41,4,iNPUTmice.Conversations.md,## FAQ,"-,6"
-41,5,iNPUTmice.Conversations.md,### General,6
-41,6,iNPUTmice.Conversations.md,#### How do I install Conversations?,3
-41,7,iNPUTmice.Conversations.md,#### I don't have a Google Account but I would still like to make a donation,"3,6"
-41,8,iNPUTmice.Conversations.md,#### How do I create an account?,1
-41,9,iNPUTmice.Conversations.md,##### Domain hosting,
-41,10,iNPUTmice.Conversations.md,##### Running your own,"3,6"
-41,11,iNPUTmice.Conversations.md,#### Where can I set up a custom hostname / port,"3,6"
-41,12,iNPUTmice.Conversations.md,#### I get 'Incompatible Server',"3,6"
-41,13,iNPUTmice.Conversations.md,#### I get 'Bind failure'. What does that mean?,3
-41,14,iNPUTmice.Conversations.md,#### I get 'Stream opening error'. What does that mean?,
-41,15,iNPUTmice.Conversations.md,#### I’m getting this annoying permanent notification,
-41,16,iNPUTmice.Conversations.md,##### Android &lt;= 7.1 or Conversations from F-Droid (all Android versions),1
-41,17,iNPUTmice.Conversations.md,##### Android 8.x,3
-41,18,iNPUTmice.Conversations.md,##### Android 9.0+,
-41,19,iNPUTmice.Conversations.md,#### How do XEP-0357: Push Notifications work?,"3,6"
-41,20,iNPUTmice.Conversations.md,#### But why do I need a permanent notification if I use Google Push?,1
-41,21,iNPUTmice.Conversations.md,#### Conversations doesn’t work for me. Where can I get help?,6
-41,22,iNPUTmice.Conversations.md,#### I need professional support with Conversations or setting up my server,"3,6"
-41,23,iNPUTmice.Conversations.md,#### How does the address book integration work?,6
-41,24,iNPUTmice.Conversations.md,#### I get 'delivery failed' on my messages,"1,3"
-41,25,iNPUTmice.Conversations.md,#### Where can I see the status of my contacts? How can I set a status or priority?,3
-41,26,iNPUTmice.Conversations.md,#### Translations,5
-41,27,iNPUTmice.Conversations.md,#### How do I backup / move Conversations to a new device?,6
-41,28,iNPUTmice.Conversations.md,#### Conversations is missing a certain feature,1
-41,29,iNPUTmice.Conversations.md,#### You closed my feature request but I want it really really badly,1
-41,30,iNPUTmice.Conversations.md,#### I need a feature and I need it now!,
-41,31,iNPUTmice.Conversations.md,### Security,6
-41,32,iNPUTmice.Conversations.md,#### Why are there two end-to-end encryption methods and which one should I choose?,1
-41,33,iNPUTmice.Conversations.md,#### How do I use OpenPGP,3
-41,34,iNPUTmice.Conversations.md,#### OMEMO is grayed out. What do I do?,5
-41,35,iNPUTmice.Conversations.md,#### OMEMO doesn’t work. I get a 'Something went wrong' message in the 'Trust OMEMO Fingerprints' screen.,
-41,36,iNPUTmice.Conversations.md,#### How does the encryption for group chats work?,
-41,37,iNPUTmice.Conversations.md,##### OMEMO,1
-41,38,iNPUTmice.Conversations.md,##### OpenPGP,"3,6"
-41,39,iNPUTmice.Conversations.md,#### What is Blind Trust Before Verification / why are messages marked with a red lock?,1
-41,40,iNPUTmice.Conversations.md,#### What happened to OTR support?,"1,6"
-41,41,iNPUTmice.Conversations.md,### What clients do I use on other platforms,3
-41,42,iNPUTmice.Conversations.md,#### Windows / Linux,"3,6"
-41,43,iNPUTmice.Conversations.md,#### iOS,-
-41,44,iNPUTmice.Conversations.md,### Development,3
-41,45,iNPUTmice.Conversations.md,#### Beta testing,3
-41,46,iNPUTmice.Conversations.md,#### How do I build Conversations,"-,3,6"
-41,47,iNPUTmice.Conversations.md,##### Compiling WebRTC.,3
-41,48,iNPUTmice.Conversations.md,##### Building Conversations itself,3
-41,49,iNPUTmice.Conversations.md,#### How do I debug Conversations,3
-41,50,iNPUTmice.Conversations.md,#### I found a bug,"3,6"
-42,1,janishar.mit-deep-learning-book-pdf.md,# MIT Deep Learning Book (beautiful and flawless PDF version),1
-42,2,janishar.mit-deep-learning-book-pdf.md,## Project Starter Template,"1,3"
-42,3,janishar.mit-deep-learning-book-pdf.md,## About The Author,"1,5"
-42,4,janishar.mit-deep-learning-book-pdf.md,"## If this repository helps you in anyway, show your love :heart: by putting a :star: on this project :v:",
-42,5,janishar.mit-deep-learning-book-pdf.md,### Deep Learning,6
-43,1,jboss-javassist.javassist.md,### [Javassist version 3](http://www.javassist.org),"1,4"
-43,2,jboss-javassist.javassist.md,#### Files,3
-43,3,jboss-javassist.javassist.md,#### Hints,3
-43,4,jboss-javassist.javassist.md,#### Acknowledgments,5
-44,1,jeasonlzy.ImagePicker.md,# ImagePicker,-
-44,2,jeasonlzy.ImagePicker.md,### 由于个人时间有限，该项目停止维护,-
-44,3,jeasonlzy.ImagePicker.md,## 联系方式,-
-44,4,jeasonlzy.ImagePicker.md,## 演示,-
-44,5,jeasonlzy.ImagePicker.md,## 1.用法,-
-44,6,jeasonlzy.ImagePicker.md,## 2.功能和参数含义,"-,4"
-44,7,jeasonlzy.ImagePicker.md,"### 温馨提示:目前库中的预览界面有个原图的复选框,暂时只做了UI,还没有做压缩的逻辑",-
-44,8,jeasonlzy.ImagePicker.md,## 3.代码参考,-
-44,9,jeasonlzy.ImagePicker.md,## 更新日志,-
-44,10,jeasonlzy.ImagePicker.md,## Licenses,-
-45,1,jhy.jsoup.md,# jsoup: Java HTML Parser,"1,6"
-45,2,jhy.jsoup.md,## Example,3
-45,3,jhy.jsoup.md,## Open source,6
-45,4,jhy.jsoup.md,## Getting started,3
-45,5,jhy.jsoup.md,### Android support,"1,6"
-45,6,jhy.jsoup.md,## Development and support,6
-45,7,jhy.jsoup.md,## Status,4
-46,1,jitsi.jitsi.md,# Jitsi Desktop,"1,6"
-46,2,jitsi.jitsi.md,## Support,5
-46,3,jitsi.jitsi.md,## Installation,3
-46,4,jitsi.jitsi.md,### Releases,
-46,5,jitsi.jitsi.md,#### Windows and macOS,"1,3"
-46,6,jitsi.jitsi.md,#### Ubuntu,3
-46,7,jitsi.jitsi.md,#### Debian,3
-46,8,jitsi.jitsi.md,#### RPM Distros,3
-46,9,jitsi.jitsi.md,### Snapshots,
-46,10,jitsi.jitsi.md,## Helpful Resources,6
-46,11,jitsi.jitsi.md,## Contributing,7
-47,1,justauth.JustAuth.md,## ,"-,1"
-47,2,justauth.JustAuth.md,## ,-
-47,3,justauth.JustAuth.md,## 什么是 JustAuth？,-
-47,4,justauth.JustAuth.md,## 有哪些特点？,-
-47,5,justauth.JustAuth.md,## 有哪些功能？,-
-47,6,justauth.JustAuth.md,## 快速开始,-
-47,7,justauth.JustAuth.md,### 引入依赖,
-47,8,justauth.JustAuth.md,## 赞助和支持,-
-47,9,justauth.JustAuth.md,## JustAuth 的用户,-
-47,10,justauth.JustAuth.md,## 开源推荐,-
-47,11,justauth.JustAuth.md,## 鸣谢,-
-47,12,justauth.JustAuth.md,## 其他,-
-47,13,justauth.JustAuth.md,## 贡献者列表,-
-47,14,justauth.JustAuth.md,## Stars 趋势,-
-47,15,justauth.JustAuth.md,### Gitee,"-,1,6"
-47,16,justauth.JustAuth.md,### Github,6
-47,17,justauth.JustAuth.md,### ProductHunt,"-,1,6"
-48,1,kevin-wayne.algs4.md,## Overview,1
-48,2,kevin-wayne.algs4.md,## Design goals,"1,6"
-48,3,kevin-wayne.algs4.md,## Build managers,3
-48,4,kevin-wayne.algs4.md,"## Coursera Algorithms, Part I and II students",3
-48,5,kevin-wayne.algs4.md,## Copyright,5
-48,6,kevin-wayne.algs4.md,## License,5
-48,7,kevin-wayne.algs4.md,## Contribute to this repository,7
-48,8,kevin-wayne.algs4.md,## Support for other programming languages,"1,6"
-48,9,kevin-wayne.algs4.md,## Credits,5
-49,1,kikoso.android-stackblur.md,# Android StackBlur,1
-49,2,kikoso.android-stackblur.md,## Acknowledgements,5
-49,3,kikoso.android-stackblur.md,## Usage,3
-49,4,kikoso.android-stackblur.md,## Version history,4
-49,5,kikoso.android-stackblur.md,## Next steps,7
-49,6,kikoso.android-stackblur.md,## Developed By,"5,6"
-50,1,killme2008.aviatorscript.md,# AviatorScript,6
-50,2,killme2008.aviatorscript.md,## ,-
-50,3,killme2008.aviatorscript.md,# 特性介绍,-
-50,4,killme2008.aviatorscript.md,# News,5
-50,5,killme2008.aviatorscript.md,# Dependency,3
-50,6,killme2008.aviatorscript.md,# 快速开始,-
-50,7,killme2008.aviatorscript.md,# Links,6
-51,1,knowm.XChange.md,## [![XChange](https://raw.githubusercontent.com/knowm/XChange/develop/etc/XChange_64_64.png)](http://knowm.org/open-source/xchange) XChange,1
-51,2,knowm.XChange.md,## Important!,
-51,3,knowm.XChange.md,## Description,1
-51,4,knowm.XChange.md,## REST API,6
-51,5,knowm.XChange.md,#### Public Market Data,3
-51,6,knowm.XChange.md,#### Private Account Info,3
-51,7,knowm.XChange.md,## Websocket API,3
-51,8,knowm.XChange.md,## More information,6
-51,9,knowm.XChange.md,## Features,1
-51,10,knowm.XChange.md,## More Info,6
-51,11,knowm.XChange.md,## Wiki,6
-51,12,knowm.XChange.md,## Continuous Integration,"3,6"
-51,13,knowm.XChange.md,## Getting Started,3
-51,14,knowm.XChange.md,### Non-Maven,3
-51,15,knowm.XChange.md,### Maven,3
-51,16,knowm.XChange.md,## Building with Maven,3
-51,17,knowm.XChange.md,## Instruction                 | Command,3
-51,18,knowm.XChange.md,## Bugs,7
-51,19,knowm.XChange.md,## Contributing,7
-52,1,koush.ion.md,#### Download,"1,3"
-52,2,koush.ion.md,#### Features,1
-52,3,koush.ion.md,#### Samples,3
-52,4,koush.ion.md,#### More Examples,"3,6"
-52,5,koush.ion.md,#### Get JSON,"-,3"
-52,6,koush.ion.md,#### Post JSON and read JSON,3
-52,7,koush.ion.md,#### Post application/x-www-form-urlencoded and read a String,3
-52,8,koush.ion.md,#### Post multipart/form-data and read JSON with an upload progress bar,3
-52,9,koush.ion.md,#### Download a File with a progress bar,3
-52,10,koush.ion.md,#### Setting Headers,3
-52,11,koush.ion.md,#### Load an image into an ImageView,3
-52,12,koush.ion.md,#### Futures,"3,6"
-52,13,koush.ion.md,#### Cancelling Requests,"3,6"
-52,14,koush.ion.md,#### Blocking on Requests,3
-52,15,koush.ion.md,#### Seamlessly use your own Java classes with [Gson](https://code.google.com/p/google-gson/),"3,6"
-52,16,koush.ion.md,#### Logging,3
-52,17,koush.ion.md,#### Request Groups,3
-52,18,koush.ion.md,#### Proxy Servers (like Charles Proxy),3
-52,19,koush.ion.md,#### Viewing Received Headers,"3,6"
-52,20,koush.ion.md,#### Get Ion,-
-52,21,koush.ion.md,##### Maven,3
-52,22,koush.ion.md,##### Gradle,-
-52,23,koush.ion.md,##### Local Checkout (with [AndroidAsync](https://github.com/koush/AndroidAsync) dependency),3
-52,24,koush.ion.md,#### Hack in Eclipse,3
-52,25,koush.ion.md,#### Projects using ion,6
-53,1,ksoichiro.Android-ObservableScrollView.md,# Android-ObservableScrollView,1
-53,2,ksoichiro.Android-ObservableScrollView.md,## Examples,"3,6"
-53,3,ksoichiro.Android-ObservableScrollView.md,### Download from Google Play,3
-53,4,ksoichiro.Android-ObservableScrollView.md,### Download from wercker,3
-53,5,ksoichiro.Android-ObservableScrollView.md,### Install manually,"-,3"
-53,6,ksoichiro.Android-ObservableScrollView.md,## Usage,"3,6"
-53,7,ksoichiro.Android-ObservableScrollView.md,## Reference,6
-53,8,ksoichiro.Android-ObservableScrollView.md,## Apps that use this library,1
-53,9,ksoichiro.Android-ObservableScrollView.md,## Contributions,7
-53,10,ksoichiro.Android-ObservableScrollView.md,## Developed By,5
-53,11,ksoichiro.Android-ObservableScrollView.md,## Thanks,"1,5"
-53,12,ksoichiro.Android-ObservableScrollView.md,## License,5
-54,1,KunMinX.Jetpack-MVVM-Best-Practice.md,# 版权声明,-
-54,2,KunMinX.Jetpack-MVVM-Best-Practice.md,# 架构图一览,-
-54,3,KunMinX.Jetpack-MVVM-Best-Practice.md,# 前言,-
-54,4,KunMinX.Jetpack-MVVM-Best-Practice.md,# 项目简介,-
-54,5,KunMinX.Jetpack-MVVM-Best-Practice.md,# Thanks to,"5,6"
-54,6,KunMinX.Jetpack-MVVM-Best-Practice.md,# Who is using,
-54,7,KunMinX.Jetpack-MVVM-Best-Practice.md,# My Pages,1
-54,8,KunMinX.Jetpack-MVVM-Best-Practice.md,# License,5
-55,1,lenve.vhr.md,## 项目介绍,-
-55,2,lenve.vhr.md,### 项目技术栈,-
-55,3,lenve.vhr.md,#### 后端技术栈,-
-55,4,lenve.vhr.md,#### 前端技术栈,-
-55,5,lenve.vhr.md,### 项目效果图,-
-55,6,lenve.vhr.md,## 快速部署,-
-55,7,lenve.vhr.md,## 文档,-
-55,8,lenve.vhr.md,### 更新记录,-
-55,9,lenve.vhr.md,### 2018.1.10 更新,"-,4"
-55,10,lenve.vhr.md,#### 相关文档：,-
-55,11,lenve.vhr.md,### 2018.1.12 更新,"-,4"
-55,12,lenve.vhr.md,#### 相关文档：,-
-55,13,lenve.vhr.md,### 2018.1.15 更新,"-,4"
-55,14,lenve.vhr.md,#### 相关文档：,-
-55,15,lenve.vhr.md,### 2018.1.16 更新,"-,4"
-55,16,lenve.vhr.md,#### 相关文档：,-
-55,17,lenve.vhr.md,### 2018.1.17 更新,"-,4"
-55,18,lenve.vhr.md,#### 相关文档：,-
-55,19,lenve.vhr.md,### 2018.1.19 更新,-
-55,20,lenve.vhr.md,#### 相关文档：,-
-55,21,lenve.vhr.md,### 2018.1.25 更新,"-,4"
-55,22,lenve.vhr.md,#### 相关文档：,-
-55,23,lenve.vhr.md,### 2018.1.26 更新,"-,4"
-55,24,lenve.vhr.md,#### 相关文档：,-
-55,25,lenve.vhr.md,### 2018.2.2 更新,"-,4"
-55,26,lenve.vhr.md,#### 相关文档：,-
-55,27,lenve.vhr.md,### 2018.2.5 更新,"-,4"
-55,28,lenve.vhr.md,#### 相关文档：,-
-55,29,lenve.vhr.md,### 2019.12.22 更新,-
-55,30,lenve.vhr.md,#### 相关文档,-
-55,31,lenve.vhr.md,## 其他资料,-
-55,32,lenve.vhr.md,## 参考,-
-55,33,lenve.vhr.md,## License,5
-56,1,lets-blade.blade.md,## What Is Blade?,1
-56,2,lets-blade.blade.md,## Features,1
-56,3,lets-blade.blade.md,## Overview,1
-56,4,lets-blade.blade.md,## Quick Start,3
-56,5,lets-blade.blade.md,## Contents,3
-56,6,lets-blade.blade.md,## Register Route,3
-56,7,lets-blade.blade.md,### HardCode,"-,3"
-56,8,lets-blade.blade.md,### `Controller`,"-,3"
-56,9,lets-blade.blade.md,## Request Parameter,6
-56,10,lets-blade.blade.md,### URL Parameter,3
-56,11,lets-blade.blade.md,### Form Parameter,3
-56,12,lets-blade.blade.md,### Path Parameter,3
-56,13,lets-blade.blade.md,### Body Parameter,3
-56,14,lets-blade.blade.md,### Parse To Model,3
-56,15,lets-blade.blade.md,## Get Environment,3
-56,16,lets-blade.blade.md,## Get Header,3
-56,17,lets-blade.blade.md,## Get Cookie,3
-56,18,lets-blade.blade.md,## Static Resource,3
-56,19,lets-blade.blade.md,## Upload File,3
-56,20,lets-blade.blade.md,## Download File,3
-56,21,lets-blade.blade.md,## Set Session,3
-56,22,lets-blade.blade.md,## Render To Browser,-
-56,23,lets-blade.blade.md,### Render Response,"3,6"
-56,24,lets-blade.blade.md,### Render Text,3
-56,25,lets-blade.blade.md,### Render Html,"-,3"
-56,26,lets-blade.blade.md,## Render Template,3
-56,27,lets-blade.blade.md,### Default Template,3
-56,28,lets-blade.blade.md,### Jetbrick Template,3
-56,29,lets-blade.blade.md,## Redirects,3
-56,30,lets-blade.blade.md,## Write Cookie,3
-56,31,lets-blade.blade.md,## Web Hook,1
-56,32,lets-blade.blade.md,## Logging,3
-56,33,lets-blade.blade.md,## Basic Auth,3
-56,34,lets-blade.blade.md,## Change Server Port,3
-56,35,lets-blade.blade.md,## Configuration SSL,3
-56,36,lets-blade.blade.md,## Custom Exception Handler,"3,6"
-56,37,lets-blade.blade.md,## Change Logs,6
-56,38,lets-blade.blade.md,## Contact,5
-56,39,lets-blade.blade.md,## Contributors,5
-56,40,lets-blade.blade.md,## Licenses,"-,5"
-57,1,liaohuqiu.android-Ultra-Pull-To-Refresh.md,###### Welcome to follow me on GitHub or Twitter,"1,5"
-57,2,liaohuqiu.android-Ultra-Pull-To-Refresh.md,## ,-
-57,3,liaohuqiu.android-Ultra-Pull-To-Refresh.md,#### [中文版文档](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh/blob/master/README-cn.md),
-57,4,liaohuqiu.android-Ultra-Pull-To-Refresh.md,# Ultra Pull To Refresh,1
-57,5,liaohuqiu.android-Ultra-Pull-To-Refresh.md,# Usage,3
-57,6,liaohuqiu.android-Ultra-Pull-To-Refresh.md,#### Maven Central,3
-57,7,liaohuqiu.android-Ultra-Pull-To-Refresh.md,#### Config,
-57,8,liaohuqiu.android-Ultra-Pull-To-Refresh.md,##### Config in xml,3
-57,9,liaohuqiu.android-Ultra-Pull-To-Refresh.md,### Or config in java code,3
-57,10,liaohuqiu.android-Ultra-Pull-To-Refresh.md,### Other Config,
-57,11,liaohuqiu.android-Ultra-Pull-To-Refresh.md,## StoreHouse Style,3
-57,12,liaohuqiu.android-Ultra-Pull-To-Refresh.md,# Process Refresh,"1,3"
-57,13,liaohuqiu.android-Ultra-Pull-To-Refresh.md,# Customize,3
-57,14,liaohuqiu.android-Ultra-Pull-To-Refresh.md,# Q & A,
-57,15,liaohuqiu.android-Ultra-Pull-To-Refresh.md,# Contact & Help,"5,6"
-58,1,lionsoul2014.ip2region.md,# Ip2region 是什么,-
-58,2,lionsoul2014.ip2region.md,# Ip2region 特性,-
-58,3,lionsoul2014.ip2region.md,### 1、标准化的数据格式,-
-58,4,lionsoul2014.ip2region.md,### 2、数据去重和压缩,-
-58,5,lionsoul2014.ip2region.md,### 3、极速查询响应,-
-58,6,lionsoul2014.ip2region.md,### 4、IP 数据管理框架,-
-58,7,lionsoul2014.ip2region.md,# `xdb` 数据查询,-
-58,8,lionsoul2014.ip2region.md,# `xdb` 数据生成,-
-58,9,lionsoul2014.ip2region.md,# `xdb` 数据更新,-
-58,10,lionsoul2014.ip2region.md,### 手动编辑更新,-
-58,11,lionsoul2014.ip2region.md,### 爬虫自动更新,-
-58,12,lionsoul2014.ip2region.md,# 相关备注,-
-58,13,lionsoul2014.ip2region.md,### 1、并发查询必读,-
-58,14,lionsoul2014.ip2region.md,### 2、技术交流社区,-
-58,15,lionsoul2014.ip2region.md,### 3、技术资源分享,-
-59,1,lucasr.twoway-view.md,# TwoWayView,"1,3,8"
-59,2,lucasr.twoway-view.md,# Features,1
-59,3,lucasr.twoway-view.md,# Snapshot,3
-59,4,lucasr.twoway-view.md,# Stable Release,3
-59,5,lucasr.twoway-view.md,# Want to help?,6
-59,6,lucasr.twoway-view.md,# License,5
-60,1,lygttpod.SuperTextView.md,# SuperTextView,"-,1,6"
-60,2,lygttpod.SuperTextView.md,### 重磅推出SuperTextView2.x版本，属性参数相比1.x有些变化，1.x的用户升级2.x的时候请注意,"-,4"
-60,3,lygttpod.SuperTextView.md,## 1、功能描述,-
-60,4,lygttpod.SuperTextView.md,## 2、 效果 [**Demo下载地址**]( https://fir.im/eft1),-
-60,5,lygttpod.SuperTextView.md,## 3、如何使用,"-,4"
-60,6,lygttpod.SuperTextView.md,### 3.1、Android Studio导入方法，添加Gradle依赖,-
-60,7,lygttpod.SuperTextView.md,### 3.2、项目中如何使用,"-,4"
-60,8,lygttpod.SuperTextView.md,#### 3.2.1、布局中如何使用（示例中只列出部分属性，开发者可根据具体需求使用其他属性）,-
-60,9,lygttpod.SuperTextView.md,#### 3.2.2、代码中如何使用,-
-60,10,lygttpod.SuperTextView.md,#### 3.2.3点击事件（可根据需求选择实现单个或者多个点击事件）,-
-60,11,lygttpod.SuperTextView.md,#### 3.2.4使用第三方库(Picasso或者Glide)加载网络图片,-
-60,12,lygttpod.SuperTextView.md,#### 3.2.5、属性说明(以下属性全部可以通过xml文件配置和代码进行设置),-
-60,13,lygttpod.SuperTextView.md,## 属性名 | 字段 | 描述 | 默认值,-
-60,14,lygttpod.SuperTextView.md,# 4、[更新日志](https://github.com/lygttpod/SuperTextView/releases),-
-60,15,lygttpod.SuperTextView.md,# 意见反馈,-
-60,16,lygttpod.SuperTextView.md,## 代码是最好的老师，更多详细用法请查看 [demo](https://github.com/lygttpod/SuperTextView/tree/master/app):feet:,-
-60,17,lygttpod.SuperTextView.md,# License,5
-61,1,macrozheng.mall.md,# mall,"-,1,6"
-61,2,macrozheng.mall.md,## 友情提示,-
-61,3,macrozheng.mall.md,## 前言,-
-61,4,macrozheng.mall.md,## 项目文档,-
-61,5,macrozheng.mall.md,## 项目介绍,-
-61,6,macrozheng.mall.md,### 项目演示,-
-61,7,macrozheng.mall.md,#### 后台管理系统,-
-61,8,macrozheng.mall.md,#### 前台商城系统,-
-61,9,macrozheng.mall.md,### 组织结构,-
-61,10,macrozheng.mall.md,### 技术选型,-
-61,11,macrozheng.mall.md,#### 后端技术,"-,6"
-61,12,macrozheng.mall.md,#### 前端技术,-
-61,13,macrozheng.mall.md,#### 架构图,-
-61,14,macrozheng.mall.md,##### 系统架构图,-
-61,15,macrozheng.mall.md,##### 业务架构图,-
-61,16,macrozheng.mall.md,#### 模块介绍,-
-61,17,macrozheng.mall.md,##### 后台管理系统 `mall-admin`,-
-61,18,macrozheng.mall.md,##### 前台商城系统 `mall-portal`,-
-61,19,macrozheng.mall.md,#### 开发进度,-
-61,20,macrozheng.mall.md,## 环境搭建,-
-61,21,macrozheng.mall.md,### 开发工具,-
-61,22,macrozheng.mall.md,### 开发环境,-
-61,23,macrozheng.mall.md,### 搭建步骤,-
-61,24,macrozheng.mall.md,## 公众号,-
-61,25,macrozheng.mall.md,## 许可证,5
-62,1,mcxiaoke.packer-ng-plugin.md,# Packer-NG Gradle Plugin V2,"1,6"
-62,2,mcxiaoke.packer-ng-plugin.md,### 提示：本项目已停止新功能开发，有需要的请自行Fork修改,-
-62,3,mcxiaoke.packer-ng-plugin.md,## 特别提示,-
-62,4,mcxiaoke.packer-ng-plugin.md,## 项目介绍,-
-62,5,mcxiaoke.packer-ng-plugin.md,## 使用指南,-
-62,6,mcxiaoke.packer-ng-plugin.md,### 修改项目配置,-
-62,7,mcxiaoke.packer-ng-plugin.md,### 修改模块配置,-
-62,8,mcxiaoke.packer-ng-plugin.md,### 插件配置示例,-
-62,9,mcxiaoke.packer-ng-plugin.md,### 渠道列表格式,-
-62,10,mcxiaoke.packer-ng-plugin.md,### 集成打包,-
-62,11,mcxiaoke.packer-ng-plugin.md,### 脚本打包,"-,3"
-62,12,mcxiaoke.packer-ng-plugin.md,### 代码中读取渠道,-
-62,13,mcxiaoke.packer-ng-plugin.md,### 文件名格式模版,-
-62,14,mcxiaoke.packer-ng-plugin.md,## ,-
-62,15,mcxiaoke.packer-ng-plugin.md,## 其它说明,-
-62,16,mcxiaoke.packer-ng-plugin.md,## ,-
-62,17,mcxiaoke.packer-ng-plugin.md,## 关于作者,-
-62,18,mcxiaoke.packer-ng-plugin.md,### 联系方式,-
-62,19,mcxiaoke.packer-ng-plugin.md,### 开源项目,-
-62,20,mcxiaoke.packer-ng-plugin.md,## ,-
-62,21,mcxiaoke.packer-ng-plugin.md,## License,5
-63,1,medcl.elasticsearch-analysis-ik.md,# IK Analysis for Elasticsearch,"1,6"
-63,2,medcl.elasticsearch-analysis-ik.md,## Versions,4
-63,3,medcl.elasticsearch-analysis-ik.md,## IK version | ES version,"3,6"
-63,4,medcl.elasticsearch-analysis-ik.md,## Install,3
-63,5,medcl.elasticsearch-analysis-ik.md,#### Quick Example,3
-63,6,medcl.elasticsearch-analysis-ik.md,### Dictionary Configuration,3
-63,7,medcl.elasticsearch-analysis-ik.md,### 热更新 IK 分词使用方法,
-63,8,medcl.elasticsearch-analysis-ik.md,## 常见问题,-
-63,9,medcl.elasticsearch-analysis-ik.md,## Changes,4
-63,10,medcl.elasticsearch-analysis-ik.md,## Thanks,1
-64,1,Meituan-Dianping.Leaf.md,# Leaf,-
-64,2,Meituan-Dianping.Leaf.md,## Introduction,1
-64,3,Meituan-Dianping.Leaf.md,## Quick Start,3
-64,4,Meituan-Dianping.Leaf.md,### Leaf Server,1
-64,5,Meituan-Dianping.Leaf.md,#### run Leaf Server,"-,3"
-64,6,Meituan-Dianping.Leaf.md,##### build,3
-64,7,Meituan-Dianping.Leaf.md,##### run,"-,3"
-64,8,Meituan-Dianping.Leaf.md,###### maven,3
-64,9,Meituan-Dianping.Leaf.md,###### shell command,3
-64,10,Meituan-Dianping.Leaf.md,##### test,3
-64,11,Meituan-Dianping.Leaf.md,#### Configuration,3
-64,12,Meituan-Dianping.Leaf.md,### Segment mode ,3
-64,13,Meituan-Dianping.Leaf.md,### Snowflake mode ,3
-64,14,Meituan-Dianping.Leaf.md,### monitor page,"3,6"
-64,15,Meituan-Dianping.Leaf.md,### Leaf Core ,3
-64,16,Meituan-Dianping.Leaf.md,#### Attention,3
-65,1,mercyblitz.tech-weekly.md,# 「小马哥技术周报」,-
-65,2,mercyblitz.tech-weekly.md,## 主播介绍,-
-65,3,mercyblitz.tech-weekly.md,## 著书,"-,1"
-65,4,mercyblitz.tech-weekly.md,## 线上分享,-
-65,5,mercyblitz.tech-weekly.md,### 免费分享,-
-65,6,mercyblitz.tech-weekly.md,### 收费分享,-
-65,7,mercyblitz.tech-weekly.md,## 沟通交流,"-,4"
-65,8,mercyblitz.tech-weekly.md,## 往期录播,-
-65,9,mercyblitz.tech-weekly.md,## 开源项目,"-,6"
-66,1,micrometer-metrics.micrometer.md,# Micrometer Application Metrics,"3,6"
-66,2,micrometer-metrics.micrometer.md,## Supported versions,1
-66,3,micrometer-metrics.micrometer.md,## Join the discussion,6
-66,4,micrometer-metrics.micrometer.md,## Snapshot builds,3
-66,5,micrometer-metrics.micrometer.md,## Milestone releases,3
-66,6,micrometer-metrics.micrometer.md,## Documentation,6
-66,7,micrometer-metrics.micrometer.md,## Contributing,7
-66,8,micrometer-metrics.micrometer.md,## ,-
-67,1,microsoft.malmo.md,# Malmö #,
-67,2,microsoft.malmo.md,## [![Join the chat at https://gitter.im/Microsoft/malmo](https://badges.gitter.im/Microsoft/malmo.svg)](https://gitter.im/Microsoft/malmo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/Microsoft/malmo.svg?branch=master)](https://travis-ci.org/Microsoft/malmo) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/Microsoft/malmo/blob/master/LICENSE.txt),"-,1,6"
-67,3,microsoft.malmo.md,## Getting Started ##,3
-67,4,microsoft.malmo.md,### MalmoEnv ###,3
-67,5,microsoft.malmo.md,### Malmo as a native Python wheel ###,3
-67,6,microsoft.malmo.md,## ,-
-67,7,microsoft.malmo.md,## Problems: ##,6
-67,8,microsoft.malmo.md,## ,-
-67,9,microsoft.malmo.md,## Launching Minecraft with our Mod: ##,3
-67,10,microsoft.malmo.md,## ,-
-67,11,microsoft.malmo.md,## Launch an agent: ##,3
-67,12,microsoft.malmo.md,#### Running a Python agent: ####,3
-67,13,microsoft.malmo.md,#### Running a C++ agent: ####,3
-67,14,microsoft.malmo.md,#### Running a C# agent: ####,3
-67,15,microsoft.malmo.md,#### Running a Java agent: ####,
-67,16,microsoft.malmo.md,#### Running an Atari agent: (Linux only) ####,3
-67,17,microsoft.malmo.md,## ,-
-67,18,microsoft.malmo.md,# Citations #,6
-67,19,microsoft.malmo.md,## ,-
-67,20,microsoft.malmo.md,# Code of Conduct #,"5,6"
-68,1,MiguelCatalan.MaterialSearchView.md,# MaterialSearchView,1
-68,2,MiguelCatalan.MaterialSearchView.md,#Native version,
-68,3,MiguelCatalan.MaterialSearchView.md,# Usage,3
-68,4,MiguelCatalan.MaterialSearchView.md,# Use VoiceSearch,"3,6"
-68,5,MiguelCatalan.MaterialSearchView.md,# Add suggestions,3
-68,6,MiguelCatalan.MaterialSearchView.md,# Style it!,
-68,7,MiguelCatalan.MaterialSearchView.md,#Custom cursor,3
-68,8,MiguelCatalan.MaterialSearchView.md,# Using AppBarLayout?,3
-68,9,MiguelCatalan.MaterialSearchView.md,# Bonus,3
-68,10,MiguelCatalan.MaterialSearchView.md,# Help me,"1,6,7"
-68,11,MiguelCatalan.MaterialSearchView.md,# License,5
-70,1,mockito.mockito.md,## Current version is 4.x,"4,6"
-70,2,mockito.mockito.md,## Mockito for enterprise,
-70,3,mockito.mockito.md,## Development,"4,6"
-70,4,mockito.mockito.md,## More information,6
-70,5,mockito.mockito.md,## Need help?,"1,6"
-70,6,mockito.mockito.md,## How to develop Mockito?,3
-70,7,mockito.mockito.md,## How to release new version?,4
-71,1,navasmdc.MaterialDesignLibrary.md,# Material Design Android Library,1
-71,2,navasmdc.MaterialDesignLibrary.md,## How to use,3
-72,1,nytimes.Store.md,### The Problems:,"3,6"
-72,2,nytimes.Store.md,### Overview,"1,6"
-72,3,nytimes.Store.md,### How to include in your project,
-72,4,nytimes.Store.md,###### Include gradle dependency,-
-72,5,nytimes.Store.md,###### Set the source & target compatibilities to `1.8`,3
-72,6,nytimes.Store.md,### Fully Configured Store,3
-72,7,nytimes.Store.md,### Creating a Store,-
-72,8,nytimes.Store.md,### Our Key implementation - Barcodes,"3,6"
-72,9,nytimes.Store.md,"### Public Interface - Get, Fetch, Stream, GetRefreshing",
-72,10,nytimes.Store.md,### Busting through the cache,3
-72,11,nytimes.Store.md,### Stream,"-,3,8"
-72,12,nytimes.Store.md,### Get Refreshing,-
-72,13,nytimes.Store.md,### Inflight Debouncer,-
-72,14,nytimes.Store.md,### Adding a Parser,"3,6"
-72,15,nytimes.Store.md,### Middleware - GsonSourceParser,"3,6"
-72,16,nytimes.Store.md,### Disk Caching,6
-72,17,nytimes.Store.md,### Middleware - SourcePersister & FileSystem,"3,6"
-72,18,nytimes.Store.md,### RecordProvider,-
-72,19,nytimes.Store.md,### Subclassing a Store,3
-72,20,nytimes.Store.md,### Artifacts,3
-72,21,nytimes.Store.md,### Sample Project,"3,6"
-72,22,nytimes.Store.md,### Talks,6
-72,23,nytimes.Store.md,### Community projects,6
-73,1,ongakuer.CircleIndicator.md,# CircleIndicator,
-73,2,ongakuer.CircleIndicator.md,## Gradle,"-,6"
-73,3,ongakuer.CircleIndicator.md,##### AndroidX,"-,3"
-73,4,ongakuer.CircleIndicator.md,##### Android Support Library,
-73,5,ongakuer.CircleIndicator.md,## Usage,3
-73,6,ongakuer.CircleIndicator.md,##### ViewPager (CircleIndicator),"-,3"
-73,7,ongakuer.CircleIndicator.md,##### RecyclerView (CircleIndicator2),3
-73,8,ongakuer.CircleIndicator.md,##### ViewPager2 (CircleIndicator3),"3,4"
-73,9,ongakuer.CircleIndicator.md,##### Manual control,"3,6"
-73,10,ongakuer.CircleIndicator.md,## XML Properties,3
-74,1,OpenFeign.feign.md,# Feign makes writing Java http clients easier,"1,6"
-74,2,OpenFeign.feign.md,## ,-
-74,3,OpenFeign.feign.md,### Why Feign and not X?,"1,6"
-74,4,OpenFeign.feign.md,### How does Feign work?,"1,3"
-74,5,OpenFeign.feign.md,### Java Version Compatibility,4
-74,6,OpenFeign.feign.md,## Feature overview,1
-74,7,OpenFeign.feign.md,# Roadmap,4
-74,8,OpenFeign.feign.md,## Feign 11 and beyond,
-74,9,OpenFeign.feign.md,## Short Term - What we're working on now. ⏰,6
-74,10,OpenFeign.feign.md,## Medium Term - What's up next. ⏲,
-74,11,OpenFeign.feign.md,## Long Term - The future ☁️,"-,6"
-74,12,OpenFeign.feign.md,## ,-
-74,13,OpenFeign.feign.md,### Basics,3
-74,14,OpenFeign.feign.md,### Interface Annotations,3
-74,15,OpenFeign.feign.md,#### Undefined vs. Empty Values ####,3
-74,16,OpenFeign.feign.md,##### Custom Expansion,3
-74,17,OpenFeign.feign.md,#### Request Headers Expansion,"3,6"
-75,1,openjdk.jdk.md,# Welcome to the JDK!,
-76,1,openzipkin.zipkin.md,# zipkin,"1,3"
-76,2,openzipkin.zipkin.md,## Quick-start,3
-76,3,openzipkin.zipkin.md,### Zipkin Slim,3
-76,4,openzipkin.zipkin.md,## Core Library,3
-76,5,openzipkin.zipkin.md,## Storage Component,3
-76,6,openzipkin.zipkin.md,### In-Memory,1
-76,7,openzipkin.zipkin.md,### Cassandra,3
-76,8,openzipkin.zipkin.md,### Elasticsearch,3
-76,9,openzipkin.zipkin.md,### Disabling search,
-76,10,openzipkin.zipkin.md,### Legacy (v1) components,
-76,11,openzipkin.zipkin.md,#### MySQL,1
-76,12,openzipkin.zipkin.md,## Running the server from source,3
-76,13,openzipkin.zipkin.md,## Artifacts,3
-76,14,openzipkin.zipkin.md,### Library Releases,
-76,15,openzipkin.zipkin.md,### Library Snapshots,
-76,16,openzipkin.zipkin.md,### Docker Images,6
-76,17,openzipkin.zipkin.md,### Helm Charts,3
-76,18,openzipkin.zipkin.md,### Javadocs,
-77,1,orhanobut.hawk.md,### Hawk 2.0,"1,6"
-77,2,orhanobut.hawk.md,#### Important Note,"3,6"
-77,3,orhanobut.hawk.md,### Download,3
-77,4,orhanobut.hawk.md,### Initialize,"-,3"
-77,5,orhanobut.hawk.md,### Usage,3
-77,6,orhanobut.hawk.md,### How does Hawk work?,
-77,7,orhanobut.hawk.md,### More options,3
-77,8,orhanobut.hawk.md,### License,5
-78,1,osmandapp.OsmAnd.md,## OsmAnd (OSM Automated Navigation Directions),
-78,2,osmandapp.OsmAnd.md,## Functionality,"1,6"
-78,3,osmandapp.OsmAnd.md,## Some of the main features:,"1,6"
-78,4,osmandapp.OsmAnd.md,#### Navigation,1
-78,5,osmandapp.OsmAnd.md,#### Map Viewing,1
-78,6,osmandapp.OsmAnd.md,#### Use OpenStreetMap and Wikipedia Data,6
-78,7,osmandapp.OsmAnd.md,#### Safety Features,1
-78,8,osmandapp.OsmAnd.md,#### Bicycle and Pedestrian Features,1
-78,9,osmandapp.OsmAnd.md,#### Directly Contribute to OpenStreetMap,7
-78,10,osmandapp.OsmAnd.md,#### Contribute to OsmAnd,7
-78,11,osmandapp.OsmAnd.md,#### Map Coverage and Quality - How Good is OSM Data?,
-78,12,osmandapp.OsmAnd.md,##### List of countries supported,6
-79,1,permissions-dispatcher.PermissionsDispatcher.md,# PermissionsDispatcher ![CI for pull request](https://github.com/permissions-dispatcher/PermissionsDispatcher/workflows/CI%20for%20pull%20request/badge.svg) [![PermissionsDispatcher](https://www.appbrain.com/stats/libraries/shield/permissions_dispatcher.svg)](https://www.appbrain.com/stats/libraries/details/permissions_dispatcher/permissionsdispatcher),1
-79,2,permissions-dispatcher.PermissionsDispatcher.md,## Usage,3
-79,3,permissions-dispatcher.PermissionsDispatcher.md,### 0. Prepare AndroidManifest,3
-79,4,permissions-dispatcher.PermissionsDispatcher.md,### 1. Attach annotations,3
-79,5,permissions-dispatcher.PermissionsDispatcher.md,### 2. Delegate to generated functions,"3,6"
-79,6,permissions-dispatcher.PermissionsDispatcher.md,## Other features/plugins,1
-79,7,permissions-dispatcher.PermissionsDispatcher.md,## Installation,3
-79,8,permissions-dispatcher.PermissionsDispatcher.md,## License,5
-80,1,phishman3579.java-algorithms-implementation.md,# Java : Algorithms and Data Structure ![alt tag](https://api.travis-ci.org/phishman3579/java-algorithms-implementation.svg?branch=master),1
-80,2,phishman3579.java-algorithms-implementation.md,## Created by Justin Wetherell,6
-80,3,phishman3579.java-algorithms-implementation.md,## Support me with a donation,"-,6"
-80,4,phishman3579.java-algorithms-implementation.md,# What's been implemented:,1
-80,5,phishman3579.java-algorithms-implementation.md,## Table of Contents,
-80,6,phishman3579.java-algorithms-implementation.md,## Data Structures,
-80,7,phishman3579.java-algorithms-implementation.md,## Mathematics,3
-80,8,phishman3579.java-algorithms-implementation.md,## Numbers,"1,3,6"
-80,9,phishman3579.java-algorithms-implementation.md,## Graphs,
-80,10,phishman3579.java-algorithms-implementation.md,## Search,3
-80,11,phishman3579.java-algorithms-implementation.md,## Sequences,3
-80,12,phishman3579.java-algorithms-implementation.md,## Sorts,
-80,13,phishman3579.java-algorithms-implementation.md,## String Functions,3
-80,14,phishman3579.java-algorithms-implementation.md,### [String Functions](src/com/jwetherell/algorithms/strings/StringFunctions.java),"3,6"
-80,15,phishman3579.java-algorithms-implementation.md,### [Manacher's algorithm (Find the longest Palindrome)](src/com/jwetherell/algorithms/strings/Manacher.java),"-,3,6"
-80,16,phishman3579.java-algorithms-implementation.md,### [KMP (Knuth–Morris–Pratt) Algorithm - Length of maximal prefix-suffix for each prefix](src/com/jwetherell/algorithms/strings/KnuthMorrisPratt.java),-
-80,17,phishman3579.java-algorithms-implementation.md,### [String rotations](src/com/jwetherell/algorithms/strings/Rotation.java),"3,6"
-81,1,Piasy.BigImageViewer.md,# BigImageViewer,1
-81,2,Piasy.BigImageViewer.md,## Demo,3
-81,3,Piasy.BigImageViewer.md,## Getting started,3
-81,4,Piasy.BigImageViewer.md,### Add the dependencies,3
-81,5,Piasy.BigImageViewer.md,### Initialize,3
-81,6,Piasy.BigImageViewer.md,### Add the BigImageView to your layout,3
-81,7,Piasy.BigImageViewer.md,### Show the image,3
-81,8,Piasy.BigImageViewer.md,## Usage,3
-81,9,Piasy.BigImageViewer.md,### Animated image support,3
-81,10,Piasy.BigImageViewer.md,### Thumbnail support,3
-81,11,Piasy.BigImageViewer.md,### Shared element transition support (experimental),3
-81,12,Piasy.BigImageViewer.md,### Download progress indicator,3
-81,13,Piasy.BigImageViewer.md,### Prefetch,3
-81,14,Piasy.BigImageViewer.md,### Save image into gallery,3
-81,15,Piasy.BigImageViewer.md,### Get current image file,3
-81,16,Piasy.BigImageViewer.md,### Image init scale type,3
-81,17,Piasy.BigImageViewer.md,### Failure image,3
-81,18,Piasy.BigImageViewer.md,#### Failure image init scale type,3
-81,19,Piasy.BigImageViewer.md,#### Tap to retry,3
-81,20,Piasy.BigImageViewer.md,### Image load callback,"3,6"
-81,21,Piasy.BigImageViewer.md,### Cancel image loading,"3,6"
-81,22,Piasy.BigImageViewer.md,### Full customization,3
-81,23,Piasy.BigImageViewer.md,### Custom SSIV support,3
-81,24,Piasy.BigImageViewer.md,### Custom Glide components support,3
-81,25,Piasy.BigImageViewer.md,## Caveats,3
-81,26,Piasy.BigImageViewer.md,## Why another big image viewer?,1
-81,27,Piasy.BigImageViewer.md,## Performance,6
-81,28,Piasy.BigImageViewer.md,## Todo,
-82,1,pockethub.PocketHub.md,"# PocketHub [![Build Status](https://travis-ci.org/pockethub/PocketHub.svg?branch=master)](https://travis-ci.org/pockethub/PocketHub) <a style=""margin-bottom: 0;"" href='https://play.google.com/store/apps/details?id=com.github.pockethub.android&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height=""80px""/></a>","1,3"
-82,2,pockethub.PocketHub.md,## What's going on here?,6
-82,3,pockethub.PocketHub.md,## Setup Environment,
-82,4,pockethub.PocketHub.md,### Callback URL,"3,6"
-82,5,pockethub.PocketHub.md,## Legacy Notes,3
-82,6,pockethub.PocketHub.md,## License,5
-83,1,PojavLauncherTeam.PojavLauncher.md,## [![Twitter Follow](https://img.shields.io/twitter/follow/plaunchteam?color=blue&style=flat-square)](https://twitter.com/PLaunchTeam),1
-83,2,PojavLauncherTeam.PojavLauncher.md,## Some notes to start with,5
-83,3,PojavLauncherTeam.PojavLauncher.md,## Navigation,
-83,4,PojavLauncherTeam.PojavLauncher.md,## Introduction ,1
-83,5,PojavLauncherTeam.PojavLauncher.md,## Getting PojavLauncher,3
-83,6,PojavLauncherTeam.PojavLauncher.md,## Building,3
-83,7,PojavLauncherTeam.PojavLauncher.md,### Java Runtime Environment (JRE),3
-83,8,PojavLauncherTeam.PojavLauncher.md,### LWJGL,3
-83,9,PojavLauncherTeam.PojavLauncher.md,### The Launcher,3
-83,10,PojavLauncherTeam.PojavLauncher.md,## Current status,4
-83,11,PojavLauncherTeam.PojavLauncher.md,## Known Issues,
-83,12,PojavLauncherTeam.PojavLauncher.md,## License,5
-83,13,PojavLauncherTeam.PojavLauncher.md,## Contributing,7
-83,14,PojavLauncherTeam.PojavLauncher.md,## Credits & Third party components and their licenses (if available),5
-84,1,puniverse.quasar.md,"# *Quasar*<br/>Fibers, Channels and Actors for the JVM",-
-84,2,puniverse.quasar.md,## Getting started,3
-84,3,puniverse.quasar.md,## Usage,3
-84,4,puniverse.quasar.md,## Related Projects,6
-84,5,puniverse.quasar.md,## Getting help,6
-84,6,puniverse.quasar.md,## Contributions (including Pull Requests),7
-84,7,puniverse.quasar.md,## License,5
-85,1,querydsl.querydsl.md,## Querydsl,"3,6"
-85,2,querydsl.querydsl.md,### Slack,
-86,1,rabbitmq.rabbitmq-tutorials.md,# RabbitMQ Tutorials,1
-86,2,rabbitmq.rabbitmq-tutorials.md,## Prerequisites,
-86,3,rabbitmq.rabbitmq-tutorials.md,## Languages,
-86,4,rabbitmq.rabbitmq-tutorials.md,## License,5
-87,1,Ramotion.folding-cell-android.md,## Requirements,"1,6"
-87,2,Ramotion.folding-cell-android.md,## Installation,3
-87,3,Ramotion.folding-cell-android.md,## Basic usage,3
-87,4,Ramotion.folding-cell-android.md,## 🗂 Check this library on other language:,-
-87,5,Ramotion.folding-cell-android.md,## 📄 License,5
-87,6,Ramotion.folding-cell-android.md,## 📱 Get the Showroom App for Android to give it a try,
-88,1,RedSpider1.concurrent.md,## 文章地址,-
-88,2,RedSpider1.concurrent.md,## 本地运行,-
-88,3,RedSpider1.concurrent.md,## 本书简介,-
-88,4,RedSpider1.concurrent.md,## 勘误和支持 ,-
-88,5,RedSpider1.concurrent.md,## 公众号,-
-89,1,rengwuxian.MaterialEditText.md,# MaterialEditText,1
-89,2,rengwuxian.MaterialEditText.md,## Features,1
-89,3,rengwuxian.MaterialEditText.md,## Sample,"3,6"
-89,4,rengwuxian.MaterialEditText.md,## Download,3
-89,5,rengwuxian.MaterialEditText.md,## Usage,3
-89,6,rengwuxian.MaterialEditText.md,## Thanks to,5
-89,7,rengwuxian.MaterialEditText.md,## License,5
-90,1,runelite.runelite.md,# runelite [![CI](https://github.com/runelite/runelite/workflows/CI/badge.svg)](https://github.com/runelite/runelite/actions?query=workflow%3ACI+branch%3Amaster) [![Discord](https://img.shields.io/discord/301497432909414422.svg)](https://discord.gg/ArdAhnN),"5,6"
-90,2,runelite.runelite.md,## Project Layout,"3,6"
-90,3,runelite.runelite.md,## Usage,3
-90,4,runelite.runelite.md,### License,5
-90,5,runelite.runelite.md,## Contribute and Develop,7
-91,1,SeleniumHQ.selenium.md,# Selenium,
-91,2,SeleniumHQ.selenium.md,## Documentation,6
-91,3,SeleniumHQ.selenium.md,## Pull Requests,"6,7"
-91,4,SeleniumHQ.selenium.md,## Requirements,3
-91,5,SeleniumHQ.selenium.md,### Internet Explorer Driver,3
-91,6,SeleniumHQ.selenium.md,## Building,3
-91,7,SeleniumHQ.selenium.md,### Contribute with GitPod,7
-91,8,SeleniumHQ.selenium.md,### Bazel,3
-91,9,SeleniumHQ.selenium.md,### Before Building,3
-91,10,SeleniumHQ.selenium.md,### Common Build Targets,3
-91,11,SeleniumHQ.selenium.md,#### Java,3
-91,12,SeleniumHQ.selenium.md,#### JavaScript,3
-91,13,SeleniumHQ.selenium.md,#### Python,3
-91,14,SeleniumHQ.selenium.md,#### Ruby,3
-91,15,SeleniumHQ.selenium.md,#### .NET,3
-91,16,SeleniumHQ.selenium.md,### Build Details,3
-91,17,SeleniumHQ.selenium.md,### Build Output,3
-91,18,SeleniumHQ.selenium.md,### Common Tasks (Bazel),3
-91,19,SeleniumHQ.selenium.md,### Editing Code,3
-91,20,SeleniumHQ.selenium.md,## Tour,3
-91,21,SeleniumHQ.selenium.md,## Help with `go`,"3,6"
-91,22,SeleniumHQ.selenium.md,## Maven _per se_,3
-91,23,SeleniumHQ.selenium.md,## Updating Java dependencies,3
-91,24,SeleniumHQ.selenium.md,## Running browser tests on Linux,3
-91,25,SeleniumHQ.selenium.md,## Bazel Installation/Troubleshooting,3
-91,26,SeleniumHQ.selenium.md,### Selenium Build Docker Image,3
-91,27,SeleniumHQ.selenium.md,### MacOS,3
-91,28,SeleniumHQ.selenium.md,#### bazelisk,3
-91,29,SeleniumHQ.selenium.md,#### Xcode,3
-92,1,Tencent.VasSonic.md,## VasSonic: A Lightweight And High-performance Hybrid Framework,"1,6"
-92,2,Tencent.VasSonic.md,## [![wiki](https://img.shields.io/badge/Wiki-open-brightgreen.svg)](https://github.com/Tencent/VasSonic/wiki),1
-92,3,Tencent.VasSonic.md,### Before VS After Using VasSonic,3
-92,4,Tencent.VasSonic.md,## Getting started,"3,6"
-92,5,Tencent.VasSonic.md,## Demo Downloads,3
-92,6,Tencent.VasSonic.md,## Support,"5,6"
-92,7,Tencent.VasSonic.md,## Contributing,7
-92,8,Tencent.VasSonic.md,## License,5
-92,9,Tencent.VasSonic.md,## The End,
-93,1,TommyLemon.Android-ZBLibrary.md,# ZBLibrary-Android快速开发框架 ,-
-93,2,TommyLemon.Android-ZBLibrary.md,### 下载试用,-
-93,3,TommyLemon.Android-ZBLibrary.md,### 感谢开源,-
-93,4,TommyLemon.Android-ZBLibrary.md,### 初始化,-
-93,5,TommyLemon.Android-ZBLibrary.md,### 生成代码,-
-93,6,TommyLemon.Android-ZBLibrary.md,### 编程思想,-
-93,7,TommyLemon.Android-ZBLibrary.md,### 相关推荐,-
-93,8,TommyLemon.Android-ZBLibrary.md,### 开发规范,-
-93,9,TommyLemon.Android-ZBLibrary.md,### 架构、模式、技术,-
-93,10,TommyLemon.Android-ZBLibrary.md,### 问题及解决方法,-
-93,11,TommyLemon.Android-ZBLibrary.md,### 使用登记,-
-93,12,TommyLemon.Android-ZBLibrary.md,### 关于作者,-
-93,13,TommyLemon.Android-ZBLibrary.md,#### QQ技术交流群,-
-93,14,TommyLemon.Android-ZBLibrary.md,### 其它项目,-
-93,15,TommyLemon.Android-ZBLibrary.md,### 持续更新,-
-93,16,TommyLemon.Android-ZBLibrary.md,### 我要赞赏,-
-94,1,WeiYe-Jing.datax-web.md,# DataX-Web,"1,3"
-94,2,WeiYe-Jing.datax-web.md,# Architecture diagram：,-
-94,3,WeiYe-Jing.datax-web.md,# System Requirements,3
-94,4,WeiYe-Jing.datax-web.md,# Features,"1,4"
-94,5,WeiYe-Jing.datax-web.md,# Quick Start：,-
-94,6,WeiYe-Jing.datax-web.md,##### 请点击：[Quick Start](https://github.com/WeiYe-Jing/datax-web/blob/master/userGuid.md),-
-94,7,WeiYe-Jing.datax-web.md,##### Linux：[一键部署](https://github.com/WeiYe-Jing/datax-web/blob/master/doc/datax-web/datax-web-deploy.md),-
-94,8,WeiYe-Jing.datax-web.md,# Introduction：,"-,1"
-94,9,WeiYe-Jing.datax-web.md,### 1.执行器配置(使用开源项目xxl-job),-
-94,10,WeiYe-Jing.datax-web.md,#### 执行器属性说明,-
-94,11,WeiYe-Jing.datax-web.md,### 2.创建数据源,-
-94,12,WeiYe-Jing.datax-web.md,### 3.创建任务模版,-
-94,13,WeiYe-Jing.datax-web.md,### 4. 构建JSON脚本,-
-94,14,WeiYe-Jing.datax-web.md,### 5.批量创建任务,-
-94,15,WeiYe-Jing.datax-web.md,### 6.任务创建介绍（关联模版创建任务不再介绍，具体参考4. 构建JSON脚本）,"-,4"
-94,16,WeiYe-Jing.datax-web.md,"#### 支持DataX任务,Shell任务，Python任务，PowerShell任务",-
-94,17,WeiYe-Jing.datax-web.md,### 7. 任务列表,-
-94,18,WeiYe-Jing.datax-web.md,"### 8. 可以点击查看日志，实时获取日志信息,终止正在执行的datax进程",-
-94,19,WeiYe-Jing.datax-web.md,### 9.任务资源监控,-
-94,20,WeiYe-Jing.datax-web.md,### 10. admin可以创建用户，编辑用户信息,-
-94,21,WeiYe-Jing.datax-web.md,# UI,6
-94,22,WeiYe-Jing.datax-web.md,# 项目成员,-
-94,23,WeiYe-Jing.datax-web.md,# Contributing,7
-94,24,WeiYe-Jing.datax-web.md,# Copyright and License,5
-94,25,WeiYe-Jing.datax-web.md,# v-2.1.2,4
-94,26,WeiYe-Jing.datax-web.md,### 新增,"-,4"
-94,27,WeiYe-Jing.datax-web.md,### 升级：,-
-94,28,WeiYe-Jing.datax-web.md,### 备注：,"-,4"
-94,29,WeiYe-Jing.datax-web.md,# v-2.1.1,4
-94,30,WeiYe-Jing.datax-web.md,### 新增,-
-94,31,WeiYe-Jing.datax-web.md,### 升级：,"-,4"
-94,32,WeiYe-Jing.datax-web.md,### 修复：,"-,4"
-94,33,WeiYe-Jing.datax-web.md,# 提交代码,-
-94,34,WeiYe-Jing.datax-web.md,# Contact us,5
-94,35,WeiYe-Jing.datax-web.md,### 个人微信,-
-94,36,WeiYe-Jing.datax-web.md,### QQ交流群,-
-95,1,wiremock.wiremock.md,# WireMock - a web service test double for all occasions,1
-95,2,wiremock.wiremock.md,## !!! Log4j notice !!!,"3,4"
-95,3,wiremock.wiremock.md,## Key Features,"1,6"
-95,4,wiremock.wiremock.md,## Questions and Issues,"5,6"
-95,5,wiremock.wiremock.md,## Contributing,7
-95,6,wiremock.wiremock.md,## Building WireMock locally,3
-96,1,wxiaoqi.Spring-Cloud-Platform.md,### Cloud-Platform,6
-96,2,wxiaoqi.Spring-Cloud-Platform.md,### QQ群号：169824183(1)、592462556(2)、661605461(3),"-,4"
-96,3,wxiaoqi.Spring-Cloud-Platform.md,### 公众号,-
-96,4,wxiaoqi.Spring-Cloud-Platform.md,#### 开源用户登记，宣传用：[点击打开](https://gitee.com/geek_qi/cloud-platform/issues/II9SP),-
-96,5,wxiaoqi.Spring-Cloud-Platform.md,#### 最新更新日志，[点击查看](https://gitee.com/geek_qi/cloud-platform/wikis/Cloud-Platform更新日志?sort_id=320050),-
-96,6,wxiaoqi.Spring-Cloud-Platform.md,#### 基础文档，[点击查看](https://gitee.com/geek_qi/cloud-platform/blob/master/dev-doc.md),-
-96,7,wxiaoqi.Spring-Cloud-Platform.md,# 模块说明,-
-96,8,wxiaoqi.Spring-Cloud-Platform.md,### 架构摘要,-
-96,9,wxiaoqi.Spring-Cloud-Platform.md,#### 中台化前端,"-,4"
-96,10,wxiaoqi.Spring-Cloud-Platform.md,#### JWT鉴权,-
-96,11,wxiaoqi.Spring-Cloud-Platform.md,#### 监控,-
-96,12,wxiaoqi.Spring-Cloud-Platform.md,#### 负载均衡,"-,1"
-96,13,wxiaoqi.Spring-Cloud-Platform.md,#### 服务注册与调用,-
-96,14,wxiaoqi.Spring-Cloud-Platform.md,#### 熔断与流控,-
-96,15,wxiaoqi.Spring-Cloud-Platform.md,## ,-
-96,16,wxiaoqi.Spring-Cloud-Platform.md,## 功能截图,-
-96,17,wxiaoqi.Spring-Cloud-Platform.md,### 基本功能,-
-96,18,wxiaoqi.Spring-Cloud-Platform.md,# 功能截图,-
-96,19,wxiaoqi.Spring-Cloud-Platform.md,## License,5
-97,1,ximsfei.Android-skin-support.md,# Android-skin-support,
-97,2,ximsfei.Android-skin-support.md,## 介绍,
-97,3,ximsfei.Android-skin-support.md,### 功能,-
-97,4,ximsfei.Android-skin-support.md,### TODO,4
-97,5,ximsfei.Android-skin-support.md,### 目录结构,-
-97,6,ximsfei.Android-skin-support.md,## Demo,3
-97,7,ximsfei.Android-skin-support.md,## 用法,-
-97,8,ximsfei.Android-skin-support.md,### 导入:,-
-97,9,ximsfei.Android-skin-support.md,#### support library,3
-97,10,ximsfei.Android-skin-support.md,#### AndroidX support:,3
-97,11,ximsfei.Android-skin-support.md,### 使用:,-
-97,12,ximsfei.Android-skin-support.md,#### 皮肤开关,-
-97,13,ximsfei.Android-skin-support.md,#### 加载插件皮肤库,-
-97,14,ximsfei.Android-skin-support.md,#### 自定义View换肤,-
-97,15,ximsfei.Android-skin-support.md,### 应用内换肤:,-
-97,16,ximsfei.Android-skin-support.md,### 插件式换肤:,-
-97,17,ximsfei.Android-skin-support.md,#### 新建Android application工程,-
-97,18,ximsfei.Android-skin-support.md,#### 将需要换肤的资源放到res目录下(同名资源),-
-97,19,ximsfei.Android-skin-support.md,"#### 打包生成apk, 即为皮肤包",-
-97,20,ximsfei.Android-skin-support.md,#### 加载皮肤插件,-
-97,21,ximsfei.Android-skin-support.md,### 自定义加载策略:,-
-97,22,ximsfei.Android-skin-support.md,#### 自定义sdcard路径,-
-97,23,ximsfei.Android-skin-support.md,#### zip包中加载资源,"-,3"
-97,24,ximsfei.Android-skin-support.md,### 动态设置资源,-
-97,25,ximsfei.Android-skin-support.md,#### [动态设置颜色](demo/skin-app/src/main/java/com/ximsfei/skindemo/picker/ColorPickerActivity.java),-
-97,26,ximsfei.Android-skin-support.md,#### [动态设置图片](demo/skin-app/src/main/java/com/ximsfei/skindemo/picker/DrawablePickerActivity.java),-
-97,27,ximsfei.Android-skin-support.md,### 获取当前使用皮肤,-
-97,28,ximsfei.Android-skin-support.md,## 缺点,-
-97,29,ximsfei.Android-skin-support.md,## 谁在使用,-
-97,30,ximsfei.Android-skin-support.md,## 技术交流,-
-97,31,ximsfei.Android-skin-support.md,## [License MIT](LICENSE),5
-98,1,zhanglei-workspace.shopping-management-system.md,# README,
-98,2,zhanglei-workspace.shopping-management-system.md,#### Java控制台显示界面。,-
-98,3,zhanglei-workspace.shopping-management-system.md,###,3
-98,4,zhanglei-workspace.shopping-management-system.md,#### JSP显示页面，模拟购物网站。,-
-98,5,zhanglei-workspace.shopping-management-system.md,###,
-98,6,zhanglei-workspace.shopping-management-system.md,#### 改为mybatis连接数据库。,-
-98,7,zhanglei-workspace.shopping-management-system.md,###,
-98,8,zhanglei-workspace.shopping-management-system.md,#### 飞鸟速购,-
-98,9,zhanglei-workspace.shopping-management-system.md,###,"-,3"
-99,1,ZHENFENG13.spring-boot-projects.md,# Spring Boot Projects,"1,6"
-99,2,ZHENFENG13.spring-boot-projects.md,## 项目导航,-
-99,3,ZHENFENG13.spring-boot-projects.md,## ,-
-99,4,ZHENFENG13.spring-boot-projects.md,#### 项目演示,-
-99,5,ZHENFENG13.spring-boot-projects.md,## ,-
-99,6,ZHENFENG13.spring-boot-projects.md,#### Spring Boot 实战项目源码,"-,1"
-99,7,ZHENFENG13.spring-boot-projects.md,## ,-
-99,8,ZHENFENG13.spring-boot-projects.md,## Spring Boot 基础使用案例,"-,1"
-99,9,ZHENFENG13.spring-boot-projects.md,## ,-
-99,10,ZHENFENG13.spring-boot-projects.md,## 开发文档,-
-99,11,ZHENFENG13.spring-boot-projects.md,### 《SpringBoot + Mybatis + Thymeleaf 搭建美观实用的个人博客》(支付减免优惠券码 LSJdK3KT ),-
-99,12,ZHENFENG13.spring-boot-projects.md,### 《SpringBoot + Mybatis + Thymeleaf 开发 BBS 论坛项目》(支付减免优惠券码 jRPuZHPz ),-
-99,13,ZHENFENG13.spring-boot-projects.md,### 《Spring Boot 前后端分离项目实践》课程目录(支付减免优惠券码 y6tPSOK7 ),"-,1"
-99,14,ZHENFENG13.spring-boot-projects.md,### 《23 个实验带你轻松玩转 Spring Boot》课程目录(支付减免优惠券码 S0N2dSD2 ),-
-99,15,ZHENFENG13.spring-boot-projects.md,## ,-
-99,16,ZHENFENG13.spring-boot-projects.md,## 交流,-
-100,1,zxing.zxing.md,## Project in Maintenance Mode Only,
-100,2,zxing.zxing.md,## Get Started Developing,"3,6"
-100,3,zxing.zxing.md,## Supported Formats,4
-100,4,zxing.zxing.md,## Components,-
-100,5,zxing.zxing.md,### Active,1
-100,6,zxing.zxing.md,### Available in previous releases,
-100,7,zxing.zxing.md,### ZXing-based third-party open source projects,1
-100,8,zxing.zxing.md,### Other related third-party open source projects,"1,6"
-100,9,zxing.zxing.md,## Links,6
-100,10,zxing.zxing.md,## Contacting,5
-100,11,zxing.zxing.md,## Etcetera,1
+1,1,2dust.v2rayNG.md,# v2rayNG,"1,6"
+1,2,2dust.v2rayNG.md,### Telegram Channel,"-,6"
+1,3,2dust.v2rayNG.md,### Usage,3
+1,4,2dust.v2rayNG.md,#### Geoip and Geosite,3
+1,5,2dust.v2rayNG.md,### More in our [wiki](https://github.com/2dust/v2rayNG/wiki),"-,1,6"
+1,6,2dust.v2rayNG.md,### Development guide,"3,6"
+2,1,ACRA.acra.md,# What is ACRA ?,1
+2,2,ACRA.acra.md,# Latest version,4
+2,3,ACRA.acra.md,# Backends,6
+3,1,afollestad.material-dialogs.md,# Material Dialogs,1
+3,2,afollestad.material-dialogs.md,#### [View Releases and Changelogs](https://github.com/afollestad/material-dialogs/releases),"-,1"
+3,3,afollestad.material-dialogs.md,## ,-
+3,4,afollestad.material-dialogs.md,# Modules,"1,4"
+3,5,afollestad.material-dialogs.md,## Core,"1,6"
+3,6,afollestad.material-dialogs.md,#### [Core Tutorial and Samples](documentation/CORE.md),3
+3,7,afollestad.material-dialogs.md,## Input,3
+3,8,afollestad.material-dialogs.md,#### [Input Tutorial and Samples](documentation/INPUT.md),3
+3,9,afollestad.material-dialogs.md,## Files,3
+3,10,afollestad.material-dialogs.md,#### [Files Tutorial and Samples](documentation/FILES.md),3
+3,11,afollestad.material-dialogs.md,## Color,"3,6"
+3,12,afollestad.material-dialogs.md,#### [Color Tutorial and Samples](documentation/COLOR.md),3
+3,13,afollestad.material-dialogs.md,## DateTime,"-,3"
+3,14,afollestad.material-dialogs.md,#### [DateTime Tutorial and Samples](documentation/DATETIME.md),3
+3,15,afollestad.material-dialogs.md,## Bottom Sheets,"-,1,6"
+3,16,afollestad.material-dialogs.md,#### [Bottom Sheets Tutorial and Samples](documentation/BOTTOMSHEETS.md),3
+3,17,afollestad.material-dialogs.md,## Lifecycle,-
+3,18,afollestad.material-dialogs.md,#### [Lifecycle Tutorial and Samples](documentation/LIFECYCLE.md),3
+4,1,agrosner.DBFlow.md,# README,1
+4,2,agrosner.DBFlow.md,## Changelog,4
+4,3,agrosner.DBFlow.md,## Usage Docs,"3,6"
+4,4,agrosner.DBFlow.md,## Including in your project,3
+4,5,agrosner.DBFlow.md,## Pull Requests,7
+4,6,agrosner.DBFlow.md,## Maintainer,5
+5,1,airbnb.mavericks.md,# Mavericks (formerly MvRx): Android on Autopilot,1
+5,2,airbnb.mavericks.md,"## For full documentation, check out our [docs site](https://airbnb.io/mavericks).",3
+5,3,airbnb.mavericks.md,## Installation,3
+5,4,airbnb.mavericks.md,"## For full documentation, check out the [docs site](https://airbnb.io/mavericks)",6
+6,1,alibaba.p3c.md,# P3C,4
+6,2,alibaba.p3c.md,"## <font color=""green"">Preface</font>","1,6"
+6,3,alibaba.p3c.md,"## <font color=""green"">Introduction</font>",1
+6,4,alibaba.p3c.md,"## <font color=""green"">Rules</font>",3
+7,1,android.architecture-components-samples.md,# Android Architecture Components samples,"1,6"
+7,2,android.architecture-components-samples.md,### Samples,1
+7,3,android.architecture-components-samples.md,### Reporting Issues,6
+7,4,android.architecture-components-samples.md,## License,5
+8,1,android.architecture-samples.md,# Android Architecture Blueprints,1
+8,2,android.architecture-samples.md,## Variations,"1,3"
+8,3,android.architecture-samples.md,### Stable samples - Kotlin,"1,6"
+8,4,android.architecture-samples.md,## Screenshots,"3,8"
+8,5,android.architecture-samples.md,## Why a to-do app?,1
+8,6,android.architecture-samples.md,## What is it not?,"1,6"
+8,7,android.architecture-samples.md,## Who is it for?,
+8,8,android.architecture-samples.md,## Opening a sample in Android Studio,3
+8,9,android.architecture-samples.md,### License,5
+9,1,android.camera-samples.md,# Camera Samples Repository,1
+9,2,android.camera-samples.md,## Samples,
+10,1,android.compose-samples.md,# Jetpack Compose Samples,1
+10,2,android.compose-samples.md,## 💻 Requirements,3
+10,3,android.compose-samples.md,## 🧬 Samples,1
+10,4,android.compose-samples.md,## 🧬 Additional samples,1
+10,5,android.compose-samples.md,## High level features ,"1,6"
+10,6,android.compose-samples.md,### Custom Layouts,1
+10,7,android.compose-samples.md,### Theming,"1,3"
+10,8,android.compose-samples.md,### Animations,-
+10,9,android.compose-samples.md,### Text,"3,6"
+10,10,android.compose-samples.md,### Large Screens,-
+10,11,android.compose-samples.md,## Formatting,3
+10,12,android.compose-samples.md,## Updates,3
+10,13,android.compose-samples.md,## License,5
+11,1,android.nowinandroid.md,# Now in Android App,1
+11,2,android.nowinandroid.md,# Features,"1,6"
+11,3,android.nowinandroid.md,## Screenshots,"3,8"
+11,4,android.nowinandroid.md,# Development Environment,3
+11,5,android.nowinandroid.md,# Architecture,1
+11,6,android.nowinandroid.md,# Modularization,1
+11,7,android.nowinandroid.md,# Build,"1,3"
+11,8,android.nowinandroid.md,# Testing,3
+11,9,android.nowinandroid.md,# UI,"1,6"
+11,10,android.nowinandroid.md,# Baseline profiles,3
+11,11,android.nowinandroid.md,# License,5
+12,1,android.sunflower.md,# Android Sunflower with Compose,3
+12,2,android.sunflower.md,## Screenshots,"3,8"
+12,3,android.sunflower.md,## Features,1
+12,4,android.sunflower.md,## Requirements,3
+12,5,android.sunflower.md,### Unsplash API key,"3,6"
+12,6,android.sunflower.md,## Android Studio IDE setup,"1,3"
+12,7,android.sunflower.md,## Additional resources,6
+12,8,android.sunflower.md,## Non-Goals,
+12,9,android.sunflower.md,## Support,6
+12,10,android.sunflower.md,## Third Party Content,
+12,11,android.sunflower.md,## License,5
+13,1,android.topeka.md,# Topeka for Android,1
+13,2,android.topeka.md,### Introduction,1
+13,3,android.topeka.md,### Screenshots,"3,8"
+13,4,android.topeka.md,### Getting Started,3
+13,5,android.topeka.md,### Support,6
+13,6,android.topeka.md,### License,5
+14,1,android.uamp.md,# Universal Android Music Player Sample,"1,3"
+14,2,android.uamp.md,## Pre-requisites,3
+14,3,android.uamp.md,## Getting Started,3
+14,4,android.uamp.md,## Support,"6,7"
+14,5,android.uamp.md,## Audio,"-,1"
+14,6,android.uamp.md,## License,5
+15,1,android10.Android-CleanArchitecture-Kotlin.md,# Android - Clean Architecture - Kotlin [![Build Status](https://travis-ci.org/android10/Android-CleanArchitecture-Kotlin.svg?branch=main)](https://travis-ci.org/android10/Android-CleanArchitecture-Kotlin) [![codecov](https://codecov.io/gh/android10/Android-CleanArchitecture-Kotlin/branch/main/graph/badge.svg?token=x1AtDcNuDv)](https://codecov.io/gh/android10/Android-CleanArchitecture-Kotlin),1
+15,2,android10.Android-CleanArchitecture-Kotlin.md,## Blog post with implementation details explanation:,"3,6"
+15,3,android10.Android-CleanArchitecture-Kotlin.md,## Android - Clean Architecture - Java:,6
+15,4,android10.Android-CleanArchitecture-Kotlin.md,## Other material worth reading:,"-,1,6"
+15,5,android10.Android-CleanArchitecture-Kotlin.md,### ----------------------------------------------------------------------------------------------,-
+15,6,android10.Android-CleanArchitecture-Kotlin.md,## Sample app,3
+15,7,android10.Android-CleanArchitecture-Kotlin.md,### ----------------------------------------------------------------------------------------------,-
+15,8,android10.Android-CleanArchitecture-Kotlin.md,## Clean Architecture,6
+15,9,android10.Android-CleanArchitecture-Kotlin.md,### ----------------------------------------------------------------------------------------------,-
+15,10,android10.Android-CleanArchitecture-Kotlin.md,## Android 3 Layers Architecture,1
+15,11,android10.Android-CleanArchitecture-Kotlin.md,### ----------------------------------------------------------------------------------------------,-
+15,12,android10.Android-CleanArchitecture-Kotlin.md,## UI Layer: MVVM ,1
+15,13,android10.Android-CleanArchitecture-Kotlin.md,### ----------------------------------------------------------------------------------------------,-
+15,14,android10.Android-CleanArchitecture-Kotlin.md,## Data Layer: Repository ,1
+15,15,android10.Android-CleanArchitecture-Kotlin.md,### ----------------------------------------------------------------------------------------------,-
+15,16,android10.Android-CleanArchitecture-Kotlin.md,## Local Development,3
+15,17,android10.Android-CleanArchitecture-Kotlin.md,## Discussions,6
+15,18,android10.Android-CleanArchitecture-Kotlin.md,## License,5
+16,1,androidx.androidx.md,# Android Jetpack,"1,6"
+16,2,androidx.androidx.md,# Contribution Guide,7
+16,3,androidx.androidx.md,## Code Review Etiquette,7
+16,4,androidx.androidx.md,## Accepted Types of Contributions,7
+16,5,androidx.androidx.md,## Checking Out the Code,3
+16,6,androidx.androidx.md,### Continuous integration,3
+16,7,androidx.androidx.md,## Password and Contributor Agreement before making a change,"5,7"
+16,8,androidx.androidx.md,## Getting reviewed,3
+16,9,androidx.androidx.md,## Handling binary dependencies,3
+17,1,ankidroid.Anki-Android.md,# AnkiDroid,1
+17,2,ankidroid.Anki-Android.md,### Features,"1,6"
+17,3,ankidroid.Anki-Android.md,## Install,"-,3"
+17,4,ankidroid.Anki-Android.md,## Wiki,6
+17,5,ankidroid.Anki-Android.md,## Help,6
+17,6,ankidroid.Anki-Android.md,## Contribute,7
+17,7,ankidroid.Anki-Android.md,## Join Us On,"1,6"
+17,8,ankidroid.Anki-Android.md,## Credits,5
+17,9,ankidroid.Anki-Android.md,### Code Contributors,5
+17,10,ankidroid.Anki-Android.md,### [Sponsors](https://opencollective.com/ankidroid#sponsor),"-,1,6"
+17,11,ankidroid.Anki-Android.md,### [Backers](https://opencollective.com/ankidroid#backer),-
+17,12,ankidroid.Anki-Android.md,### [Translators](https://crowdin.com/project/ankidroid/activity-stream),5
+17,13,ankidroid.Anki-Android.md,## License,5
+18,1,AppIntro.AppIntro.md,# AppIntro,1
+18,2,AppIntro.AppIntro.md,## Getting Started 👣,-
+18,3,AppIntro.AppIntro.md,### Adding a dependency,"3,6"
+18,4,AppIntro.AppIntro.md,### Basic usage,3
+18,5,AppIntro.AppIntro.md,### Java users,"3,6"
+18,6,AppIntro.AppIntro.md,## Migrating 🚗,
+18,7,AppIntro.AppIntro.md,## Features 🧰,-
+18,8,AppIntro.AppIntro.md,## Creating Slides 👩‍🎨,6
+18,9,AppIntro.AppIntro.md,### `AppIntroFragment`,
+18,10,AppIntro.AppIntro.md,### `AppIntroCustomLayoutFragment`,"1,3"
+18,11,AppIntro.AppIntro.md,## Configure 🎨,3
+18,12,AppIntro.AppIntro.md,### Slide Transformer,3
+18,13,AppIntro.AppIntro.md,#### Custom Slide Transformer,3
+18,14,AppIntro.AppIntro.md,### Color Transition,"3,6"
+18,15,AppIntro.AppIntro.md,### Multiple Windows Layout,3
+18,16,AppIntro.AppIntro.md,### Indicators,3
+18,17,AppIntro.AppIntro.md,### Vibration,3
+18,18,AppIntro.AppIntro.md,### Wizard Mode,3
+18,19,AppIntro.AppIntro.md,### Immersive Mode,3
+18,20,AppIntro.AppIntro.md,### System Back button,3
+18,21,AppIntro.AppIntro.md,### System UI (Status Bar and Navigation Bar),3
+18,22,AppIntro.AppIntro.md,## Permission 🔒,3
+18,23,AppIntro.AppIntro.md,### Slide Policy,3
+18,24,AppIntro.AppIntro.md,## Example App 💡,3
+18,25,AppIntro.AppIntro.md,## Translating 🌍,
+18,26,AppIntro.AppIntro.md,## Snapshots 📦,-
+18,27,AppIntro.AppIntro.md,## Contributing 🤝,7
+18,28,AppIntro.AppIntro.md,## Acknowledgments 🌸,-
+18,29,AppIntro.AppIntro.md,### Maintainers,5
+18,30,AppIntro.AppIntro.md,### Libraries,"-,6"
+18,31,AppIntro.AppIntro.md,## License 📄,"-,5"
+18,32,AppIntro.AppIntro.md,## Apps using AppIntro 📱,"-,1"
+19,1,arrow-kt.arrow.md,#### Curated external links,6
+19,2,arrow-kt.arrow.md,## Arrow 2.0,3
+19,3,arrow-kt.arrow.md,## Join Us,6
+19,4,arrow-kt.arrow.md,## Setup,3
+19,5,arrow-kt.arrow.md,### JDK,3
+19,6,arrow-kt.arrow.md,### Android,"1,3"
+19,7,arrow-kt.arrow.md,### Gradle,"-,6"
+19,8,arrow-kt.arrow.md,#### Basic Setup,3
+19,9,arrow-kt.arrow.md,##### Λrrow Core,-
+19,10,arrow-kt.arrow.md,##### Λrrow Core + Λrrow Optics,-
+19,11,arrow-kt.arrow.md,##### Λrrow Core + Λrrow Fx,-
+19,12,arrow-kt.arrow.md,#### BOM file,3
+19,13,arrow-kt.arrow.md,### Maven,3
+19,14,arrow-kt.arrow.md,#### Basic Setup,3
+19,15,arrow-kt.arrow.md,#### Enabling kapt for the Optics DSL,3
+19,16,arrow-kt.arrow.md,#### BOM file,3
+19,17,arrow-kt.arrow.md,## Next development version,"3,4"
+19,18,arrow-kt.arrow.md,## License,5
+20,1,bannedbook.fanqiang.md,# 翻墙-科学上网、翻墙工具、翻墙教程项目库,-
+20,2,bannedbook.fanqiang.md,## [Windows V2ray/SS/SSR 翻墙教程](https://github.com/bannedbook/fanqiang/tree/master/windows),-
+20,3,bannedbook.fanqiang.md,## [iPhone/iPad/iOS V2ray/SS 翻墙APP教程](https://github.com/bannedbook/fanqiang/tree/master/ios),-
+20,4,bannedbook.fanqiang.md,## [Android 安卓翻墙APP教程](https://github.com/bannedbook/fanqiang/tree/master/android),-
+20,5,bannedbook.fanqiang.md,## [Mac翻墙软件教程](https://github.com/bannedbook/fanqiang/tree/master/macos),-
+20,6,bannedbook.fanqiang.md,## [路由器翻墙教程](https://github.com/bannedbook/fanqiang/tree/master/router),-
+20,7,bannedbook.fanqiang.md,## [Linux翻墙教程](https://github.com/bannedbook/fanqiang/tree/master/linux),-
+20,8,bannedbook.fanqiang.md,## ChromeGo - Chrome一键翻墙包 ,-
+21,1,bennyhuo.Kotlin-Tutorials.md,# Kotlin-Tutorials,-
+21,2,bennyhuo.Kotlin-Tutorials.md,## 内容清单,-
+21,3,bennyhuo.Kotlin-Tutorials.md,## 联系我,-
+21,4,bennyhuo.Kotlin-Tutorials.md,## * 微信公众号 **bennyhuo**,-
+21,5,bennyhuo.Kotlin-Tutorials.md,## [《深入理解 Kotlin 协程》](https://www.bennyhuo.com/project/kotlin-coroutines.html) 2020.6 出版,-
+21,6,bennyhuo.Kotlin-Tutorials.md,### 随书源码,-
+21,7,bennyhuo.Kotlin-Tutorials.md,### 购买途径,-
+21,8,bennyhuo.Kotlin-Tutorials.md,## [注解处理器开发教程](https://github.com/enbandari/Apt-Tutorials),-
+21,9,bennyhuo.Kotlin-Tutorials.md,## [Kotlin 从入门到精通 视频教程](http://coding.imooc.com/class/398.html),-
+21,10,bennyhuo.Kotlin-Tutorials.md,## [破解 Retrofit](https://www.imooc.com/learn/1128?mc_marking=5487b137ad904bd13590a053ede6da2f&mc_channel=syb19) ,-
+21,11,bennyhuo.Kotlin-Tutorials.md,## [破解Android高级面试](https://s.imooc.com/SBS30PR),-
+22,1,cashapp.sqldelight.md,# SQLDelight,3
+22,2,cashapp.sqldelight.md,## ,-
+22,3,cashapp.sqldelight.md,## Snapshots,3
+22,4,cashapp.sqldelight.md,# License,5
+23,1,chrisbanes.cheesesquare.md,# Cheesesquare Sample,
+23,2,chrisbanes.cheesesquare.md,## Pre-requisites,3
+23,3,chrisbanes.cheesesquare.md,## License,5
+24,1,chrisbanes.tivi.md,# Tivi 📺 (work-in-progress 👷🔧️👷‍♀️⛏),
+24,2,chrisbanes.tivi.md,## Download,3
+24,3,chrisbanes.tivi.md,## Android development,"1,3"
+24,4,chrisbanes.tivi.md,## Development setup,3
+24,5,chrisbanes.tivi.md,### Code style,"1,6"
+24,6,chrisbanes.tivi.md,### API keys,3
+24,7,chrisbanes.tivi.md,## Jetpack Compose,6
+24,8,chrisbanes.tivi.md,### Show details,3
+24,9,chrisbanes.tivi.md,### Episode details,3
+24,10,chrisbanes.tivi.md,### Account,3
+24,11,chrisbanes.tivi.md,## Contributions,7
+24,12,chrisbanes.tivi.md,## License,5
+25,1,coil-kt.coil.md,## Download,3
+25,2,coil-kt.coil.md,## Quick Start,3
+25,3,coil-kt.coil.md,#### ImageViews,3
+25,4,coil-kt.coil.md,#### Jetpack Compose,3
+25,5,coil-kt.coil.md,#### Image Loaders,3
+25,6,coil-kt.coil.md,#### Requests,3
+25,7,coil-kt.coil.md,## Requirements,3
+25,8,coil-kt.coil.md,## R8 / Proguard,3
+25,9,coil-kt.coil.md,## License,5
+26,1,corda.corda.md,# Corda,1
+26,2,corda.corda.md,## Architecture Evolution,6
+26,3,corda.corda.md,## Features,1
+26,4,corda.corda.md,## Getting started,6
+26,5,corda.corda.md,## Useful links,6
+26,6,corda.corda.md,## Contributing,7
+26,7,corda.corda.md,## License,5
+26,8,corda.corda.md,## Acknowledgements,1
+27,1,dbacinski.Design-Patterns-In-Kotlin.md,# Design Patterns In Kotlin,
+27,2,dbacinski.Design-Patterns-In-Kotlin.md,#### :warning: New article about testing: [Unit Testing with Mockito 2](https://github.com/dbacinski/Android-Testing-With-Kotlin/blob/master/docs/Unit-Testing-Mockito.md),"1,6"
+27,3,dbacinski.Design-Patterns-In-Kotlin.md,## Table of Contents,
+27,4,dbacinski.Design-Patterns-In-Kotlin.md,# Behavioral,
+27,5,dbacinski.Design-Patterns-In-Kotlin.md,## [Observer / Listener](/patterns/src/test/kotlin/Listener.kt),3
+27,6,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,7,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,8,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,9,dbacinski.Design-Patterns-In-Kotlin.md,## [Strategy](/patterns/src/test/kotlin/Strategy.kt),
+27,10,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,11,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,12,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,13,dbacinski.Design-Patterns-In-Kotlin.md,## [Command](/patterns/src/test/kotlin/Command.kt),3
+27,14,dbacinski.Design-Patterns-In-Kotlin.md,#### Example:,3
+27,15,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,16,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,17,dbacinski.Design-Patterns-In-Kotlin.md,## [State](/patterns/src/test/kotlin/State.kt),"3,4"
+27,18,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,19,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,20,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,21,dbacinski.Design-Patterns-In-Kotlin.md,## [Chain of Responsibility](/patterns/src/test/kotlin/ChainOfResponsibility.kt),3
+27,22,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,23,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,24,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,25,dbacinski.Design-Patterns-In-Kotlin.md,## [Visitor](/patterns/src/test/kotlin/Visitor.kt),1
+27,26,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,27,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,28,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,29,dbacinski.Design-Patterns-In-Kotlin.md,## [Mediator](/patterns/src/test/kotlin/Mediator.kt),
+27,30,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,31,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,32,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,33,dbacinski.Design-Patterns-In-Kotlin.md,## [Memento](/patterns/src/test/kotlin/Memento.kt),1
+27,34,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,35,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,36,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,37,dbacinski.Design-Patterns-In-Kotlin.md,# Creational,1
+27,38,dbacinski.Design-Patterns-In-Kotlin.md,## [Builder / Assembler](/patterns/src/test/kotlin/Builder.kt),3
+27,39,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,40,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,41,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,42,dbacinski.Design-Patterns-In-Kotlin.md,## [Factory Method](/patterns/src/test/kotlin/FactoryMethod.kt),3
+27,43,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,44,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,45,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,46,dbacinski.Design-Patterns-In-Kotlin.md,## [Singleton](/patterns/src/test/kotlin/Singleton.kt),
+27,47,dbacinski.Design-Patterns-In-Kotlin.md,#### Example:,3
+27,48,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,49,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,50,dbacinski.Design-Patterns-In-Kotlin.md,## [Abstract Factory](/patterns/src/test/kotlin/AbstractFactory.kt),3
+27,51,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,52,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,53,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,54,dbacinski.Design-Patterns-In-Kotlin.md,# Structural,1
+27,55,dbacinski.Design-Patterns-In-Kotlin.md,## [Adapter](/patterns/src/test/kotlin/Adapter.kt),3
+27,56,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,57,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,58,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,59,dbacinski.Design-Patterns-In-Kotlin.md,## [Decorator](/patterns/src/test/kotlin/Decorator.kt),3
+27,60,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,61,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,62,dbacinski.Design-Patterns-In-Kotlin.md,#### Output,3
+27,63,dbacinski.Design-Patterns-In-Kotlin.md,## [Facade](/patterns/src/test/kotlin/Facade.kt),
+27,64,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,65,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,66,dbacinski.Design-Patterns-In-Kotlin.md,#### Ouput,"-,3"
+27,67,dbacinski.Design-Patterns-In-Kotlin.md,## [Protection Proxy](/patterns/src/test/kotlin/ProtectionProxy.kt),"3,6"
+27,68,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,69,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,70,dbacinski.Design-Patterns-In-Kotlin.md,#### Ouput,"-,3"
+27,71,dbacinski.Design-Patterns-In-Kotlin.md,## [Composite](/patterns/src/test/kotlin/Composite.kt),3
+27,72,dbacinski.Design-Patterns-In-Kotlin.md,#### Example,3
+27,73,dbacinski.Design-Patterns-In-Kotlin.md,#### Usage,3
+27,74,dbacinski.Design-Patterns-In-Kotlin.md,#### Ouput,"-,3"
+27,75,dbacinski.Design-Patterns-In-Kotlin.md,# Info,"-,6"
+28,1,detekt.detekt.md,# detekt,1
+28,2,detekt.detekt.md,### Features,"1,6"
+28,3,detekt.detekt.md,#### Quick-Links,6
+28,4,detekt.detekt.md,### Quick Start ...,3
+28,5,detekt.detekt.md,#### with the command-line interface,"3,5"
+28,6,detekt.detekt.md,#### with Gradle,
+28,7,detekt.detekt.md,#### Requirements,3
+28,8,detekt.detekt.md,### Adding more rule sets,
+28,9,detekt.detekt.md,### Contributing,"5,7"
+28,10,detekt.detekt.md,### Mentions,"1,6"
+28,11,detekt.detekt.md,#### Credits,5
+29,1,didi.booster.md,## Overview | 概览,1
+29,2,didi.booster.md,## What can Booster be used for? | Booster 能做什么？,6
+29,3,didi.booster.md,## Prerequisite | 先决条件,-
+29,4,didi.booster.md,## Best Practise | 最佳实践,
+29,5,didi.booster.md,### Common,3
+29,6,didi.booster.md,### Performance,3
+29,7,didi.booster.md,### Package Size,3
+29,8,didi.booster.md,### System Bug,3
+29,9,didi.booster.md,### Utility,"-,3"
+29,10,didi.booster.md,### Unit Test,3
+29,11,didi.booster.md,## Samples | 示例,-
+29,12,didi.booster.md,## Documentation | 文档,6
+29,13,didi.booster.md,## API Reference,6
+29,14,didi.booster.md,## Contributing,7
+29,15,didi.booster.md,## Community,1
+29,16,didi.booster.md,## License,5
+30,1,diogobernardino.williamchart.md,# williamchart ![phone][2]![watch][3],"-,1,6"
+30,2,diogobernardino.williamchart.md,### Gradle ,"-,6"
+30,3,diogobernardino.williamchart.md,### Usage,3
+30,4,diogobernardino.williamchart.md,#### All charts,-
+30,5,diogobernardino.williamchart.md,#### Line Chart,3
+30,6,diogobernardino.williamchart.md,#### Bar Chart,
+30,7,diogobernardino.williamchart.md,#### Donut Chart,-
+30,8,diogobernardino.williamchart.md,## License,5
+31,1,drakeet.MultiType.md,# MultiType,
+31,2,drakeet.MultiType.md,## Getting started,3
+31,3,drakeet.MultiType.md,## Usage,3
+31,4,drakeet.MultiType.md,"#### Step 1. Create a Kotlin `class` or `data class`, for example:",3
+31,5,drakeet.MultiType.md,"#### Step 2. Create a class extends `ItemViewDelegate<T, VH : ViewHolder>`, for example:",3
+31,6,drakeet.MultiType.md,"##### Or if you are using a custom View instead of XML layout, you can use `ViewDelegate`:",3
+31,7,drakeet.MultiType.md,"#### Step 3. `register` your types and setup your `RecyclerView`, for example:",3
+31,8,drakeet.MultiType.md,## Advanced usage ,3
+31,9,drakeet.MultiType.md,## Android Studio Plugin,"1,3"
+31,10,drakeet.MultiType.md,## Screenshots,"3,8"
+31,11,drakeet.MultiType.md,## License,5
+32,1,ethereum-lists.chains.md,# EVM-based Chains,
+32,2,ethereum-lists.chains.md,## Example,3
+32,3,ethereum-lists.chains.md,## Aggregation,-
+32,4,ethereum-lists.chains.md,## Constraints,3
+32,5,ethereum-lists.chains.md,## Collision management,
+32,6,ethereum-lists.chains.md,## Usages,3
+32,7,ethereum-lists.chains.md,### Wallets,"-,1,6"
+32,8,ethereum-lists.chains.md,### Explorers,"-,1,6"
+32,9,ethereum-lists.chains.md,### EIPs,4
+32,10,ethereum-lists.chains.md,### Listing sites,"-,1,6"
+32,11,ethereum-lists.chains.md,### Other,5
+33,1,facebook.facebook-android-sdk.md,# Facebook SDK for Android,"1,6"
+33,2,facebook.facebook-android-sdk.md,## TRY IT OUT,6
+33,3,facebook.facebook-android-sdk.md,## FEATURES,"1,6"
+33,4,facebook.facebook-android-sdk.md,## STRUCTURE,3
+33,5,facebook.facebook-android-sdk.md,## USAGE,3
+33,6,facebook.facebook-android-sdk.md,## INSTALLATION,3
+33,7,facebook.facebook-android-sdk.md,## GIVE FEEDBACK,"5,6"
+33,8,facebook.facebook-android-sdk.md,## SECURITY,6
+33,9,facebook.facebook-android-sdk.md,## CONTRIBUTING,7
+33,10,facebook.facebook-android-sdk.md,## LICENSE,
+33,11,facebook.facebook-android-sdk.md,## DEVELOPER TERMS,"3,6"
+34,1,gedoor.legado.md,# [English](English.md) [中文](README.md),1
+34,2,gedoor.legado.md,# Function-主要功能 [![](https://img.shields.io/badge/-Function-F5F5F5.svg)](#Function-主要功能-),-
+34,3,gedoor.legado.md,# Download-下载 [![](https://img.shields.io/badge/-Download-F5F5F5.svg)](#Download-下载-),"-,3"
+34,4,gedoor.legado.md,#### Android-安卓 ,-
+34,5,gedoor.legado.md,#### IOS-苹果,-
+34,6,gedoor.legado.md,# Community-交流社区 [![](https://img.shields.io/badge/-Community-F5F5F5.svg)](#Community-交流社区-),-
+34,7,gedoor.legado.md,#### Telegram,"-,1,6"
+34,8,gedoor.legado.md,#### Discord,"-,5"
+34,9,gedoor.legado.md,#### Other,6
+34,10,gedoor.legado.md,# API [![](https://img.shields.io/badge/-API-F5F5F5.svg)](#API-),"-,3"
+34,11,gedoor.legado.md,# Other-其他 [![](https://img.shields.io/badge/-Other-F5F5F5.svg)](#Other-其他-),-
+34,12,gedoor.legado.md,##### 免责声明,-
+34,13,gedoor.legado.md,##### 阅读3.0,-
+34,14,gedoor.legado.md,# Grateful-感谢 [![](https://img.shields.io/badge/-Grateful-F5F5F5.svg)](#Grateful-感谢-),-
+34,15,gedoor.legado.md,# Interface-界面 [![](https://img.shields.io/badge/-Interface-F5F5F5.svg)](#Interface-界面-),-
+35,1,google.accompanist.md,## Compose versions,"1,3,4"
+35,2,google.accompanist.md,## Libraries,
+35,3,google.accompanist.md,### 🍫 [System UI Controller](./systemuicontroller/),
+35,4,google.accompanist.md,### 🎨 [AppCompat Theme Adapter](./themeadapter-appcompat/),-
+35,5,google.accompanist.md,### 🎨 [Material Theme Adapter](./themeadapter-material/),"-,1"
+35,6,google.accompanist.md,### 🎨 [Material 3 Theme Adapter](./themeadapter-material3/),"-,1"
+35,7,google.accompanist.md,### 📖 [Pager](./pager/),1
+35,8,google.accompanist.md,### 📫 [Permissions](./permissions/),-
+35,9,google.accompanist.md,### ⏳ [Placeholder](./placeholder/),
+35,10,google.accompanist.md,### 🌊 [Flow Layouts](./flowlayout/),-
+35,11,google.accompanist.md,### 🧭✨[Navigation-Animation](./navigation-animation/),-
+35,12,google.accompanist.md,### 🧭🎨️ [Navigation-Material](./navigation-material/),-
+35,13,google.accompanist.md,### 🖌️ [Drawable Painter](./drawablepainter/),
+35,14,google.accompanist.md,### 🌏 [Web](./web/),-
+35,15,google.accompanist.md,### 📜 [Adaptive](./adaptive/),-
+35,16,google.accompanist.md,### 🗜 [Test Harness](./testharness/),-
+35,17,google.accompanist.md,### 📐 [Insets](./insets/) (Deprecated),-
+35,18,google.accompanist.md,### ⬇️ [Swipe to Refresh](./swiperefresh/) (Deprecated),-
+35,19,google.accompanist.md,### 🎨 [AppCompat Theme Adapter](./appcompat-theme/) (Deprecated),-
+35,20,google.accompanist.md,## ,-
+35,21,google.accompanist.md,## Future?,6
+35,22,google.accompanist.md,## Snapshots,
+35,23,google.accompanist.md,## ,-
+35,24,google.accompanist.md,### Why the name?,1
+35,25,google.accompanist.md,## Contributions,7
+35,26,google.accompanist.md,## License,5
+36,1,google.flexbox-layout.md,# FlexboxLayout,1
+36,2,google.flexbox-layout.md,# Installation,3
+36,3,google.flexbox-layout.md,# Usage,3
+36,4,google.flexbox-layout.md,## FlexboxLayout,3
+36,5,google.flexbox-layout.md,## FlexboxLayoutManager (within RecyclerView),3
+36,6,google.flexbox-layout.md,## Supported attributes/features comparison,1
+36,7,google.flexbox-layout.md,# Supported attributes,3
+36,8,google.flexbox-layout.md,## Attributes for the FlexboxLayout:,3
+36,9,google.flexbox-layout.md,## Attributes for the children of a FlexboxLayout,3
+36,10,google.flexbox-layout.md,# Others,-
+36,11,google.flexbox-layout.md,## Known differences from the original CSS specification,1
+36,12,google.flexbox-layout.md,## Xamarin Binding,
+36,13,google.flexbox-layout.md,## Demo apps,3
+36,14,google.flexbox-layout.md,### Flexbox Playground demo app,3
+36,15,google.flexbox-layout.md,### Cat gallery demo app,3
+36,16,google.flexbox-layout.md,## How to make contributions,7
+36,17,google.flexbox-layout.md,## License,5
+37,1,google.iosched.md,# Google I/O Android App (ARCHIVED),3
+37,2,google.iosched.md,## 2023 Update,"1,6"
+37,3,google.iosched.md,## 2021 Update,
+37,4,google.iosched.md,# Description,1
+37,5,google.iosched.md,# Running the app,"1,3"
+37,6,google.iosched.md,# Features,1
+37,7,google.iosched.md,# Development Environment,3
+37,8,google.iosched.md,# Architecture,"1,3,6"
+37,9,google.iosched.md,## Firebase,6
+37,10,google.iosched.md,## Kotlin,
+37,11,google.iosched.md,# Copyright,-
+38,1,Gurupreet.ComposeCookBook.md,# Jetpack Compose,1
+38,2,Gurupreet.ComposeCookBook.md,### Jetpack compose for Desktop:,
+38,3,Gurupreet.ComposeCookBook.md,### FontAwesomeIcons in Compose:,3
+38,4,Gurupreet.ComposeCookBook.md,## Screens,3
+38,5,Gurupreet.ComposeCookBook.md,### Demo UI,3
+38,6,Gurupreet.ComposeCookBook.md,"### Apps with Api, Retrofit, Room, Flow, Livedata Integration",3
+38,7,Gurupreet.ComposeCookBook.md,### Advance lists and animations,
+38,8,Gurupreet.ComposeCookBook.md,### Templates,3
+38,9,Gurupreet.ComposeCookBook.md,### Kotlin DSL Templates,3
+38,10,Gurupreet.ComposeCookBook.md,## How to get started,3
+38,11,Gurupreet.ComposeCookBook.md,## Features & Where to start,1
+38,12,Gurupreet.ComposeCookBook.md,## Coming Soon,6
+38,13,Gurupreet.ComposeCookBook.md,## Official Documentations,"1,6"
+38,14,Gurupreet.ComposeCookBook.md,## Contribution Info,7
+38,15,Gurupreet.ComposeCookBook.md,## Please Share & Star the repository to keep me motivated.,
+39,1,hectorqin.reader.md,# reader,6
+39,2,hectorqin.reader.md,## 下载与安装,-
+39,3,hectorqin.reader.md,## TODO,4
+39,4,hectorqin.reader.md,## 问题,-
+39,5,hectorqin.reader.md,## 感谢,-
+39,6,hectorqin.reader.md,## 其它,-
+40,1,igorwojda.android-showcase.md,# 💎 Android Showcase 2.0,1
+40,2,igorwojda.android-showcase.md,## Application Scope,"1,3"
+40,3,igorwojda.android-showcase.md,## Tech-Stack,"1,6"
+40,4,igorwojda.android-showcase.md,## Architecture,"1,6"
+40,5,igorwojda.android-showcase.md,### Module Types And Module Dependencies,3
+40,6,igorwojda.android-showcase.md,### Feature Module Structure,1
+40,7,igorwojda.android-showcase.md,#### Presentation Layer,
+40,8,igorwojda.android-showcase.md,#### Domain Layer,1
+40,9,igorwojda.android-showcase.md,#### Data Layer,1
+40,10,igorwojda.android-showcase.md,### Data Flow,3
+40,11,igorwojda.android-showcase.md,## Dependency Management,3
+40,12,igorwojda.android-showcase.md,## Logcat debuggins,1
+40,13,igorwojda.android-showcase.md,## CI Pipeline,6
+40,14,igorwojda.android-showcase.md,### Pull Request Verification,
+40,15,igorwojda.android-showcase.md,## Design Decisions,6
+40,16,igorwojda.android-showcase.md,## What This Project Does Not Cover?,1
+40,17,igorwojda.android-showcase.md,## Getting Started,3
+40,18,igorwojda.android-showcase.md,### Android Studio,3
+40,19,igorwojda.android-showcase.md,### Command-line And Android Studio,3
+40,20,igorwojda.android-showcase.md,### Plugins,3
+40,21,igorwojda.android-showcase.md,## Upcoming Improvements,
+40,22,igorwojda.android-showcase.md,## Inspiration,6
+40,23,igorwojda.android-showcase.md,### Cheatsheet,3
+40,24,igorwojda.android-showcase.md,### Other Android Projects,"1,6"
+40,25,igorwojda.android-showcase.md,## Known Issues,"3,6"
+40,26,igorwojda.android-showcase.md,## Contribute,"5,7"
+40,27,igorwojda.android-showcase.md,## Author,5
+40,28,igorwojda.android-showcase.md,## License,5
+40,29,igorwojda.android-showcase.md,## Animations License,5
+41,1,InsertKoinIO.koin.md,# What is KOIN? - [https://insert-koin.io](https://insert-koin.io),1
+41,2,InsertKoinIO.koin.md,## [Latest Version](https://insert-koin.io/docs/setup/koin) - [Maven Central](https://search.maven.org/search?q=io.insert-koin),"3,6"
+41,3,InsertKoinIO.koin.md,## Latest News,"1,5"
+41,4,InsertKoinIO.koin.md,## Community ,6
+41,5,InsertKoinIO.koin.md,## Contributing 🛠,7
+41,6,InsertKoinIO.koin.md,# Sponsorship,"6,8"
+41,7,InsertKoinIO.koin.md,## Sponsors,"-,6"
+41,8,InsertKoinIO.koin.md,## Backers,"-,6"
+42,1,intellij-rust.intellij-rust.md,# Rust plugin for the IntelliJ Platform,1
+42,2,intellij-rust.intellij-rust.md,## Installation & Usage,3
+42,3,intellij-rust.intellij-rust.md,## Compatible IDEs,1
+42,4,intellij-rust.intellij-rust.md,## TOML,
+42,5,intellij-rust.intellij-rust.md,## Contributing,7
+43,1,iSoron.uhabits.md,## Screenshots,1
+43,2,iSoron.uhabits.md,## Features,1
+43,3,iSoron.uhabits.md,## Installing,3
+43,4,iSoron.uhabits.md,## Contributing,7
+43,5,iSoron.uhabits.md,## License,5
+44,1,izhangzhihao.intellij-rainbow-brackets.md,## Rainbow Brackets Lite,"1,5"
+44,2,izhangzhihao.intellij-rainbow-brackets.md,## Compatibility,3
+44,3,izhangzhihao.intellij-rainbow-brackets.md,## Supported languages,1
+44,4,izhangzhihao.intellij-rainbow-brackets.md,## Author's choice,
+44,5,izhangzhihao.intellij-rainbow-brackets.md,## Free features are Sponsored By [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner),1
+44,6,izhangzhihao.intellij-rainbow-brackets.md,## Install,3
+44,7,izhangzhihao.intellij-rainbow-brackets.md,## Screenshots,3
+44,8,izhangzhihao.intellij-rainbow-brackets.md,## Customize colors,1
+44,9,izhangzhihao.intellij-rainbow-brackets.md,## Use color generator,3
+44,10,izhangzhihao.intellij-rainbow-brackets.md,### Advanced options of color generator,"1,3"
+44,11,izhangzhihao.intellij-rainbow-brackets.md,### Want to config the number of colors?,3
+44,12,izhangzhihao.intellij-rainbow-brackets.md,## Config file path,3
+44,13,izhangzhihao.intellij-rainbow-brackets.md,## HTML code in js,3
+44,14,izhangzhihao.intellij-rainbow-brackets.md,## Kotlin function literal braces and arrow,3
+44,15,izhangzhihao.intellij-rainbow-brackets.md,## Disable rainbow brackets for specific languages,3
+44,16,izhangzhihao.intellij-rainbow-brackets.md,## Contribute,7
+44,17,izhangzhihao.intellij-rainbow-brackets.md,## Support Us,6
+44,18,izhangzhihao.intellij-rainbow-brackets.md,## Backers,-
+44,19,izhangzhihao.intellij-rainbow-brackets.md,## Sponsors,6
+44,20,izhangzhihao.intellij-rainbow-brackets.md,## Acknowledgements,3
+45,1,JakeWharton.RxBinding.md,# RxBinding,"1,6"
+45,2,JakeWharton.RxBinding.md,## Download,3
+45,3,JakeWharton.RxBinding.md,## License,5
+46,1,JakeWharton.timber.md,## Usage,3
+46,2,JakeWharton.timber.md,## Lint,"3,6"
+46,3,JakeWharton.timber.md,## Download,3
+46,4,JakeWharton.timber.md,## License,5
+47,1,javalin.javalin.md,# Javalin - A simple web framework for Java and Kotlin,"1,5,6"
+47,2,javalin.javalin.md,## Quickstart,3
+47,3,javalin.javalin.md,### Add dependency,3
+47,4,javalin.javalin.md,#### Maven,3
+47,5,javalin.javalin.md,#### Gradle,-
+47,6,javalin.javalin.md,### Start programming (Java),3
+47,7,javalin.javalin.md,### Start programming (Kotlin),"-,3"
+47,8,javalin.javalin.md,## Examples,"3,6"
+47,9,javalin.javalin.md,### Api structure and server config,"1,3"
+47,10,javalin.javalin.md,### WebSockets,3
+47,11,javalin.javalin.md,### Filters and Mappers,3
+47,12,javalin.javalin.md,### JSON-mapping,3
+47,13,javalin.javalin.md,### File uploads,3
+47,14,javalin.javalin.md,## Sponsors,-
+47,15,javalin.javalin.md,## Special thanks,
+48,1,JetBrains.compose-jb.md,"# Compose Multiplatform, by JetBrains",3
+48,2,JetBrains.compose-jb.md,## Tutorials,1
+48,3,JetBrains.compose-jb.md,### Compose for Desktop,3
+48,4,JetBrains.compose-jb.md,### Compose for Web,"1,3"
+48,5,JetBrains.compose-jb.md,### Jetpack Compose for Android,3
+48,6,JetBrains.compose-jb.md,## Examples,3
+48,7,JetBrains.compose-jb.md,## Other ##,"3,6"
+48,8,JetBrains.compose-jb.md,## Versions ##,"4,6"
+49,1,JetBrains.Exposed.md,"## Welcome to **Exposed**, an ORM framework for [Kotlin](https://github.com/JetBrains/kotlin).",1
+49,2,JetBrains.Exposed.md,## Supported Databases,"1,3"
+49,3,JetBrains.Exposed.md,## Links,"4,6"
+49,4,JetBrains.Exposed.md,## Community,"5,6"
+49,5,JetBrains.Exposed.md,## Pull requests,7
+49,6,JetBrains.Exposed.md,## Examples,"3,6"
+49,7,JetBrains.Exposed.md,### SQL DSL,
+49,8,JetBrains.Exposed.md,### DAO,"-,3"
+49,9,JetBrains.Exposed.md,## ⚖️ LICENSE,5
+50,1,JetBrains.ideavim.md,# IdeaVim,"1,6"
+50,2,JetBrains.ideavim.md,##### Contact maintainers:,5
+50,3,JetBrains.ideavim.md,##### Resources:,6
+50,4,JetBrains.ideavim.md,#### Compatibility,3
+50,5,JetBrains.ideavim.md,## Setup,6
+50,6,JetBrains.ideavim.md,## Get Early Access,3
+50,7,JetBrains.ideavim.md,## Summary of Supported Vim Features,"1,6"
+50,8,JetBrains.ideavim.md,## Files,3
+50,9,JetBrains.ideavim.md,## IdeaVim Plugins,3
+50,10,JetBrains.ideavim.md,## Executing IDE Actions,3
+50,11,JetBrains.ideavim.md,### Executing actions:,3
+50,12,JetBrains.ideavim.md,### Finding action ids:,3
+50,13,JetBrains.ideavim.md,##### Examples:,3
+50,14,JetBrains.ideavim.md,##### Some popular actions:,3
+50,15,JetBrains.ideavim.md,## Vim Script,6
+50,16,JetBrains.ideavim.md,### IDE specific options,3
+50,17,JetBrains.ideavim.md,## :gem: Contributing,7
+50,18,JetBrains.ideavim.md,## Authors,5
+50,19,JetBrains.ideavim.md,## IdeaVim tips and tricks,6
+50,20,JetBrains.ideavim.md,## Some facts about Vim,"1,3"
+50,21,JetBrains.ideavim.md,## License,5
+51,1,JetBrains.kotlin-native.md,# Kotlin/Native  #,6
+52,1,JetBrains.kotlin.md,# Kotlin Programming Language,6
+52,2,JetBrains.kotlin.md,## Kotlin Multiplatform capabilities,-
+52,3,JetBrains.kotlin.md,## Editing Kotlin,-
+52,4,JetBrains.kotlin.md,## Build environment requirements,3
+52,5,JetBrains.kotlin.md,## Building,"1,3"
+52,6,JetBrains.kotlin.md,## Important gradle tasks,3
+52,7,JetBrains.kotlin.md,"## <a name=""working-in-idea""></a> Working with the project in IntelliJ IDEA",3
+52,8,JetBrains.kotlin.md,### Dependency verification,"3,6"
+52,9,JetBrains.kotlin.md,## Using -dev and -SNAPSHOT versions,3
+52,10,JetBrains.kotlin.md,# License,5
+52,11,JetBrains.kotlin.md,# Contributing,7
+53,1,kickstarter.android-oss.md,## Getting Started,3
+53,2,kickstarter.android-oss.md,## Documentation,6
+53,3,kickstarter.android-oss.md,## Contributing,7
+53,4,kickstarter.android-oss.md,## Code of Conduct,5
+53,5,kickstarter.android-oss.md,## Find this interesting?,"-,6"
+53,6,kickstarter.android-oss.md,## License,5
+54,1,kittinunf.fuel.md,# Fuel,-
+54,2,kittinunf.fuel.md,## Migration,"3,6"
+54,3,kittinunf.fuel.md,## Download,3
+54,4,kittinunf.fuel.md,## Quick Start,3
+54,5,kittinunf.fuel.md,## Requirements,3
+54,6,kittinunf.fuel.md,## R8 / Proguard,3
+54,7,kittinunf.fuel.md,## Other libraries,
+54,8,kittinunf.fuel.md,## Credits,5
+54,9,kittinunf.fuel.md,## Licenses,"-,5"
+55,1,kotest.kotest.md,# ![Kotest](doc/logo7-with-text.png),"1,6"
+55,2,kotest.kotest.md,## Community,1
+56,1,Kotlin.anko.md,## Anko Commons,"1,6"
+56,2,Kotlin.anko.md,## Anko Layouts ([wiki](https://github.com/Kotlin/anko/wiki/Anko-Layouts)),"1,3"
+56,3,Kotlin.anko.md,## Anko SQLite ([wiki](https://github.com/Kotlin/anko/wiki/Anko-SQLite)),3
+56,4,Kotlin.anko.md,## Anko Coroutines ([wiki](https://github.com/Kotlin/anko/wiki/Anko-Coroutines)),1
+56,5,Kotlin.anko.md,## Using Anko,3
+56,6,Kotlin.anko.md,### Gradle-based project,3
+56,7,Kotlin.anko.md,### IntelliJ IDEA project,1
+56,8,Kotlin.anko.md,## Contributing,7
+57,1,Kotlin.kotlinx.coroutines.md,# kotlinx.coroutines ,6
+57,2,Kotlin.kotlinx.coroutines.md,## Modules,3
+57,3,Kotlin.kotlinx.coroutines.md,## Documentation,6
+57,4,Kotlin.kotlinx.coroutines.md,## Using in your projects,6
+57,5,Kotlin.kotlinx.coroutines.md,### Maven,3
+57,6,Kotlin.kotlinx.coroutines.md,### Gradle,3
+57,7,Kotlin.kotlinx.coroutines.md,### Android,3
+57,8,Kotlin.kotlinx.coroutines.md,#### R8 and ProGuard,3
+57,9,Kotlin.kotlinx.coroutines.md,#### Avoiding including the debug infrastructure in the resulting APK,3
+57,10,Kotlin.kotlinx.coroutines.md,### Multiplatform,3
+57,11,Kotlin.kotlinx.coroutines.md,#### JS,
+57,12,Kotlin.kotlinx.coroutines.md,#### Native,
+57,13,Kotlin.kotlinx.coroutines.md,## Building and Contributing,7
+58,1,Kotlin.kotlinx.serialization.md,# Kotlin multiplatform / multi-format reflectionless serialization,1
+58,2,Kotlin.kotlinx.serialization.md,## Table of contents,"3,6"
+58,3,Kotlin.kotlinx.serialization.md,## Introduction and references,6
+58,4,Kotlin.kotlinx.serialization.md,## Setup,3
+58,5,Kotlin.kotlinx.serialization.md,### Gradle,"-,6"
+58,6,Kotlin.kotlinx.serialization.md,#### Using the `plugins` block,3
+58,7,Kotlin.kotlinx.serialization.md,#### Using `apply plugin` (the old way),3
+58,8,Kotlin.kotlinx.serialization.md,#### Dependency on the JSON library,3
+58,9,Kotlin.kotlinx.serialization.md,### Android,3
+58,10,Kotlin.kotlinx.serialization.md,"### Multiplatform (Common, JS, Native)",3
+58,11,Kotlin.kotlinx.serialization.md,### Maven,3
+58,12,Kotlin.kotlinx.serialization.md,### Bazel,6
+59,1,KotlinBy.awesome-kotlin.md,# Awesome Kotlin ([https://kotlin.link](https://kotlin.link)),"1,6"
+59,2,KotlinBy.awesome-kotlin.md,## Spread Awesome Kotlin!,
+60,1,Kr328.ClashForAndroid.md,## Clash for Android,
+60,2,Kr328.ClashForAndroid.md,### Feature,"-,1"
+60,3,Kr328.ClashForAndroid.md,### Requirement,3
+60,4,Kr328.ClashForAndroid.md,### License,5
+60,5,Kr328.ClashForAndroid.md,### Privacy Policy,"3,6"
+60,6,Kr328.ClashForAndroid.md,### Build,3
+61,1,ktorio.ktor.md,## Principles,1
+61,2,ktorio.ktor.md,#### Unopinionated,1
+61,3,ktorio.ktor.md,#### Asynchronous,1
+61,4,ktorio.ktor.md,#### Testable,"1,3"
+61,5,ktorio.ktor.md,## JetBrains Product,5
+61,6,ktorio.ktor.md,## Documentation,
+61,7,ktorio.ktor.md,## Reporting Issues / Support,"5,6"
+61,8,ktorio.ktor.md,## Reporting Security Vulnerabilities,6
+61,9,ktorio.ktor.md,## Inspirations,-
+61,10,ktorio.ktor.md,## Contributing,7
+62,1,libre-tube.LibreTube.md,## License,5
+63,1,mamoe.mirai.md,## ,1
+63,2,mamoe.mirai.md,## mirai,6
+63,3,mamoe.mirai.md,## 声明,-
+63,4,mamoe.mirai.md,### 一切开发旨在学习，请勿用于非法用途,-
+63,5,mamoe.mirai.md,### 许可证,5
+63,6,mamoe.mirai.md,### 衍生软件需声明引用,"-,6"
+63,7,mamoe.mirai.md,## 协议支持,-
+63,8,mamoe.mirai.md,#### 不会支持的协议,-
+63,9,mamoe.mirai.md,## 开始,-
+63,10,mamoe.mirai.md,## 赞助,-
+63,11,mamoe.mirai.md,## 鸣谢,-
+64,1,mikepenz.Android-Iconics.md,# Android-Iconics,6
+64,2,mikepenz.Android-Iconics.md,## ,-
+64,3,mikepenz.Android-Iconics.md,## ,-
+64,4,mikepenz.Android-Iconics.md,### What's included 🚀,
+64,5,mikepenz.Android-Iconics.md,# Setup,3
+64,6,mikepenz.Android-Iconics.md,## Latest releases 🛠,-
+64,7,mikepenz.Android-Iconics.md,## 1. Provide the gradle dependency,3
+64,8,mikepenz.Android-Iconics.md,## 1b. (optional) Add the view's dependency,3
+64,9,mikepenz.Android-Iconics.md,## 2. Choose your desired fonts,3
+64,10,mikepenz.Android-Iconics.md,## Note,3
+64,11,mikepenz.Android-Iconics.md,# Usage,3
+64,12,mikepenz.Android-Iconics.md,## Use as drawable,3
+64,13,mikepenz.Android-Iconics.md,## Use via XML,3
+64,14,mikepenz.Android-Iconics.md,#### Notation within text,3
+64,15,mikepenz.Android-Iconics.md,### Drawable XML (API 24+),3
+64,16,mikepenz.Android-Iconics.md,### Custom Views,
+64,17,mikepenz.Android-Iconics.md,#### As IconicsImageView,"-,3"
+64,18,mikepenz.Android-Iconics.md,#### As IconicsTextView,"-,3"
+64,19,mikepenz.Android-Iconics.md,#### As IconicsButton,"-,3"
+64,20,mikepenz.Android-Iconics.md,## Compose,3
+64,21,mikepenz.Android-Iconics.md,# Screenshots,"3,8"
+64,22,mikepenz.Android-Iconics.md,# Available fonts,6
+64,23,mikepenz.Android-Iconics.md,# Compatibility Note,3
+64,24,mikepenz.Android-Iconics.md,### appcompat:1.4.x,3
+64,25,mikepenz.Android-Iconics.md,# Advanced Usage,3
+64,26,mikepenz.Android-Iconics.md,### Register fonts,3
+64,27,mikepenz.Android-Iconics.md,### Advanced IconicsBuilder,"3,6"
+64,28,mikepenz.Android-Iconics.md,### String icon-key or typeface enum,3
+64,29,mikepenz.Android-Iconics.md,## Create custom fonts,3
+64,30,mikepenz.Android-Iconics.md,## String fields for icons,3
+64,31,mikepenz.Android-Iconics.md,## Android module generator,"1,3"
+64,32,mikepenz.Android-Iconics.md,# ProGuard / R8,3
+64,33,mikepenz.Android-Iconics.md,# Special Contributor,5
+64,34,mikepenz.Android-Iconics.md,# Credits,5
+64,35,mikepenz.Android-Iconics.md,# Developed By,5
+64,36,mikepenz.Android-Iconics.md,# License,5
+65,1,mikepenz.MaterialDrawer.md,# MaterialDrawer,6
+65,2,mikepenz.MaterialDrawer.md,## ,-
+65,3,mikepenz.MaterialDrawer.md,## ,-
+65,4,mikepenz.MaterialDrawer.md,### What's included 🚀,1
+65,5,mikepenz.MaterialDrawer.md,# Preview,3
+65,6,mikepenz.MaterialDrawer.md,## Screenshots 🎉,"-,8"
+65,7,mikepenz.MaterialDrawer.md,# Setup,3
+65,8,mikepenz.MaterialDrawer.md,## Latest releases 🛠,-
+65,9,mikepenz.MaterialDrawer.md,### 1. Provide the gradle dependency,3
+65,10,mikepenz.MaterialDrawer.md,### 2. Add the `Drawer` into the XML,3
+65,11,mikepenz.MaterialDrawer.md,### 3. Add the `DrawerStyle` to your theme,3
+65,12,mikepenz.MaterialDrawer.md,### Note,"1,3"
+65,13,mikepenz.MaterialDrawer.md,# Additional Setup,3
+65,14,mikepenz.MaterialDrawer.md,### Add items and adding some functionality,
+65,15,mikepenz.MaterialDrawer.md,### Selecting an item,3
+65,16,mikepenz.MaterialDrawer.md,### Modify items or the drawer,3
+65,17,mikepenz.MaterialDrawer.md,### Add profiles and an AccountHeader,3
+65,18,mikepenz.MaterialDrawer.md,### Android-Iconics support,3
+65,19,mikepenz.MaterialDrawer.md,# Advanced Setup,"3,6"
+65,20,mikepenz.MaterialDrawer.md,## Load images via url,3
+65,21,mikepenz.MaterialDrawer.md,## JVM Target 1.8,3
+65,22,mikepenz.MaterialDrawer.md,## Style the drawer 🖌️,-
+65,23,mikepenz.MaterialDrawer.md,### Custom style - styles.xml,3
+65,24,mikepenz.MaterialDrawer.md,### Adjust BezelImageView style,
+65,25,mikepenz.MaterialDrawer.md,# Used by,"1,6"
+65,26,mikepenz.MaterialDrawer.md,# Articles about the MaterialDrawer,"1,6"
+65,27,mikepenz.MaterialDrawer.md,# Credits,5
+65,28,mikepenz.MaterialDrawer.md,# Developed By,"5,6"
+65,29,mikepenz.MaterialDrawer.md,# License,5
+66,1,mockk.mockk.md,"### Kotlin Academy articles <img src=""https://cdn-images-1.medium.com/letterbox/47/47/50/50/1*FUXqI88mttV_kV8aTrKjOg.png?source=logoAvatar-1f9f77b4b3d1---e57b304801ef"" width=""20px"" />",6
+66,2,mockk.mockk.md,### Spring support,"1,5,6"
+66,3,mockk.mockk.md,### Quarkus support,"-,6"
+66,4,mockk.mockk.md,### Kotlin version support,4
+66,5,mockk.mockk.md,### Known issues,6
+66,6,mockk.mockk.md,"## Examples, guides & articles",6
+66,7,mockk.mockk.md,### Japanese guides and articles,6
+66,8,mockk.mockk.md,### Chinese guides and articles,6
+66,9,mockk.mockk.md,## Installation,3
+66,10,mockk.mockk.md,#### Gradle/Maven dependency,"-,3"
+66,11,mockk.mockk.md,## DSL examples,3
+66,12,mockk.mockk.md,### Annotations,3
+66,13,mockk.mockk.md,### JUnit4,3
+66,14,mockk.mockk.md,#### JUnit5,"3,6"
+66,15,mockk.mockk.md,#### Automatic verification confirmation,3
+66,16,mockk.mockk.md,#### Automatic unnecessary stubbing check,3
+66,17,mockk.mockk.md,### Spy,3
+66,18,mockk.mockk.md,### Relaxed mock,3
+66,19,mockk.mockk.md,### Partial mocking,3
+66,20,mockk.mockk.md,### Mock relaxed for functions returning Unit,3
+66,21,mockk.mockk.md,### Object mocks,3
+66,22,mockk.mockk.md,### Class mock,3
+66,23,mockk.mockk.md,### Enumeration mocks,3
+66,24,mockk.mockk.md,### Constructor mocks,3
+66,25,mockk.mockk.md,### Partial argument matching,3
+66,26,mockk.mockk.md,### Chained calls,"3,6"
+66,27,mockk.mockk.md,### Hierarchical mocking,3
+66,28,mockk.mockk.md,### Capturing,3
+66,29,mockk.mockk.md,"### Verification atLeast, atMost or exactly times","3,6"
+66,30,mockk.mockk.md,### Verification order,3
+66,31,mockk.mockk.md,### Verification confirmation,"3,6"
+66,32,mockk.mockk.md,### Unnecessary stubbing,3
+66,33,mockk.mockk.md,### Recording exclusions,3
+66,34,mockk.mockk.md,### Verification timeout,3
+66,35,mockk.mockk.md,### Returning Unit,3
+66,36,mockk.mockk.md,### Coroutines,3
+66,37,mockk.mockk.md,### Extension functions,3
+66,38,mockk.mockk.md,### Varargs,"3,6"
+66,39,mockk.mockk.md,### Private functions mocking / dynamic calls,3
+66,40,mockk.mockk.md,### Property backing fields,"-,3"
+66,41,mockk.mockk.md,### Multiple interfaces,
+66,42,mockk.mockk.md,### Mocking Nothing,-
+66,43,mockk.mockk.md,### Clearing vs Unmocking,-
+66,44,mockk.mockk.md,## Matcher extensibility,-
+66,45,mockk.mockk.md,### Custom matchers,
+66,46,mockk.mockk.md,## Settings file,3
+66,47,mockk.mockk.md,## DSL tables,"-,3,8"
+66,48,mockk.mockk.md,### Top level functions,3
+66,49,mockk.mockk.md,### Matchers,-
+66,50,mockk.mockk.md,### Validators,-
+66,51,mockk.mockk.md,### Answers,-
+66,52,mockk.mockk.md,### Additional answer(s),
+66,53,mockk.mockk.md,### Answer scope,-
+66,54,mockk.mockk.md,### Vararg scope,"-,3"
+66,55,mockk.mockk.md,## Funding,-
+66,56,mockk.mockk.md,### Sponsors,-
+66,57,mockk.mockk.md,### Backers,-
+66,58,mockk.mockk.md,### Contributors,5
+66,59,mockk.mockk.md,## Getting Help,6
+67,1,moezbhatti.qksms.md,# QKSMS,1
+67,2,moezbhatti.qksms.md,## Reporting bugs,"3,6,7"
+67,3,moezbhatti.qksms.md,## Translations,
+67,4,moezbhatti.qksms.md,## Thank you,6
+67,5,moezbhatti.qksms.md,## Contact,5
+67,6,moezbhatti.qksms.md,## License,5
+68,1,mozilla-mobile.fenix.md,# Firefox for Android,"1,3"
+68,2,mozilla-mobile.fenix.md,## Getting Involved,6
+68,3,mozilla-mobile.fenix.md,## I want to open a Pull Request!,7
+68,4,mozilla-mobile.fenix.md,## I want to file an issue!,6
+68,5,mozilla-mobile.fenix.md,## Build Instructions,3
+68,6,mozilla-mobile.fenix.md,### Build Variants,3
+68,7,mozilla-mobile.fenix.md,#### Performance Build Variants,3
+68,8,mozilla-mobile.fenix.md,##### Known disabled-by-default features,"1,6"
+68,9,mozilla-mobile.fenix.md,## Pre-push hooks,3
+68,10,mozilla-mobile.fenix.md,### Auto-publication workflow for android-components and application-services,"1,3"
+68,11,mozilla-mobile.fenix.md,### Using Nimbus servers during local development,3
+68,12,mozilla-mobile.fenix.md,### Using custom Glean servers during local development,3
+68,13,mozilla-mobile.fenix.md,### GeckoView,3
+68,14,mozilla-mobile.fenix.md,## License,5
+69,1,muzei.muzei.md,# Muzei Live Wallpaper,1
+69,2,muzei.muzei.md,# Muzei API,"1,3,6"
+70,1,nickbutcher.plaid.md,# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \] Plaid 2.0 ,-
+70,2,nickbutcher.plaid.md,### Background,1
+70,3,nickbutcher.plaid.md,#### More information,"1,6"
+70,4,nickbutcher.plaid.md,### Goals,6
+70,5,nickbutcher.plaid.md,### Non-Goals,"3,6"
+70,6,nickbutcher.plaid.md,### Android Studio IDE setup,"1,3"
+70,7,nickbutcher.plaid.md,## ,-
+70,8,nickbutcher.plaid.md,# Plaid 1.0,"1,5,6"
+70,9,nickbutcher.plaid.md,### Screenshots,"3,8"
+70,10,nickbutcher.plaid.md,##### Non-Goals,"1,6"
+70,11,nickbutcher.plaid.md,### License,5
+71,1,pinterest.ktlint.md,## Key features,1
+71,2,pinterest.ktlint.md,## Documentation,6
+71,3,pinterest.ktlint.md,### Legal,5
+72,1,pppscn.SmsForwarder.md,# SmsForwarder-短信转发器,-
+72,2,pppscn.SmsForwarder.md,## ,-
+72,3,pppscn.SmsForwarder.md,## ,-
+72,4,pppscn.SmsForwarder.md,## 特别声明:,-
+72,5,pppscn.SmsForwarder.md,## ,-
+72,6,pppscn.SmsForwarder.md,## 工作流程：,-
+72,7,pppscn.SmsForwarder.md,## ,-
+72,8,pppscn.SmsForwarder.md,## 界面预览：,"-,6"
+72,9,pppscn.SmsForwarder.md,## ,-
+72,10,pppscn.SmsForwarder.md,## 下载地址,"-,6"
+72,11,pppscn.SmsForwarder.md,## ,-
+72,12,pppscn.SmsForwarder.md,## 使用文档【新用户必看！】,"-,6"
+72,13,pppscn.SmsForwarder.md,## ,-
+72,14,pppscn.SmsForwarder.md,## 反馈与建议：,-
+72,15,pppscn.SmsForwarder.md,## 感谢,"-,6"
+72,16,pppscn.SmsForwarder.md,## ,-
+72,17,pppscn.SmsForwarder.md,## 如果觉得本工具对您有所帮助，右上角给个小星星鼓励一下！,-
+72,18,pppscn.SmsForwarder.md,## ,-
+72,19,pppscn.SmsForwarder.md,## LICENSE,5
+73,1,ReactiveX.RxKotlin.md,# RxKotlin,"-,1,6"
+73,2,ReactiveX.RxKotlin.md,## Kotlin Extensions for RxJava,3
+73,3,ReactiveX.RxKotlin.md,## Contributing,7
+73,4,ReactiveX.RxKotlin.md,### Kotlin Slack Channel,-
+73,5,ReactiveX.RxKotlin.md,"## Support for RxJava 3.x, RxJava 2.x and RxJava 1.x","3,4,6"
+73,6,ReactiveX.RxKotlin.md,## Binaries,"3,6"
+73,7,ReactiveX.RxKotlin.md,### RxKotlin 3.x [![Build Status](https://travis-ci.org/ReactiveX/RxKotlin.svg?branch=3.x)](https://travis-ci.org/ReactiveX/RxKotlin),3
+73,8,ReactiveX.RxKotlin.md,### RxKotlin 2.x [![Build Status](https://travis-ci.org/ReactiveX/RxKotlin.svg?branch=2.x)](https://travis-ci.org/ReactiveX/RxKotlin),3
+73,9,ReactiveX.RxKotlin.md,### RxKotlin 1.x ,3
+73,10,ReactiveX.RxKotlin.md,### Building with JitPack,3
+73,11,ReactiveX.RxKotlin.md,## Extensions ,
+73,12,ReactiveX.RxKotlin.md,## SAM Helpers (made obsolete since Kotlin 1.4),3
+73,13,ReactiveX.RxKotlin.md,## Usage with Other Rx Libraries,3
+73,14,ReactiveX.RxKotlin.md,## Other Resources,6
+73,15,ReactiveX.RxKotlin.md,### _Learning RxJava_ Packt Book,-
+73,16,ReactiveX.RxKotlin.md,### _Reactive Programming in Kotlin_ Packt Book,"-,1,6"
+74,1,SagerNet.SagerNet.md,# SagerNet for Android,
+74,2,SagerNet.SagerNet.md,## ,-
+74,3,SagerNet.SagerNet.md,## ,-
+74,4,SagerNet.SagerNet.md,## ,-
+74,5,SagerNet.SagerNet.md,## Documents,"-,6"
+74,6,SagerNet.SagerNet.md,## Localization,
+74,7,SagerNet.SagerNet.md,### Adding a new language,3
+74,8,SagerNet.SagerNet.md,## License,5
+75,1,Shabinder.SpotiFlyer.md,# SpotiFlyer,3
+75,2,Shabinder.SpotiFlyer.md,### Supported Platforms:,3
+75,3,Shabinder.SpotiFlyer.md,## 💻 Install ,-
+75,4,Shabinder.SpotiFlyer.md,### Want to Contribute 🙋‍♂️?,7
+75,5,Shabinder.SpotiFlyer.md,### Want to discuss? 💬,-
+75,6,Shabinder.SpotiFlyer.md,### Todos 📄,-
+75,7,Shabinder.SpotiFlyer.md,### Note,3
+75,8,Shabinder.SpotiFlyer.md,### Permissions Info:,3
+75,9,Shabinder.SpotiFlyer.md,## ![GPL-License](https://img.shields.io/github/license/Shabinder/SpotiFlyer?style=flat-square),5
+75,10,Shabinder.SpotiFlyer.md,## Credits,5
+75,11,Shabinder.SpotiFlyer.md,## Disclaimer,5
+76,1,shadowsocks.shadowsocks-android.md,## [Shadowsocks](https://shadowsocks.org) for Android,1
+76,2,shadowsocks.shadowsocks-android.md,### PREREQUISITES,3
+76,3,shadowsocks.shadowsocks-android.md,### BUILD,3
+76,4,shadowsocks.shadowsocks-android.md,### CONTRIBUTING,7
+76,5,shadowsocks.shadowsocks-android.md,### [TRANSLATE](https://discourse.shadowsocks.org/t/poeditor-translation-main-thread/30),"-,1,6"
+76,6,shadowsocks.shadowsocks-android.md,## OPEN SOURCE LICENSES,5
+76,7,shadowsocks.shadowsocks-android.md,### LICENSE,5
+77,1,sharish.ShimmerRecyclerView.md,# ShimmerRecyclerView,"-,1,6"
+77,2,sharish.ShimmerRecyclerView.md,## Intro,1
+77,3,sharish.ShimmerRecyclerView.md,## Demo Screen,3
+77,4,sharish.ShimmerRecyclerView.md,### Shimmer effect types,3
+77,5,sharish.ShimmerRecyclerView.md,### Attributes and Methods,"3,6"
+77,6,sharish.ShimmerRecyclerView.md,## Usage,3
+77,7,sharish.ShimmerRecyclerView.md,## Adding to your project,3
+77,8,sharish.ShimmerRecyclerView.md,## Developed By,5
+77,9,sharish.ShimmerRecyclerView.md,## Used libraries,1
+77,10,sharish.ShimmerRecyclerView.md,## License,5
+78,1,skydoves.android-developer-roadmap.md,## 🗺 Roadmap,
+78,2,skydoves.android-developer-roadmap.md,## ✍️ Articles,
+78,3,skydoves.android-developer-roadmap.md,## ⛴ Stream,
+78,4,skydoves.android-developer-roadmap.md,## 📱 Demo Application,3
+78,5,skydoves.android-developer-roadmap.md,## 🤝 Contribution,7
+78,6,skydoves.android-developer-roadmap.md,## 💡 Inspiration,
+78,7,skydoves.android-developer-roadmap.md,## Find this project useful? :heart:,-
+78,8,skydoves.android-developer-roadmap.md,## License,5
+79,1,skydoves.Pokedex.md,## Download,1
+79,2,skydoves.Pokedex.md,## Tech stack & Open-source libraries,1
+79,3,skydoves.Pokedex.md,## Architecture,"1,6"
+79,4,skydoves.Pokedex.md,### Architecture Overview,1
+79,5,skydoves.Pokedex.md,### UI Layer,"1,3,6"
+79,6,skydoves.Pokedex.md,### Data Layer,1
+79,7,skydoves.Pokedex.md,## Modularization,3
+79,8,skydoves.Pokedex.md,## MAD Score,3
+79,9,skydoves.Pokedex.md,## Open API,3
+79,10,skydoves.Pokedex.md,## Find this repository useful? :heart:,-
+79,11,skydoves.Pokedex.md,# License,5
+80,1,sourcerer-io.sourcerer-app.md,# Features,1
+80,2,sourcerer-io.sourcerer-app.md,# Get started,"3,6"
+80,3,sourcerer-io.sourcerer-app.md,# Showcase,-
+80,4,sourcerer-io.sourcerer-app.md,# Requirements,3
+80,5,sourcerer-io.sourcerer-app.md,# Usage,3
+80,6,sourcerer-io.sourcerer-app.md,# Internals,"1,3"
+80,7,sourcerer-io.sourcerer-app.md,# FAQ,"-,6"
+80,8,sourcerer-io.sourcerer-app.md,### How can I process private repos?,3
+80,9,sourcerer-io.sourcerer-app.md,### Why do you need GitHub permissions?,
+80,10,sourcerer-io.sourcerer-app.md,### Other questions,"5,6"
+80,11,sourcerer-io.sourcerer-app.md,# Contributing,"5,7"
+80,12,sourcerer-io.sourcerer-app.md,# Build,3
+80,13,sourcerer-io.sourcerer-app.md,# License,5
+80,14,sourcerer-io.sourcerer-app.md,# Links,6
+81,1,square.leakcanary.md,# LeakCanary 🐤,"-,1"
+81,2,square.leakcanary.md,### [square.github.io/leakcanary](https://square.github.io/leakcanary),
+81,3,square.leakcanary.md,## License,5
+82,1,square.moshi.md,# Moshi,
+82,2,square.moshi.md,### Built-in Type Adapters,"3,6"
+82,3,square.moshi.md,### Custom Type Adapters,3
+82,4,square.moshi.md,#### Another example,3
+82,5,square.moshi.md,### Adapter convenience methods,3
+82,6,square.moshi.md,### Parse JSON Arrays,3
+82,7,square.moshi.md,### Fails Gracefully,"3,6"
+82,8,square.moshi.md,### Built on Okio,
+82,9,square.moshi.md,### Borrows from Gson,3
+82,10,square.moshi.md,### Custom field names with @Json,3
+82,11,square.moshi.md,### Alternate type adapters with @JsonQualifier,3
+82,12,square.moshi.md,### Omitting fields,3
+82,13,square.moshi.md,### Default Values & Constructors,3
+82,14,square.moshi.md,### Composing Adapters,3
+82,15,square.moshi.md,### Precedence,3
+82,16,square.moshi.md,## Kotlin,
+82,17,square.moshi.md,#### Reflection,3
+82,18,square.moshi.md,#### Codegen,3
+82,19,square.moshi.md,#### Limitations,3
+82,20,square.moshi.md,## Download,3
+82,21,square.moshi.md,## R8 / ProGuard,3
+82,22,square.moshi.md,#### Enums,1
+82,23,square.moshi.md,## License,5
+83,1,square.okhttp.md,# OkHttp,6
+83,2,square.okhttp.md,## Get a URL,"3,6"
+83,3,square.okhttp.md,## Post to a Server,"1,3"
+83,4,square.okhttp.md,## Requirements,3
+83,5,square.okhttp.md,## Releases,3
+83,6,square.okhttp.md,## MockWebServer,"3,6"
+83,7,square.okhttp.md,## GraalVM Native Image,3
+83,8,square.okhttp.md,## License,5
+84,1,square.okio.md,# Okio,"1,6"
+84,2,square.okio.md,## License,5
+85,1,square.picasso.md,# Picasso,1
+85,2,square.picasso.md,## Download,3
+85,3,square.picasso.md,## ProGuard,3
+85,4,square.picasso.md,## License,5
+86,1,square.wire.md,# Wire,1
+86,2,square.wire.md,## Protocol Buffers,3
+86,3,square.wire.md,## Why Wire?,1
+86,4,square.wire.md,## Wire Kotlin,3
+86,5,square.wire.md,## Wire gRPC,6
+86,6,square.wire.md,## Generating Code With Wire,3
+86,7,square.wire.md,## Get Wire,"3,6"
+86,8,square.wire.md,## Unsupported,3
+86,9,square.wire.md,## Further Documentation,6
+87,1,ssseasonnn.RxDownload.md,# RxDownload,
+87,2,ssseasonnn.RxDownload.md,## Prepare,3
+87,3,ssseasonnn.RxDownload.md,## License,5
+88,1,tachiyomiorg.tachiyomi.md,# ![app icon](./.github/readme-images/app-icon.png)Tachiyomi,1
+88,2,tachiyomiorg.tachiyomi.md,## Features,"1,6"
+88,3,tachiyomiorg.tachiyomi.md,## Download,3
+88,4,tachiyomiorg.tachiyomi.md,"## Issues, Feature Requests and Contributing","6,7"
+88,5,tachiyomiorg.tachiyomi.md,## FAQ,6
+88,6,tachiyomiorg.tachiyomi.md,## License,5
+88,7,tachiyomiorg.tachiyomi.md,## Disclaimer,
+89,1,Tamsiree.RxTool.md,# [RxTool](https://tamsiree.com/RxTool/),1
+89,2,Tamsiree.RxTool.md,## ,-
+89,3,Tamsiree.RxTool.md,# 我的运行环境,-
+89,4,Tamsiree.RxTool.md,## ,-
+89,5,Tamsiree.RxTool.md,# 如何使用它,-
+89,6,Tamsiree.RxTool.md,## Step 1.先在 build.gradle(Project:XXXX) 的 repositories 添加:,-
+89,7,Tamsiree.RxTool.md,## Step 2.然后在 build.gradle(Module:app) 的 dependencies 添加:,-
+89,8,Tamsiree.RxTool.md,## Step 3.在Application中初始化,-
+89,9,Tamsiree.RxTool.md,# API使用文档,-
+89,10,Tamsiree.RxTool.md,## 可以参考文档来调用相对应的API，欢迎指教,-
+89,11,Tamsiree.RxTool.md,# 更新日志,"-,4"
+89,12,Tamsiree.RxTool.md,# Demo介绍,-
+89,13,Tamsiree.RxTool.md,## RxPhotoTool 操作 UCrop 裁剪图片,-
+89,14,Tamsiree.RxTool.md,## 二维码与条形码的扫描与生成,-
+89,15,Tamsiree.RxTool.md,## 常用的Dialog展示,-
+89,16,Tamsiree.RxTool.md,## 其他功能展示,-
+89,17,Tamsiree.RxTool.md,## DEMO 与 打赏,-
+89,18,Tamsiree.RxTool.md,## ,-
+89,19,Tamsiree.RxTool.md,## ,-
+89,20,Tamsiree.RxTool.md,# License,5
+90,1,Tapadoo.Alerter.md,"# Alerter - An Android Alerter Library, now in Kotlin!","-,1"
+90,2,Tapadoo.Alerter.md,## General,1
+90,3,Tapadoo.Alerter.md,## Install,3
+90,4,Tapadoo.Alerter.md,# Usage,3
+90,5,Tapadoo.Alerter.md,# Customisation,-
+90,6,Tapadoo.Alerter.md,### Background Colour,3
+90,7,Tapadoo.Alerter.md,### Icon,"-,3"
+90,8,Tapadoo.Alerter.md,"### On screen duration, in milliseconds","1,3"
+90,9,Tapadoo.Alerter.md,### Without title,"-,3"
+90,10,Tapadoo.Alerter.md,### Adding an On Click Listener,3
+90,11,Tapadoo.Alerter.md,### Verbose text,3
+90,12,Tapadoo.Alerter.md,### Custom Enter/Exit Animations,3
+90,13,Tapadoo.Alerter.md,### Visibility Callbacks,"3,6"
+90,14,Tapadoo.Alerter.md,### Custom Fonts and Text Appearance,3
+90,15,Tapadoo.Alerter.md,### Swipe to Dismiss,3
+90,16,Tapadoo.Alerter.md,### Progress Bar,3
+90,17,Tapadoo.Alerter.md,### With Buttons,3
+90,18,Tapadoo.Alerter.md,### With Custom Layout,3
+90,19,Tapadoo.Alerter.md,# Contributing & Reporting Issues,7
+90,20,Tapadoo.Alerter.md,## Licence,5
+91,1,TeamVanced.VancedManager.md,# Vanced Manager,"-,1"
+91,2,TeamVanced.VancedManager.md,# **Now discontinued https://twitter.com/YTVanced/status/1503052250268286980**,3
+91,3,TeamVanced.VancedManager.md,"##### Background download/installation feature is no longer supported due to problems with some ROMs, please do NOT report issues regarding background activity.",6
+91,4,TeamVanced.VancedManager.md,## Contributions,7
+91,5,TeamVanced.VancedManager.md,## Building ,3
+91,6,TeamVanced.VancedManager.md,### Using Android Studio,3
+91,7,TeamVanced.VancedManager.md,### Using command line,3
+91,8,TeamVanced.VancedManager.md,#### On Windows:,3
+91,9,TeamVanced.VancedManager.md,#### On Linux/macOS:,3
+92,1,thundernest.k-9.md,# K-9 Mail,1
+92,2,thundernest.k-9.md,## Download,4
+92,3,thundernest.k-9.md,## Release Notes,4
+92,4,thundernest.k-9.md,## Need Help?,6
+92,5,thundernest.k-9.md,## Translations,6
+92,6,thundernest.k-9.md,## Contributing,7
+92,7,thundernest.k-9.md,## Communication,
+92,8,thundernest.k-9.md,## License,-
+93,1,Triple-T.gradle-play-publisher.md,## Table of contents,
+93,2,Triple-T.gradle-play-publisher.md,## Quickstart guide,3
+93,3,Triple-T.gradle-play-publisher.md,## Prerequisites,3
+93,4,Triple-T.gradle-play-publisher.md,### Initial Play Store upload,"1,3"
+93,5,Triple-T.gradle-play-publisher.md,### Signing configuration,3
+93,6,Triple-T.gradle-play-publisher.md,### Service Account,3
+93,7,Triple-T.gradle-play-publisher.md,## Basic setup,3
+93,8,Triple-T.gradle-play-publisher.md,### Installation,3
+93,9,Triple-T.gradle-play-publisher.md,#### Snapshot builds,3
+93,10,Triple-T.gradle-play-publisher.md,### Authenticating Gradle Play Publisher,3
+93,11,Triple-T.gradle-play-publisher.md,## Task organization,3
+93,12,Triple-T.gradle-play-publisher.md,## Managing artifacts,3
+93,13,Triple-T.gradle-play-publisher.md,### Common configuration,3
+93,14,Triple-T.gradle-play-publisher.md,#### Uploading release notes,"3,4"
+93,15,Triple-T.gradle-play-publisher.md,#### Uploading developer facing release names,3
+93,16,Triple-T.gradle-play-publisher.md,#### Uploading a pre-existing artifact,3
+93,17,Triple-T.gradle-play-publisher.md,##### Uploading mapping files,3
+93,18,Triple-T.gradle-play-publisher.md,#### Retaining artifacts,3
+93,19,Triple-T.gradle-play-publisher.md,### Publishing an App Bundle,"-,3"
+93,20,Triple-T.gradle-play-publisher.md,#### Defaulting to the App Bundle,3
+93,21,Triple-T.gradle-play-publisher.md,### Publishing APKs,"-,3"
+93,22,Triple-T.gradle-play-publisher.md,### Uploading an Internal Sharing artifact,"-,3"
+93,23,Triple-T.gradle-play-publisher.md,#### Retrieving the download URL,3
+93,24,Triple-T.gradle-play-publisher.md,#### Installing Internal Sharing artifacts,3
+93,25,Triple-T.gradle-play-publisher.md,### Promoting artifacts,3
+93,26,Triple-T.gradle-play-publisher.md,#### Finishing a rollout,4
+93,27,Triple-T.gradle-play-publisher.md,### Handling version conflicts,3
+93,28,Triple-T.gradle-play-publisher.md,#### Post-processing outputs sanitized by auto resolution,3
+93,29,Triple-T.gradle-play-publisher.md,## Managing Play Store metadata,
+93,30,Triple-T.gradle-play-publisher.md,### Quickstart,3
+93,31,Triple-T.gradle-play-publisher.md,### Directory structure,
+93,32,Triple-T.gradle-play-publisher.md,### Publishing listings,"-,3"
+93,33,Triple-T.gradle-play-publisher.md,#### Uploading global app metadata,
+93,34,Triple-T.gradle-play-publisher.md,## File | Description,1
+93,35,Triple-T.gradle-play-publisher.md,#### Uploading text based listings,1
+93,36,Triple-T.gradle-play-publisher.md,## File | Description | Character limit,
+93,37,Triple-T.gradle-play-publisher.md,#### Uploading graphic based listings,3
+93,38,Triple-T.gradle-play-publisher.md,## Directory | Max # of images | Image dimension constraints (px),"1,3"
+93,39,Triple-T.gradle-play-publisher.md,### Publishing in-app products,3
+93,40,Triple-T.gradle-play-publisher.md,## Working with product flavors,3
+93,41,Triple-T.gradle-play-publisher.md,### Disabling publishing,3
+93,42,Triple-T.gradle-play-publisher.md,### Combining artifacts into a single release,3
+93,43,Triple-T.gradle-play-publisher.md,### Using multiple Service Accounts,3
+93,44,Triple-T.gradle-play-publisher.md,## Advanced topics,"3,6"
+93,45,Triple-T.gradle-play-publisher.md,### Using CLI options,3
+93,46,Triple-T.gradle-play-publisher.md,### Using HTTPS proxies,"3,6"
+94,1,uber.RIBs.md,## Documentation,"1,6"
+94,2,uber.RIBs.md,#### What is the difference between RIBs and MV*/VIPER?,1
+94,3,uber.RIBs.md,## Usage,3
+94,4,uber.RIBs.md,## Installation for Android,3
+94,5,uber.RIBs.md,## Installation for iOS,"-,3"
+94,6,uber.RIBs.md,#### CocoaPods,3
+94,7,uber.RIBs.md,#### Carthage,3
+94,8,uber.RIBs.md,## Related projects,"1,6"
+94,9,uber.RIBs.md,## License,5
+95,1,wasabeef.recyclerview-animators.md,# RecyclerView Animators,1
+95,2,wasabeef.recyclerview-animators.md,# Features,1
+95,3,wasabeef.recyclerview-animators.md,# Demo,"-,3"
+95,4,wasabeef.recyclerview-animators.md,### ItemAnimator,3
+95,5,wasabeef.recyclerview-animators.md,### Adapters,3
+95,6,wasabeef.recyclerview-animators.md,# How do I use it?,3
+95,7,wasabeef.recyclerview-animators.md,## Setup,3
+95,8,wasabeef.recyclerview-animators.md,#### Gradle,3
+95,9,wasabeef.recyclerview-animators.md,## ItemAnimator,-
+95,10,wasabeef.recyclerview-animators.md,### Step 1,3
+95,11,wasabeef.recyclerview-animators.md,## Step 2,3
+95,12,wasabeef.recyclerview-animators.md,### Advanced Step 3,3
+95,13,wasabeef.recyclerview-animators.md,### Advanced Step 4,3
+95,14,wasabeef.recyclerview-animators.md,### Advanced Step 5,3
+95,15,wasabeef.recyclerview-animators.md,### Animators,1
+95,16,wasabeef.recyclerview-animators.md,#### Cool,"-,1"
+95,17,wasabeef.recyclerview-animators.md,##### Scale,
+95,18,wasabeef.recyclerview-animators.md,##### Fade,-
+95,19,wasabeef.recyclerview-animators.md,##### Flip,
+95,20,wasabeef.recyclerview-animators.md,##### Slide,"3,6"
+95,21,wasabeef.recyclerview-animators.md,## RecyclerView.Adapter,-
+95,22,wasabeef.recyclerview-animators.md,### Step 1,3
+95,23,wasabeef.recyclerview-animators.md,#### Java,3
+95,24,wasabeef.recyclerview-animators.md,### Advanced Step 2,3
+95,25,wasabeef.recyclerview-animators.md,#### Java,3
+95,26,wasabeef.recyclerview-animators.md,### Advanced Step 3,3
+95,27,wasabeef.recyclerview-animators.md,#### Java,3
+95,28,wasabeef.recyclerview-animators.md,### Adapters,-
+95,29,wasabeef.recyclerview-animators.md,#### Alpha,"-,1"
+95,30,wasabeef.recyclerview-animators.md,#### Scale,
+95,31,wasabeef.recyclerview-animators.md,#### Slide,"3,6"
+95,32,wasabeef.recyclerview-animators.md,## Applications using RecyclerView Animators,1
+95,33,wasabeef.recyclerview-animators.md,## Icon | Application,"-,3"
+95,34,wasabeef.recyclerview-animators.md,## Developed By,5
+95,35,wasabeef.recyclerview-animators.md,## Contributions,7
+95,36,wasabeef.recyclerview-animators.md,## Contributers,5
+95,37,wasabeef.recyclerview-animators.md,## Thanks,"1,5"
+95,38,wasabeef.recyclerview-animators.md,## License,5
+96,1,yairm210.Unciv.md,# Unciv - Civ V remake for Android & Desktop,1
+96,2,yairm210.Unciv.md,## What is this?,1
+96,3,yairm210.Unciv.md,## Is this any good?,3
+96,4,yairm210.Unciv.md,## What's the roadmap?,"1,4"
+96,5,yairm210.Unciv.md,## Contributing,7
+96,6,yairm210.Unciv.md,### How can I help?,6
+96,7,yairm210.Unciv.md,## FAQ,"-,6"
+96,8,yairm210.Unciv.md,### Will you implement {feature}?,1
+96,9,yairm210.Unciv.md,"#### Why not? This is its own game, why not add features that weren't in Civ V?",1
+96,10,yairm210.Unciv.md,### Will you implement Civ VI?,
+96,11,yairm210.Unciv.md,### Is there a desktop version?,3
+96,12,yairm210.Unciv.md,### How about IOS?,1
+96,13,yairm210.Unciv.md,### How can I learn to play? Where's the wiki?,6
+96,14,yairm210.Unciv.md,### Aren't you basically making a Civ V clone? Is that even legal?,1
+96,15,yairm210.Unciv.md,## Downloads,6
+96,16,yairm210.Unciv.md,## Run with Docker,3
+96,17,yairm210.Unciv.md,## [Credits and 3rd parties](docs/Credits.md),5
+97,1,Yalantis.Context-Menu.Android.md,# ContextMenu ,"-,1,6"
+97,2,Yalantis.Context-Menu.Android.md,#### You can easily add awesome animated context menu to  your app. ,1
+97,3,Yalantis.Context-Menu.Android.md,### Usage:,3
+97,4,Yalantis.Context-Menu.Android.md,#### 	1. Clone repository and add sources into your project or use Gradle:,3
+97,5,Yalantis.Context-Menu.Android.md,"#### 	2. Create list of `MenuObject`, which consists of icon or icon and description.",3
+97,6,Yalantis.Context-Menu.Android.md,"####	3. Create `newInstance` of `ContextMenuDialogFragment`, which received `MenuParams` object.",3
+97,7,Yalantis.Context-Menu.Android.md,"####	4. Set menu with button, which will open `ContextMenuDialogFragment`.",3
+97,8,Yalantis.Context-Menu.Android.md,####	5. Add menu item listeners.,3
+97,9,Yalantis.Context-Menu.Android.md,## Customization: ,3
+97,10,Yalantis.Context-Menu.Android.md,## Compatibility,3
+97,11,Yalantis.Context-Menu.Android.md,# Changelog,4
+97,12,Yalantis.Context-Menu.Android.md,### Version: 1.1.4,4
+97,13,Yalantis.Context-Menu.Android.md,### Version: 1.1.2,4
+97,14,Yalantis.Context-Menu.Android.md,### Version: 1.1.1,4
+97,15,Yalantis.Context-Menu.Android.md,### Version: 1.1.0,4
+97,16,Yalantis.Context-Menu.Android.md,### Version: 1.0.8,4
+97,17,Yalantis.Context-Menu.Android.md,### Version: 1.0.7,4
+97,18,Yalantis.Context-Menu.Android.md,### Version: 1.0.6,4
+97,19,Yalantis.Context-Menu.Android.md,### Version: 1.0.5,"3,4"
+97,20,Yalantis.Context-Menu.Android.md,### Version: 1.0.4,4
+97,21,Yalantis.Context-Menu.Android.md,### Version: 1.0.3,4
+97,22,Yalantis.Context-Menu.Android.md,### Version: 1.0.2,4
+97,23,Yalantis.Context-Menu.Android.md,### Version: 1.0.1,4
+97,24,Yalantis.Context-Menu.Android.md,### Version: 1.0,4
+97,25,Yalantis.Context-Menu.Android.md,#### Let us know!,6
+97,26,Yalantis.Context-Menu.Android.md,## License,5
+98,1,YiiGuxing.TranslationPlugin.md,# [![TranslationPlugin][plugin-logo]][gh:translation-plugin] TranslationPlugin,"-,1,6"
+98,2,YiiGuxing.TranslationPlugin.md,## ,-
+98,3,YiiGuxing.TranslationPlugin.md,## Features,"1,6"
+98,4,YiiGuxing.TranslationPlugin.md,## Compatibility,3
+98,5,YiiGuxing.TranslationPlugin.md,## Installation,3
+98,6,YiiGuxing.TranslationPlugin.md,## Using The Plugin,"3,6"
+98,7,YiiGuxing.TranslationPlugin.md,## Actions,3
+98,8,YiiGuxing.TranslationPlugin.md,## FAQ,"-,6"
+98,9,YiiGuxing.TranslationPlugin.md,## Support and Donations,"5,8"
+98,10,YiiGuxing.TranslationPlugin.md,## Contributors,5
+98,11,YiiGuxing.TranslationPlugin.md,### Code Contributors,5
+98,12,YiiGuxing.TranslationPlugin.md,### Financial Contributors,5
+98,13,YiiGuxing.TranslationPlugin.md,#### Backers,-
+98,14,YiiGuxing.TranslationPlugin.md,#### Sponsors,-
+98,15,YiiGuxing.TranslationPlugin.md,#### Donors,-
+99,1,yujincheng08.BiliRoaming.md,# 哔哩漫游,"-,6"
+99,2,yujincheng08.BiliRoaming.md,# BiliRoaming,-
+99,3,yujincheng08.BiliRoaming.md,# 支持以下功能,-
+99,4,yujincheng08.BiliRoaming.md,# Features,1
+99,5,yujincheng08.BiliRoaming.md,# download/下载,-
+99,6,yujincheng08.BiliRoaming.md,# 使用方法,-
+99,7,yujincheng08.BiliRoaming.md,# 特别鸣谢,-
+99,8,yujincheng08.BiliRoaming.md,### 交流,-
+99,9,yujincheng08.BiliRoaming.md,### License,5
+100,1,zetbaitsu.Compressor.md,# Compressor,1
+100,2,zetbaitsu.Compressor.md,# Gradle,-
+100,3,zetbaitsu.Compressor.md,# Let's compress the image size!,3
+100,4,zetbaitsu.Compressor.md,#### Compress Image File,3
+100,5,zetbaitsu.Compressor.md,#### Compress Image File to specific destination,3
+100,6,zetbaitsu.Compressor.md,### I want custom Compressor!,
+100,7,zetbaitsu.Compressor.md,#### Using default constraint and custom partial of it,3
+100,8,zetbaitsu.Compressor.md,#### Full custom constraint,3
+100,9,zetbaitsu.Compressor.md,#### Using your own custom constraint,3
+100,10,zetbaitsu.Compressor.md,#### You can create your own extension too,3
+100,11,zetbaitsu.Compressor.md,### Compressor now is using Kotlin coroutines!,-
+100,12,zetbaitsu.Compressor.md,#### Calling Compressor should be done from coroutines scope,3
+100,13,zetbaitsu.Compressor.md,#### Run Compressor in main thread,3
+100,14,zetbaitsu.Compressor.md,### Old version,6
+100,15,zetbaitsu.Compressor.md,## License,5
