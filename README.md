@@ -32,7 +32,7 @@ The following sections describe three use cases and the steps to follow for each
 3. Open configuration file of the classifier (`config/config.cfg`), and edit the `target_readme_file_dir` variable to point to the location of the README file(s) to be labeled.
 4. Run `script/load_and_classify_target` to extract contents of the new README files, load the section contents, and perform classification.
 5. By default, the resulting section labels will be saved in `output/output_section_codes.csv`. Classifier will also identify which codes exist for each file, and which codes don't yet exist (i.e. potential for README expansion). This information will be saved in `output/output_file_codes.csv`
-
+ 
 ### Use Case 3: Training Model on Existing Data and Classifying New Files (More Detailed Breakdown)
 Each script used in the previous section automates multiple steps in the workflow to make usage simpler. If you want more detailed breakdown, e.g. to facilitate evaluation of intermediary result after each step in the workflow, please use the following steps.
 
