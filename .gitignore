@@ -1,6 +1,8 @@
 log/*
+!log/empty
 model/*
 script/__pycache__/*
 script/helper/__pycache__/*
 temp/*
+!temp/empty
 readmeclassifier/*
