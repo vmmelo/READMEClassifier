@@ -1,5 +1,5 @@
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import pandas
 from pandas import DataFrame
 import numpy as np
@@ -23,11 +23,7 @@ def experiment_only_heuristic():
     config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
-    log_filename = 'READMEClassifier/log/classifier_75pct_tfidf_only_heuristic.log'
-    
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
-    
+
     conn = sqlite3.connect(db_filename)
     try:
         sql_text = """
@@ -51,47 +47,47 @@ def experiment_only_heuristic():
         labels_matrix = mlb.fit_transform(labels)
         
         # Derive features from heading text and content
-        logging.info('Deriving features')
+        logger.info('Deriving features')
         derived_features = heuristic2.derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
-        logging.info('Derived features shape:')
-        logging.info(derived_features.shape)
+        logger.info('Derived features shape:')
+        logger.info(derived_features.shape)
                 
         features_combined = derived_features
         
-        logging.info('Combined features shape:')
-        logging.info(features_combined.shape)
+        logger.info('Combined features shape:')
+        logger.info(features_combined.shape)
         
         svm_object = LinearSVC() 
         classifier = balancer.OneVsRestClassifierBalance(svm_object)
 
-        logging.info('Getting per-class scores')
+        logger.info('Getting per-class scores')
         y_pred = cross_val_predict(classifier, features_combined.values, labels_matrix, cv=10)
         
-        logging.info('Computing overall results')
+        logger.info('Computing overall results')
         scores_f1 = cross_val_score(classifier, features_combined.values, labels_matrix, cv=10, scoring='f1_weighted').mean()
         
-        logging.info(classification_report(labels_matrix, y_pred, digits=3))
-        logging.info('f1_weighted : {0}'.format(scores_f1))
+        logger.info(classification_report(labels_matrix, y_pred, digits=3))
+        logger.info('f1_weighted : {0}'.format(scores_f1))
 
-        logging.info('Determining most significant feature for each label')
+        logger.info('Determining most significant feature for each label')
         for idx in range(0,len(label_set)):
             target = [entry[idx] for entry in labels_matrix]
             svm_object.fit(features_combined.values, target)
             list_of_coef = list(zip(list(svm_object.coef_[0]), list(features_combined)))
             list_of_coef.sort(key=operator.itemgetter(0), reverse=True)
             top_list_of_coef = list_of_coef[:10]
-            logging.info('Most significant features for class ''{0}'':'.format(label_set[idx]))
+            logger.info('Most significant features for class ''{0}'':'.format(label_set[idx]))
             for x,y in top_list_of_coef:
-                logging.info('{0},{1}'.format(x,y))    
+                logger.info('{0},{1}'.format(x,y))    
                 
         end = time.time()
         runtime_in_seconds = end - start
-        logging.info('Processing completed in {0}'.format(runtime_in_seconds))
+        logger.info('Processing completed in {0}'.format(runtime_in_seconds))
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 

@@ -4,7 +4,7 @@ Experiment to measure Kappa
 '''
 
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import pandas
 from pandas import DataFrame
 import numpy as np
@@ -46,11 +46,7 @@ def experiment_kappa():
     config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
-    log_filename = 'READMEClassifier/log/experiment_kappa.log'
-    
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
-    
+
     conn = sqlite3.connect(db_filename)
     try:
         sql_text = """
@@ -76,39 +72,39 @@ def experiment_kappa():
         tfidf = TfidfVectorizer(ngram_range=(1,1), analyzer='word', stop_words='english')
         tfidfX = tfidf.fit_transform(heading_plus_content_corpus)
         
-        logging.info('tfidf matrix shape: ')  
-        logging.info(tfidfX.shape)
+        logger.info('tfidf matrix shape: ')  
+        logger.info(tfidfX.shape)
         
         # Derive features from heading text and content
-        logging.info('Deriving features')
+        logger.info('Deriving features')
         derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
-        logging.info('Derived features shape:')
-        logging.info(derived_features.shape)
+        logger.info('Derived features shape:')
+        logger.info(derived_features.shape)
                 
         features_tfidf = pandas.DataFrame(tfidfX.todense())
         # Assign column names to make it easier to print most useful features later
         features_tfidf.columns = tfidf.get_feature_names()
         features_combined = pandas.concat([features_tfidf, derived_features], axis=1)
         
-        logging.info('Combined features shape:')
-        logging.info(features_combined.shape)
+        logger.info('Combined features shape:')
+        logger.info(features_combined.shape)
         
         svm_object = LinearSVC() 
         classifier = OneVsRestClassifierBalance(svm_object)
         
-        logging.info('Computing overall results')        
+        logger.info('Computing overall results')        
         scores_kappa = cross_val_score(classifier, features_combined.values, labels_matrix, cv=10, scoring=kappa_scorer()).mean()
         
-        logging.info('Kappa : {0}'.format(scores_kappa))
+        logger.info('Kappa : {0}'.format(scores_kappa))
                 
         end = time.time()
         runtime_in_seconds = end - start
-        logging.info('Processing completed in {0}'.format(runtime_in_seconds))
+        logger.info('Processing completed in {0}'.format(runtime_in_seconds))
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 

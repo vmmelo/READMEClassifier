@@ -1,5 +1,5 @@
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import sqlite3
 from sqlite3 import Error
 from READMEClassifier.script.helper.helper2 import *
@@ -17,10 +17,6 @@ def load_target_sections():
     readme_file_dir = config['DEFAULT']['target_readme_file_dir']
     temp_abstracted_markdown_file_dir = config['DEFAULT']['temp_target_abstracted_markdown_file_dir']
 
-    log_filename = 'READMEClassifier/log/load_target_sections.log'
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
-
     # Extract heading
     overview = extract_headings_from_files_in_directory(readme_file_dir, db_filename,
                                                                   'target_section_overview')
@@ -31,7 +27,7 @@ def load_target_sections():
     abstract_out_markdown(filenames, readme_file_dir, temp_abstracted_markdown_file_dir)
     extract_section_from_abstracted_files_v2(temp_abstracted_markdown_file_dir, db_filename,
                                                        'target_section_overview', 'target_section_content')
-    logging.info("Operation completed")
+    logger.info("Operation completed")
 
 
 if __name__ == '__main__':

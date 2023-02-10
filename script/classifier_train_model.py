@@ -1,5 +1,5 @@
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import pandas
 from pandas import DataFrame
 import numpy as np
@@ -27,10 +27,6 @@ def classifier_train_model():
     vectorizer_filename = config['DEFAULT']['vectorizer_filename'] 
     binarizer_filename = config['DEFAULT']['binarizer_filename'] 
     model_filename = config['DEFAULT']['model_filename'] 
-    log_filename = 'READMEClassifier/log/classifier_train_model.log'
-    
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
     
     conn = sqlite3.connect(db_filename)
     try:
@@ -59,42 +55,42 @@ def classifier_train_model():
         tfidf = TfidfVectorizer(ngram_range=(1,1), analyzer='word', stop_words='english')
         tfidfX = tfidf.fit_transform(heading_plus_content_corpus)
         
-        logging.info('tfidf matrix shape: ')  
-        logging.info(tfidfX.shape)
+        logger.info('tfidf matrix shape: ')  
+        logger.info(tfidfX.shape)
         
         # Derive features from heading text and content
-        logging.info('Deriving features')
+        logger.info('Deriving features')
         derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
-        logging.info('Derived features shape:')
-        logging.info(derived_features.shape)
+        logger.info('Derived features shape:')
+        logger.info(derived_features.shape)
                 
         features_tfidf = pandas.DataFrame(tfidfX.todense())
         # Assign column names to make it easier to print most useful features later
         features_tfidf.columns = tfidf.get_feature_names()
         features_combined = pandas.concat([features_tfidf, derived_features], axis=1)
         
-        logging.info('Combined features shape:')
-        logging.info(features_combined.shape)
+        logger.info('Combined features shape:')
+        logger.info(features_combined.shape)
         
         svm_object = LinearSVC() 
         classifier = OneVsRestClassifierBalance(svm_object)
-        logging.info('Training classifier')
+        logger.info('Training classifier')
         classifier.fit(features_combined.values, labels_matrix) 
-        logging.info('Saving TFIDF vectorizer')
+        logger.info('Saving TFIDF vectorizer')
         joblib.dump(tfidf, vectorizer_filename)
-        logging.info('Saving binarizer')
+        logger.info('Saving binarizer')
         joblib.dump(mlb, binarizer_filename)
-        logging.info('Saving model')
+        logger.info('Saving model')
         joblib.dump(classifier, model_filename)
                 
         end = time.time()
         runtime_in_seconds = end - start
-        logging.info('Processing completed in {0}'.format(runtime_in_seconds))
+        logger.info('Processing completed in {0}'.format(runtime_in_seconds))
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 

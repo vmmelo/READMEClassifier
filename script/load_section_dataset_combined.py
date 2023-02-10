@@ -1,6 +1,6 @@
 import configparser
 from helper.helper2 import *
-import logging
+from READMEClassifier.logger import logger
 from helper.extractor import *
 import time
         
@@ -13,10 +13,6 @@ def load_section_dataset_combined():
     input_filename_csv = config['DEFAULT']['section_overview_combined_filename']
     readme_file_dir = config['DEFAULT']['readme_file_dir']
     temp_abstracted_markdown_file_dir = config['DEFAULT']['temp_abstracted_markdown_file_dir']
-    log_filename = '../log/load_section_dataset_combined.log'
-
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
     
     load_section_overview_from_csv(input_filename_csv, db_filename, 'section_overview_combined')
     filenames = retrieve_readme_filenames_from_db(db_filename, 'section_overview_combined')
@@ -26,7 +22,7 @@ def load_section_dataset_combined():
     
     end = time.time()
     runtime_in_seconds = end - start
-    logging.info('Operation completed in {0}'.format(runtime_in_seconds))
+    logger.info('Operation completed in {0}'.format(runtime_in_seconds))
 
 
 if __name__ == '__main__':

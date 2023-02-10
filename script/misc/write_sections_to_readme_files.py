@@ -2,7 +2,7 @@
 Writes processed 'what' and 'why' sections to files with same names as original README files
 '''
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import sqlite3
 import pandas
 from sqlite3 import Error
@@ -17,8 +17,8 @@ if __name__ == '__main__':
     dirname = "READMEClassifier/output/readmes"
     log_filename = 'READMEClassifier/log/write_sections_to_readme_files.log'
     
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
+    logger.basicConfig(handlers=[logger.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
+    logger.getLogger().addHandler(logger.StreamHandler())
     
     conn = sqlite3.connect(db_filename)
     try:
@@ -41,17 +41,17 @@ if __name__ == '__main__':
                     f.close()
                 prev_readme_name = cur_readme_name
                 f=open(dirname +"/" + cur_readme_name,'wb')
-                logging.info('Writing {0}'.format(cur_readme_name))
+                logger.info('Writing {0}'.format(cur_readme_name))
             f.write(row['abstracted_heading_text'].encode('utf-8')+'\n'.encode('utf-8'))
             f.write(row['content_text_w_o_tags'].encode('utf-8')+'\n'.encode('utf-8'))
         f.close()
         
         end = time.time()
         runtime_in_seconds = end - start
-        logging.info('Processing completed in {0}'.format(runtime_in_seconds))
+        logger.info('Processing completed in {0}'.format(runtime_in_seconds))
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()

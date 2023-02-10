@@ -1,5 +1,5 @@
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import pandas
 from pandas import DataFrame
 import numpy as np
@@ -29,10 +29,6 @@ def classifier_classify_target():
     classifier = joblib.load(config['DEFAULT']['model_filename'])
     output_section_code_filename = config['DEFAULT']['output_section_code_filename']
     output_file_codes_filename = config['DEFAULT']['output_file_codes_filename']
-
-    log_filename = 'READMEClassifier/log/classifier_classify_target.log'
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
     
     conn = sqlite3.connect(db_filename)
     try:
@@ -54,22 +50,22 @@ def classifier_classify_target():
         
         tfidfX = vectorizer.transform(heading_plus_content_corpus)
         
-        logging.info('tfidf matrix shape: ')  
-        logging.info(tfidfX.shape)
+        logger.info('tfidf matrix shape: ')  
+        logger.info(tfidfX.shape)
         
         # Derive features from heading text and content
-        logging.info('Deriving features')
+        logger.info('Deriving features')
         derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
-        logging.debug('Derived features shape:')
-        logging.debug(derived_features.shape)
+        logger.debug('Derived features shape:')
+        logger.debug(derived_features.shape)
                 
         features_tfidf = pandas.DataFrame(tfidfX.todense())
         features_tfidf.columns = vectorizer.get_feature_names()
         features_combined = pandas.concat([features_tfidf, derived_features], axis=1)
         
-        logging.debug('Combined features shape:')
-        logging.debug(features_combined.shape)
+        logger.debug('Combined features shape:')
+        logger.debug(features_combined.shape)
 
         labels_matrix = classifier.predict(features_combined.values)
         df['section_code'] = [','.join(x) for x in binarizer.inverse_transform(labels_matrix)]
@@ -90,11 +86,11 @@ def classifier_classify_target():
         output_file_completeness.to_csv(output_file_codes_filename, sep=',', index=False)
         end = time.time()
         runtime_in_seconds = end - start
-        logging.info('Processing completed in {0}'.format(runtime_in_seconds))
+        logger.info('Processing completed in {0}'.format(runtime_in_seconds))
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 

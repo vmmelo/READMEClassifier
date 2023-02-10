@@ -4,7 +4,7 @@ Experiment on evaluation set (75% of the data) using different classifiers
 '''
 
 import configparser
-import logging
+from READMEClassifier.logger import logger
 import pandas
 from pandas import DataFrame
 import numpy as np
@@ -34,10 +34,6 @@ def experiment_classifier_validation():
     config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
     rng_seed = int(config['DEFAULT']['rng_seed'])
-    log_filename = 'READMEClassifier/log/experiment_classifier_validation.log'
-    
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
     
     conn = sqlite3.connect(db_filename)
     try:
@@ -64,23 +60,23 @@ def experiment_classifier_validation():
         tfidf = TfidfVectorizer(ngram_range=(1,1), analyzer='word', stop_words='english')
         tfidfX = tfidf.fit_transform(heading_plus_content_corpus)
         
-        logging.info('tfidf matrix shape: ')  
-        logging.info(tfidfX.shape)
+        logger.info('tfidf matrix shape: ')  
+        logger.info(tfidfX.shape)
         
         # Derive features from heading text and content
-        logging.info('Deriving features')
+        logger.info('Deriving features')
         derived_features = derive_features_using_heuristics(url_corpus, heading_text_corpus, content_corpus)
                 
-        logging.info('Derived features shape:')
-        logging.info(derived_features.shape)
+        logger.info('Derived features shape:')
+        logger.info(derived_features.shape)
                 
         features_tfidf = pandas.DataFrame(tfidfX.todense())
         # Assign column names to make it easier to print most useful features later
         features_tfidf.columns = tfidf.get_feature_names()
         features_combined = pandas.concat([features_tfidf, derived_features], axis=1)
         
-        logging.info('Combined features shape:')
-        logging.info(features_combined.shape)
+        logger.info('Combined features shape:')
+        logger.info(features_combined.shape)
         
         classifiers_to_test = [(OneVsRestClassifierBalance(LinearSVC()), 'SVM (Linear)'),
                                (OneVsRestClassifierBalance(RandomForestClassifier()), 'Random Forest'),
@@ -89,23 +85,23 @@ def experiment_classifier_validation():
                                (OneVsRestClassifierBalance(KNeighborsClassifier()), 'k-Nearest Neighbour')
                                ]
         for classifier, classifier_name in classifiers_to_test:   
-            logging.info(f'Running experiment for {classifier_name}')         
-            logging.info('Getting per-class scores')
+            logger.info(f'Running experiment for {classifier_name}')         
+            logger.info('Getting per-class scores')
             y_pred = cross_val_predict(classifier, features_combined.values, labels_matrix, cv=10)
             
-            logging.info('Computing overall results')       
+            logger.info('Computing overall results')       
             scores_f1 = cross_val_score(classifier, features_combined.values, labels_matrix, cv=10, scoring='f1_weighted').mean()
             
-            logging.info(classification_report(labels_matrix, y_pred, digits=3))
-            logging.info('f1_weighted : {0}'.format(scores_f1))
+            logger.info(classification_report(labels_matrix, y_pred, digits=3))
+            logger.info('f1_weighted : {0}'.format(scores_f1))
                     
         end = time.time()
         runtime_in_seconds = end - start
-        logging.info('Processing completed in {0}'.format(runtime_in_seconds))
+        logger.info('Processing completed in {0}'.format(runtime_in_seconds))
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 

@@ -5,7 +5,7 @@ import nltk
 from nltk import word_tokenize          
 from nltk.stem.porter import PorterStemmer
 import re
-import logging
+from READMEClassifier.logger import logger
 
 # Tokenizer
 def stem_tokens(tokens, stemmer):
@@ -105,7 +105,7 @@ def abstract_out_number(input_text, padding=False):
 def extract_section_under_heading_and_remove_html_tags(heading_level, target_heading_text, 
                                                        html_text, 
                                                        target_preceding_higher_level_heading_text): 
-    logging.getLogger().addHandler(logging.StreamHandler())
+    logger.getLogger().addHandler(logger.StreamHandler())
     
     # Use regex-based 'lxml' parser instead of 'html.parser' to deal with unclosed tag
     # e.g. <link href="dist/jquery.handsontable.full.css" media="screen" rel="stylesheet">
@@ -167,13 +167,13 @@ def extract_section_under_heading_and_remove_html_tags(heading_level, target_hea
                     # Match already found, stop scanning
                     break
     if match_found == 0:
-        logging.info('Unable to find section: {0}'.format(target_heading_text))
-        logging.info('under heading: {0}'.format(target_preceding_higher_level_heading_text))
+        logger.info('Unable to find section: {0}'.format(target_heading_text))
+        logger.info('under heading: {0}'.format(target_preceding_higher_level_heading_text))
     return result_text
 
 def extract_section_under_heading_and_remove_html_tags_v02(heading_level, target_heading_text, 
                                                        html_text): 
-    logging.getLogger().addHandler(logging.StreamHandler())
+    logger.getLogger().addHandler(logger.StreamHandler())
     
     # Use regex-based 'lxml' parser instead of 'html.parser' to deal with unclosed tag
     # e.g. <link href="dist/jquery.handsontable.full.css" media="screen" rel="stylesheet">
@@ -206,7 +206,7 @@ def extract_section_under_heading_and_remove_html_tags_v02(heading_level, target
                 h_text2 = candidate_h.get_text(strip=False).replace('\n','')
                 match = re.search('( )*' + re.escape(target_heading_text.lower().strip()) + '( )*', h_text2.lower())
             if match is None:
-                logging.info("Unable to find '{0}' in {1}'".format(target_heading_text.strip(), h_text2))
+                logger.info("Unable to find '{0}' in {1}'".format(target_heading_text.strip(), h_text2))
             else:
                 match_found = True
                 nextNode = candidate_h
@@ -227,7 +227,7 @@ def extract_section_under_heading_and_remove_html_tags_v02(heading_level, target
                 # Match already found, stop scanning
                 break
     if not match_found:
-        logging.info('Unable to find section: {0}'.format(target_heading_text))
+        logger.info('Unable to find section: {0}'.format(target_heading_text))
     return result_text
 
 def extract_section_under_heading_and_remove_html_tags_v03(target_heading_text, html_text):
@@ -236,16 +236,16 @@ def extract_section_under_heading_and_remove_html_tags_v03(target_heading_text, 
     soup = BeautifulSoup(html_text, 'lxml')
     # We consider maximum of 6 level of headings
     for i in range(1,7):
-        logging.info('Searching h{0}'.format(i))
+        logger.info('Searching h{0}'.format(i))
         x = soup.find('h{0}'.format(i), text=re.compile(re.escape(target_heading_text.replace('#','').strip())))
         if (x is None):
             # Try match using text after removing content in brackets (which may be caused by faulty heading text parsing from markdown)
             x = soup.find('h{0}'.format(i), text=re.compile(re.escape(remove_text_in_brackets(target_heading_text.replace('#','')).strip())))
         if x is not None:
-            logging.info('Found {0}'.format(x))
+            logger.info('Found {0}'.format(x))
             peer_or_higher_headings = ['h' + str(x) for x in range(1, (i+1))]
             nextNode = x
-            #logging.info(nextNode)
+            #logger.info(nextNode)
             while True:
                 nextNode = nextNode.nextSibling
                 if nextNode is None:

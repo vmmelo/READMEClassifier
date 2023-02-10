@@ -1,19 +1,15 @@
 import configparser
 import sys
 import sqlite3
-import logging
+from READMEClassifier.logger import logger
 
 def empty_all_tables():
     config = configparser.ConfigParser()
     config.read('READMEClassifier/config/config.cfg')
     db_filename = config['DEFAULT']['db_filename']
-    log_filename = 'READMEClassifier/log/empty_all_tables.log'
-    
-    logging.basicConfig(handlers=[logging.FileHandler(log_filename, 'w+', 'utf-8')], level=20)
-    logging.getLogger().addHandler(logging.StreamHandler())
-    
+
     try:
-        logging.info('Emptying all tables')
+        logger.info('Emptying all tables')
         conn = sqlite3.connect(db_filename)
         # Delete existing data
         c = conn.cursor()
@@ -26,9 +22,9 @@ def empty_all_tables():
         c.execute('DELETE FROM target_section_overview')
         c.execute('DELETE FROM target_section_content')
         conn.commit()
-        logging.info('Operation completed')
+        logger.info('Operation completed')
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 

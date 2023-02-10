@@ -1,4 +1,4 @@
-import logging
+from READMEClassifier.logger import logger
 from READMEClassifier.script.helper.helper2 import *
 import sqlite3
 from sqlite3 import Error
@@ -21,7 +21,7 @@ def abstract_out_markdown(filenames, readme_file_dir, temp_abstracted_markdown_f
         readme_file_full_path = readme_file_dir + filename
         # temp_html_file_full_path = temp_abstracted_html_file_dir + filename + '.html'
         temp_markdown_file_full_path = temp_abstracted_markdown_file_dir + filename
-        logging.info('Processing {0}'.format(readme_file_full_path))
+        logger.info('Processing {0}'.format(readme_file_full_path))
         # with open(readme_file_full_path, 'r', encoding='utf-8') as f:
         # use 'backslashreplace' to deal with UnicodeDecodeError
         with open(readme_file_full_path, 'r', encoding='utf-8', errors='backslashreplace') as f:
@@ -33,7 +33,7 @@ def abstract_out_markdown(filenames, readme_file_dir, temp_abstracted_markdown_f
             with open(temp_markdown_file_full_path,'w',encoding='utf-8') as f_out_markdown:
                 f_out_markdown.write(abstracted_markdown_text)
                 
-    logging.info("Abstraction of README file into temporary directory has been completed")
+    logger.info("Abstraction of README file into temporary directory has been completed")
 
 '''
 Known issue: Unable to handle underline-style H1 and H2
@@ -42,7 +42,7 @@ def extract_section_from_abstracted_files(temp_abstracted_markdown_file_dir, db_
     conn = sqlite3.connect(db_filename)
     try:
         c = conn.cursor()
-        logging.info("Fetching information of section to extract and load")
+        logger.info("Fetching information of section to extract and load")
         
         headings = pandas.read_sql("""
             SELECT file_id, section_id, local_readme_file, heading_markdown, abstracted_heading_markdown, heading_text, NULL as content_text_w_o_tags
@@ -59,11 +59,11 @@ def extract_section_from_abstracted_files(temp_abstracted_markdown_file_dir, db_
             local_readme_filename = r[2]
             heading_markdown = r[3]
             abstracted_heading_markdown = r[4]
-            logging.info('Searching for abstracted heading: {0}'.format(abstracted_heading_markdown))
+            logger.info('Searching for abstracted heading: {0}'.format(abstracted_heading_markdown))
             heading_text = r[5]
             if (curr_filename is None) or (curr_filename != local_readme_filename):
                 curr_filename = local_readme_filename
-                logging.info('Reading {0}'.format(temp_abstracted_markdown_file_dir + curr_filename))
+                logger.info('Reading {0}'.format(temp_abstracted_markdown_file_dir + curr_filename))
                 with open (temp_abstracted_markdown_file_dir + curr_filename, "r", encoding='utf-8') as myfile:
                     # Read as is, use rstrip instead of strip to only remove trailing whitespace
                     # We want to preserve leading whitespace to avoid treating line starting with space/tab followed by #
@@ -83,32 +83,32 @@ def extract_section_from_abstracted_files(temp_abstracted_markdown_file_dir, db_
                     if candidate_heading != abstracted_heading_markdown.strip():
                         # We've reached a new heading. The heading we wanted is not found.
                         # Possible with the case of a non-heading line starting with # being mislabeled as heading
-                        logging.info('Encountered heading in document: {0}'.format(candidate_heading))
+                        logger.info('Encountered heading in document: {0}'.format(candidate_heading))
                         break
                     else:
-                        logging.info('Found the heading for {0}'.format(heading_markdown))
+                        logger.info('Found the heading for {0}'.format(heading_markdown))
                 else:
                     curr_section_content_lines.append(curr_filename_lines[curr_filename_line_number])
                 curr_filename_line_number += 1
             
             curr_section_content = ' '.join(curr_section_content_lines)
             curr_section_content_w_o_tags = extract_text_from_markdown_snippet(curr_section_content)
-            # logging.debug('Content of {0}'.format(heading_markdown))
-            # logging.debug(curr_section_content)
-            # logging.debug('After markdown removal')
-            # logging.debug(curr_section_content_w_o_tags)
+            # logger.debug('Content of {0}'.format(heading_markdown))
+            # logger.debug(curr_section_content)
+            # logger.debug('After markdown removal')
+            # logger.debug(curr_section_content_w_o_tags)
             headings.loc[i,'content_text_w_o_tags'] = curr_section_content_w_o_tags
         
         df_to_save = headings[['file_id','section_id','content_text_w_o_tags']]
         df_to_save.to_sql(name=content_table, con=conn, if_exists='replace', index=False)
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
         
-    logging.info("Loading of section contents has been completed")
+    logger.info("Loading of section contents has been completed")
     
 '''
 Updated section extractor. Checks for underline-style H1 and H2
@@ -117,7 +117,7 @@ def extract_section_from_abstracted_files_v2(temp_abstracted_markdown_file_dir, 
     conn = sqlite3.connect(db_filename)
     try:
         c = conn.cursor()
-        logging.info("Fetching information of section to extract and load")
+        logger.info("Fetching information of section to extract and load")
         
         headings = pandas.read_sql("""
             SELECT file_id, section_id, local_readme_file, heading_markdown, abstracted_heading_markdown, heading_text, NULL as content_text_w_o_tags
@@ -136,11 +136,11 @@ def extract_section_from_abstracted_files_v2(temp_abstracted_markdown_file_dir, 
             local_readme_filename = r[2]
             heading_markdown = r[3]
             abstracted_heading_markdown = r[4]
-            logging.info('Searching for abstracted heading: {0}'.format(abstracted_heading_markdown))
+            logger.info('Searching for abstracted heading: {0}'.format(abstracted_heading_markdown))
             heading_text = r[5]
             if (curr_filename is None) or (curr_filename != local_readme_filename):
                 curr_filename = local_readme_filename
-                logging.info('Reading {0}'.format(temp_abstracted_markdown_file_dir + curr_filename))
+                logger.info('Reading {0}'.format(temp_abstracted_markdown_file_dir + curr_filename))
                 with open (temp_abstracted_markdown_file_dir + curr_filename, "r", encoding='utf-8', errors='backslashreplace') as myfile:
                     # Read as is, use rstrip instead of strip to only remove trailing whitespace
                     # We want to preserve leading whitespace to avoid treating line starting with space/tab followed by #
@@ -162,34 +162,34 @@ def extract_section_from_abstracted_files_v2(temp_abstracted_markdown_file_dir, 
                     # Potential heading, starting with #. Is it the heading we want?
                     candidate_heading = curr_filename_lines[curr_filename_line_number].replace('\n',' ').strip() 
                     if ((candidate_heading != abstracted_heading_markdown.strip()) or heading_already_found):
-                        logging.info('Searching for {0}. Encountered new heading in document: {1}'.format(abstracted_heading_markdown, candidate_heading))
+                        logger.info('Searching for {0}. Encountered new heading in document: {1}'.format(abstracted_heading_markdown, candidate_heading))
                         break
                     else:
-                        logging.info('Found the heading for {0}'.format(heading_markdown))
+                        logger.info('Found the heading for {0}'.format(heading_markdown))
                         heading_already_found = True
                 elif ((curr_filename_line_number<len(curr_filename_lines)-1) and
                      curr_filename_lines[curr_filename_line_number+1].startswith('===')):
                     # Potential H1, in underline markdown style
                     candidate_heading = curr_filename_lines[curr_filename_line_number].replace('\n',' ').strip() 
                     if (('# ' + candidate_heading) != abstracted_heading_markdown.strip() or heading_already_found):
-                        logging.info('Encountered candidate underline-style H1 in document: {0}'.format(candidate_heading))
+                        logger.info('Encountered candidate underline-style H1 in document: {0}'.format(candidate_heading))
                         # Skip next line (which is the underline)
                         curr_filename_line_number += 1                        
                         break
                     else:
-                        logging.info('Found the heading for {0}'.format(heading_markdown)) 
+                        logger.info('Found the heading for {0}'.format(heading_markdown)) 
                         heading_already_found = True
                 elif ((curr_filename_line_number<len(curr_filename_lines)-1) and 
                      curr_filename_lines[curr_filename_line_number+1].startswith('---')):
                     # Potential H2, in underline markdown style
                     candidate_heading = curr_filename_lines[curr_filename_line_number].replace('\n',' ').strip() 
                     if (('## ' + candidate_heading) != abstracted_heading_markdown.strip() or heading_already_found):
-                        logging.info('Encountered candidate underline-style H2 in document: {0}'.format(candidate_heading))
+                        logger.info('Encountered candidate underline-style H2 in document: {0}'.format(candidate_heading))
                         # Skip next line (which is the underline)
                         curr_filename_line_number += 1                        
                         break
                     else:
-                        logging.info('Found the heading for {0}'.format(heading_markdown))
+                        logger.info('Found the heading for {0}'.format(heading_markdown))
                         heading_already_found = True
                 else:
                     curr_section_content_lines.append(curr_filename_lines[curr_filename_line_number])
@@ -205,13 +205,13 @@ def extract_section_from_abstracted_files_v2(temp_abstracted_markdown_file_dir, 
         # Use append when saving since table is already emptied at the beginning
         df_to_save.to_sql(name='target_section_content', con=conn, if_exists='append', index=False)
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
         
-    logging.info("Loading of section contents has been completed")
+    logger.info("Loading of section contents has been completed")
 
 '''
 Extracts headings from unprocessed README files in a specified directory. 
@@ -237,7 +237,7 @@ def extract_headings_from_files_in_directory(target_readme_file_dir, db_filename
         with open(target_readme_file_dir + filename, 'r', encoding='utf-8', errors='backslashreplace') as f:
             
             try:
-                logging.info("Searching for candidate headings in file {0}".format(filename))
+                logger.info("Searching for candidate headings in file {0}".format(filename))
                 content = f.read()
                 # Perform abstraction on code section only before checking for potential headings
                 # This is to reduce possibility of code snippets starting with '#' being read as potential headings
@@ -278,7 +278,7 @@ def extract_headings_from_files_in_directory(target_readme_file_dir, db_filename
                         
                     # If heading is found
                     if found_candidate_heading:
-                        logging.debug("Found candidate heading: {0}".format(line))
+                        logger.debug("Found candidate heading: {0}".format(line))
                         heading_text = extract_text_in_heading_markdown(heading_markdown)
                         abstracted_heading_markdown = abstract_text(heading_markdown).replace('\n', ' ').strip()
                         '''
@@ -287,7 +287,7 @@ def extract_headings_from_files_in_directory(target_readme_file_dir, db_filename
                         any remaining markdown link
                         '''
                         abstracted_heading_markdown = re.sub('\[(.+)\]\[(.+)\]', r'@abstr_hyperlink', abstracted_heading_markdown)
-                        logging.debug("After abstraction: {0}".format(abstracted_heading_markdown))
+                        logger.debug("After abstraction: {0}".format(abstracted_heading_markdown))
                         abstracted_heading_text = extract_text_in_heading_markdown(abstracted_heading_markdown)
                         
                         overview = overview.append({'section_id':section_id, 'file_id':file_id, 'url':url, 'local_readme_file':filename, 
@@ -298,23 +298,23 @@ def extract_headings_from_files_in_directory(target_readme_file_dir, db_filename
                          
                         section_id = section_id + 1  
             except Exception as e:
-                logging.exception(e)             
+                logger.exception(e)             
         file_id = file_id + 1
     
     conn = sqlite3.connect(db_filename)
     try:
         c = conn.cursor()
-        logging.info("Saving section overviews to database")
+        logger.info("Saving section overviews to database")
         # Delete existing data
         c.execute('DELETE FROM {0}'.format(overview_table_name))
         conn.commit()
         overview.to_sql(name='target_section_overview', con = conn, if_exists='replace', index=False)
         conn.commit()        
-        logging.info("Section headings loaded into database")
+        logger.info("Section headings loaded into database")
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
         
@@ -338,29 +338,29 @@ def load_section_overview_from_csv(input_filename_csv, db_filename, target_overv
     df['section_code'] = df['section_code'].apply(lambda x : merge_classes_1_and_2(x))
     
     try:
-        logging.info('Emptying table and loading overviews')
+        logger.info('Emptying table and loading overviews')
         conn = sqlite3.connect(db_filename)
         # Delete existing data
         c = conn.cursor()
         c.execute('DELETE FROM {0}'.format(target_overview_table_name))
         conn.commit()
         df.to_sql(target_overview_table_name, conn, if_exists='append', index=False)
-        logging.info('Loading completed')
-        logging.info(df.shape)
-        logging.info('Deleting entries with only \'##\' as text')
+        logger.info('Loading completed')
+        logger.info(df.shape)
+        logger.info('Deleting entries with only \'##\' as text')
         # Delete '##' entries that correspond to horizontal lines and are all labeled as '-'
         c.execute('DELETE FROM {0} WHERE heading_markdown=\'##\''.format(target_overview_table_name))
         conn.commit()
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
         
 def delete_existing_section_content_data(temp_abstracted_markdown_file_dir, db_filename, section_content_table_name):
     if '/temp' not in temp_abstracted_markdown_file_dir:
         # Not a temp directory? Terminate script instead of deleting wrong directory tree
-        logging.info(f'Temp directory name {temp_abstracted_markdown_file_dir} does not appear to be correct')
-        logging.info('Please ensure that temp_abstracted_markdown_file_dir config variable is set correctly')
+        logger.info(f'Temp directory name {temp_abstracted_markdown_file_dir} does not appear to be correct')
+        logger.info('Please ensure that temp_abstracted_markdown_file_dir config variable is set correctly')
         sys.exit()
     else:
         shutil.rmtree(temp_abstracted_markdown_file_dir)
@@ -369,13 +369,13 @@ def delete_existing_section_content_data(temp_abstracted_markdown_file_dir, db_f
     conn = sqlite3.connect(db_filename)
     try:
         c = conn.cursor()
-        logging.info("Cleaning existing data")
+        logger.info("Cleaning existing data")
         c.execute('DELETE FROM {0}'.format(section_content_table_name))
         conn.commit()
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()
 
@@ -383,7 +383,7 @@ def retrieve_readme_filenames_from_db(db_filename, section_overview_table_name):
     conn = sqlite3.connect(db_filename)
     try:
         c = conn.cursor()
-        logging.info("Fetching list of distinct filenames")
+        logger.info("Fetching list of distinct filenames")
         
         result = c.execute("""
             SELECT DISTINCT local_readme_file
@@ -393,9 +393,9 @@ def retrieve_readme_filenames_from_db(db_filename, section_overview_table_name):
         filenames = result.fetchall()
         conn.commit()
     except Error as e:
-        logging.exception(e)
+        logger.exception(e)
     except Exception as e:
-        logging.exception(e)
+        logger.exception(e)
     finally:
         conn.close()  
     return filenames 
